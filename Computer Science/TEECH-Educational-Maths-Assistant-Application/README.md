@@ -1,26 +1,22 @@
-Ceci est votre dépôt pour le projet PACT.
+# TEECH: The Educational Maths Assistant - Android Application
 
-**N'hésitez pas à modifier ce fichier pour décrire votre projet et son
-organisation**
+Louison BRAUN, Amyn KASSARA, Maxime LHOUSTAU, Arthur NDOKO, Maxime TCHIBOZO, Jean VASSOYAN
 
-Vous pouvez modifier ce fichier (`README.md`) et créer tous les
-répertoires et fichiers dont vous aurez besoin pour votre projet.
+TEECH is an android application developed as part of the PACT initiative at Telecom ParisTech.
 
-# Important
+Each year, 1st-year students develop a project from scratch to put into practice the programming skills they have acquired.
 
-Le répertoire `rapport` contient un squelette pour votre rapporte d'avancement.
-Ce répertoire **ne doit pas être renommé** ni le fichier `README.adoc` qu'il contient.
-Le fichier `README.adoc` est le point d'entrée du rapport.
+Our group consists of 6 maths enthusiasts who were disappointed with the way mathematics was taught in the French higher education system. We decided to develop an Android application over 10 months that would fulfill the need for a modern intelligent app to teach maths more effectively.
 
-Il est rédigé  en utilisant le langage [**AsciiDoc**](http://asciidoc.org/).
-La syntaxe est supportée par GitLab qui le formatera correctement dans l'interface Web.
+The group was divided into 3 inter-dependant teams: the AI team (Amyn KASSARA, Jean VASSOYAN), the Android team (Louison BRAUN, Maxime TCHIBOZO) and the Client/Server team (Maxime LHOUSTAU, Arthur NDOKO).
 
-Le document final sera généré en utilisant l'outil [Asciidoctor](http://asciidoctor.org/) qui supporte les même extensions que GitLab (pour les équations par exemple).
-Un résumé de la syntaxe supportée est accessible [ici](http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/).
+The Android interface was entirely coded in Java using Android Studios. The application would interact with a Server which would support exercise suggestions, message transmissions, account information transmission and much more.
 
-Vous pouvez éditer les différents fichiers en utilisant *votre éditeur de texte favori*.
-Si vous n'en avez pas, vous pouvez, par exemple utiliser:
+TEECH is an intelligent application: it uses DBSCAN clustering to automatically recognise similar exercises and then ranks them by difficulty. As a student solves exercises, the application will provide them with increasingly challenging problems all the while verifying that the student works on strenghtening their weaknesses.
 
-- [**Atom**](https://atom.io/) avec le paquet *AsciiDoc Assistant* qui vous ajoutera la coloration syntaxique et la pré-visualisation,
-- **Sublim Text**, **Vim**, **Emacs**,…
+This repo contains the code of each team as well as business model reports, use case designs, details on our strategic process, etc. in [**AsciiDoc**].
+
+Unfortunately, TEECH was designed to operate on the Telecom ParisTech server, however, with this code you hold all the keys to make TEECH great again!
+
+TEECH was developed under the supervision of Professors: Michel ROUX, Jean-Claude MOISSINAC, Marie AL-GHOSSEIN and Thomas ROBERT.
 
