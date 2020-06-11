@@ -1,6 +1,9 @@
 # Computer Science
 
-Computer Science courses taken at Telecom ParisTech:
+Mathematics courses I took at Telecom ParisTech (2017-2020).
+
+This list is not comprehensive: Several project have been omitted either as they were not project/lab based or in compliance with academic policy.
+
 
 * Data Structures and Algorithms: INF101
 * Java Programming Language: INF103
