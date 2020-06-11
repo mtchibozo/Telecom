@@ -1,0 +1,33 @@
+Maxime TCHIBOZO
+
+Partie 4: 
+        
+Ces méthodes sont appelées méthodes abstraites. 
+Il faut les déclarer virtual dans la classe mère et spécifier qu'elles ne seront pas implémentées dans la classe mère mais dans les classe filles avec :
+
+virtual void affiche() = 0
+
+dans la classe mère.
+
+En créant des objets fils de la classe mère, celle-ci n'est plus instanciable car elle devient abstraite.
+
+Partie 5: 
+
+Le polymorphisme permet de faire cela.
+
+On a une classe abtraite avec une methode abstraite qui peut donc etre appliquée dans les instances des sous-classes puisque dans chaque sous-classe on la redéfinit.
+
+Le tableau contient des pointeurs. Il est instancié par Multimedia **.
+
+Partie 6: 
+
+Pour que l'objet film ait plein controle de ses données, il faudrait que l'attribut de classe ne soit pas un pointeur mais l'objet en lui même. 
+
+Partie 7: 
+
+Il faut utiliser un delete pour tous les objets dont les variables d'instances sont des pointeurs. Cela empêche les fuites mémoires. Ici, seule la classe Film doit contenir un delete tab[] dans son destructeur. De même, pour la copie d'un Film, il est nécessaire d'opérer une copie profonde pour empêcher aux attributs tab de deux films de pointer vers la même case mémoire.
+
+Partie 10: 
+
+Pour empêcher une classe d'appeler son constructeur, on peut par exemple redéfinir l'opérateur new. Sinon pour permettre à la table d'être la seule capable d'appeler le constructeur des objets qu'elle contient, on déclare protected les contructeurs des objets et on déclare la table en tant que friend.
+
