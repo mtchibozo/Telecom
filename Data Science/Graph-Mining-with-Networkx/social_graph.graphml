@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="name" attr.type="string" for="graph" id="d6" />
+  <key attr.name="y" attr.type="float" for="node" id="d5" />
+  <key attr.name="gender" attr.type="string" for="node" id="d4" />
+  <key attr.name="x" attr.type="float" for="node" id="d3" />
+  <key attr.name="name" attr.type="string" for="node" id="d2" />
+  <key attr.name="weight" attr.type="long" for="edge" id="d1" />
+  <key attr.name="category" attr.type="string" for="edge" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="0">
+      <data key="d2">Dan</data>
+      <data key="d3">-0.057054240959</data>
+      <data key="d4">Male</data>
+      <data key="d5">-0.476304152353</data>
+    </node>
+    <node id="1">
+      <data key="d2">Barbara</data>
+      <data key="d3">-0.478371688464</data>
+      <data key="d4">Female</data>
+      <data key="d5">-0.0315220648503</data>
+    </node>
+    <node id="2">
+      <data key="d2">Evelyn</data>
+      <data key="d3">-0.793276127168</data>
+      <data key="d4">Female</data>
+      <data key="d5">-0.751961152572</data>
+    </node>
+    <node id="3">
+      <data key="d2">Albert</data>
+      <data key="d3">0.328702056591</data>
+      <data key="d4">Male</data>
+      <data key="d5">0.311484129177</data>
+    </node>
+    <node id="4">
+      <data key="d2">Carol</data>
+      <data key="d3">1.0</data>
+      <data key="d4">Female</data>
+      <data key="d5">0.948303240597</data>
+    </node>
+    <edge source="0" target="1">
+      <data key="d0">Friend</data>
+      <data key="d1">4</data>
+    </edge>
+    <edge source="0" target="2">
+      <data key="d0">Work</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="0" target="3">
+      <data key="d0">Friend</data>
+      <data key="d1">2</data>
+    </edge>
+    <edge source="1" target="2">
+      <data key="d0">Family</data>
+      <data key="d1">7</data>
+    </edge>
+    <edge source="1" target="3">
+      <data key="d0">Work</data>
+      <data key="d1">3</data>
+    </edge>
+    <edge source="3" target="4">
+      <data key="d0">Work</data>
+      <data key="d1">7</data>
+    </edge>
+    <data key="d6">A social graph</data>
+  </graph>
+</graphml>
