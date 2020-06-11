@@ -1,0 +1,179 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+## Mini-Projet
+
+Les fonctions se trouvent dans mesfonctions.R
+
+
+Rq: les reponses sont pour a = 1, b = 2.5
+
+```{r}
+load('projectData.Rdata')
+source('mesfonctions.R')
+source('evalTools.R')
+```
+
+## Interpolation Polynomiale
+
+Q1.a
+
+
+Noeuds Equidistants
+
+
+Degre trop petit : Pour un degre trop petit, l'interpolation est aberrante
+
+```{r}
+interpolLagrange(3,-1,1,100,'equi',runge,TRUE)
+```
+
+Degre trop eleve : Pour un degre trop eleve, les erreurs deviennent trop importantes aux extremites
+```{r}
+interpolLagrange(70,-1,1,100,'equi',runge,TRUE) 
+```
+
+Noeuds Tchebychev
+
+
+Degre trop petit : Pour un degre trop petit, l'interpolation est abherrante
+
+```{r}
+interpolLagrange(3,-1,1,100,'cheby',runge,TRUE) 
+```
+
+Degre trop eleve : Pour un degre trop eleve, les erreurs deviennent trop importantes aux extremites
+
+
+```{r}
+interpolLagrange(70,-1,1,100,'cheby',runge,TRUE) 
+```
+
+Q1.b
+
+Pour les parametres suivants, l'interpolateur est satisfaisant
+
+
+```{r}
+interpolLagrange(15,-1,1,100,'cheby',runge,TRUE) 
+```
+
+Q1.c
+
+
+Noeuds equidistants
+
+
+On conjecture que le rang n sera inferieur a 50
+
+```{r}
+errorRank('equi')[1] 
+#pour verifier la liste d'erreurs : erreurRank('equi')[2]
+```
+
+rang de la methode qui minimise l'erreur d'interpolation sur evalHeight : 3
+
+
+Noeuds Tchebychev
+```{r}
+errorRank('cheby')[1] 
+#pour verifier la liste d'erreurs : erreurRank('cheby')[2]
+```
+
+rang de la methode qui minimise l'erreur d'interpolation sur evalHeight : 36
+
+
+Q2.a
+
+```{r}
+piecewiseInterpol(10,15,1,2.5,10,"equi",evalHeight,TRUE)
+```
+
+Q2.b
+
+
+```{r}
+errorRank2(80)  
+```
+
+on trouve une erreur minimale pour  
+
+n = 24 noeuds 
+
+de type = 'cheby'
+
+neval = 80 intervalles
+
+
+## Partie II : Methodes de quadrature (ouvrir Script-partie2.R)
+
+
+Q2.1.a
+
+Une premiere estimation de I est 4.824887
+
+```{r}
+simpsonInt(1,2.5,evalHeight,100) 
+```
+
+L'erreur a posteriori est d'ordre 10**(-5)
+```{r}
+evalErrSimpson(evalHeight,1,2.5,100) 
+```
+
+Q2.1.b.i
+
+
+41 evaluations nous donnent un budget de 20 sous-intervalles d'integration
+
+
+Q2.1.b.ii
+
+
+Avec un budget de 41, l'erreur est d'ordre 10**(-4)
+
+```{r}
+evalErrSimpson(evalHeight,1,2.5,41) 
+```
+
+Q2.2
+
+
+Le M le plus petit qui garantit une précision a 10^-5 pres est M = 51
+```{r}
+M = evalErrSimpsonLoop(10**(-5)) 
+M 
+```
+
+I = 4.825031 a 10^-5 pres
+
+
+```{r}
+evalErrSimpson(evalHeight,1,2.5,M) 
+```
+
+## Partie III : Methode de Richardson (ouvrir Script-partie3.R)
+
+La methode de Richardson fonctionne en x = 0
+
+
+Il faut utiliser une fonction qui translate evalHeight de 1 : evalHeightTranslate
+
+
+Parametres : n=15. On remarque que les erreurs naives et de Richardson ne varient plus au dela de 15
+
+
+Parametres : t=1. Pour t=1 l'erreur richardson est raisonablement proche de l'erreur naive
+
+
+Parametres : delta=1/2. Pour delta = 1/2 l'erreur richardson est raisonablement proche de l'erreur naive
+
+```{r}
+n=15; t=1; delta = 1/2
+```
+
+```{r}
+plotRichardson(n,t,delta)
+```
