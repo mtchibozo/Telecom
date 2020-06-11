@@ -1,4 +1,4 @@
-# Grand Débat National
+# Grand Débat National Project
 
 Antoine HABIS, Alexandre LANVIN, Maxime TCHIBOZO, Dimitri THEVENEAU
 
