@@ -1,0 +1,194 @@
+---
+title: "R Notebook"
+output: html_notebook
+author : Maxime Tchibozo
+---
+
+
+#' Exercice 1
+```{r}
+
+#We collect the initial data
+
+set.seed(1,kind="Marsaglia-Multicarry")
+getwd()
+setwd("C:/Users/Max Tchibozo/Desktop/MINI PROJET MDI220")
+data = read.csv("NuclearPowerAccidents2016.csv")
+dim(data)#216
+names(data)
+n = dim(data)[1]
+```
+
+
+#' Question 1
+```{r}
+#We create the vector of cost of accidents before Three Mile Island
+costs = c()
+for (i in 2:n-1){
+  date=as.Date(data["Date"][i,][1], format = "%m/%d/%Y")
+  accident_date=as.Date("03/28/1979", format = "%m/%d/%Y")
+  if ((date < accident_date) & !(is.na(data["Cost..millions.2013US.."][i,][1]))){
+    print(data["Cost..millions.2013US.."][i,][1])
+    costs <- append(costs,data["Cost..millions.2013US.."][i,][1])}}
+
+n <- length(costs)
+```
+
+#' Question 2 - b
+```{r}
+
+#We draw the qqplot of the previous costs vector
+costs <- sort(costs)
+
+valeurs_norm = c()
+for (i in 1:n){
+  valeurs_norm <- append(valeurs_norm,qnorm((2*i-1)/(2*n),0,1))
+}
+
+valeurs_norm_25 = qnorm(0.25)
+valeurs_norm_75 = qnorm(0.75)
+quantile_25 = costs[n%/%4]
+quantile_75 = costs[3*n%/%4]
+a=(quantile_75-quantile_25)/(valeurs_norm_75-valeurs_norm_25)
+b=quantile_25-a*valeurs_norm_25
+estimate_absc =  c()
+quantiles=c(1:n)
+for (i in 1:n){
+  estimate_absc <- append(estimate_absc,a*valeurs_norm[i]+b)
+  quantiles[i] <-qnorm((2*i-1)/(2*n),0,1)
+}
+plot(quantiles, costs , main = "Trace experimental de qqline pour une modélisation de loi normale") 
+lines(quantiles, estimate_absc, col="red")
+```
+
+#' Question 2 - c & d
+```{r}
+#We repeat the process by using the qqnorm and qqline functions
+qqnorm(costs)
+qqline(costs, col ='red')
+
+#The graph shows that modelling the accident costs previous to the Three Mile Island Accident by a normal law based model is not accurate: If it were the case, the qqnorm would be tangent - or almost - to the qqline. This is not the case here, as shown below.
+
+```
+
+#' Question 3 - b
+```{r}
+#We repeat the experiment, but now using an exponential law model
+
+valeurs_exp = c()
+for (i in 1:n){
+  valeurs_exp <- append(valeurs_exp,qexp((2*i-1)/(2*n),1))
+}
+
+valeurs_exp_25 = qexp(0.25)
+valeurs_exp_75 = qexp(0.75)
+quantile_25_exp = costs[n%/%4]
+quantile_75_exp = costs[3*n%/%4]
+a_exp=(quantile_75_exp-quantile_25_exp)/(valeurs_exp_75-valeurs_exp_25)
+b_exp=quantile_25_exp-a_exp*valeurs_exp_25
+estimate_absc_exp =  c()
+quantiles_exp=c(1:n)
+for (i in 1:n){
+  estimate_absc_exp <- append(estimate_absc_exp,a_exp*valeurs_exp[i]+b_exp)
+  quantiles_exp[i] <-qexp((2*i-1)/(2*n),1)
+}
+plot(quantiles_exp, costs , main = "Trace experimental de qqline pour une modélisation de loi exponentielle") 
+lines(quantiles_exp, estimate_absc_exp, col="red")
+
+```
+#'Question 3 - c
+```{r}
+#We plot the cost values ordered by decreasing cost
+plot(sort(costs,decreasing = TRUE),matrix(0,1,n))
+
+```
+
+#'Question 3 - d & e
+```{r}
+#We plot the model density and histogram of the data
+ABSC = seq(min(costs),max(costs),length.out=100)  
+DENSITY = dexp(ABSC, n/sum(costs)) 
+
+hist(costs, 
+     probability=TRUE,
+     main="Histogramme des donnees avec densite exponentielle",
+     ylim=range(DENSITY) 
+     ) 
+lines(x = ABSC, y = DENSITY, col="green") 
+
+#The histogram seems to show that the exponential law of para meter n/sum(costs) fits the data much better than the normal law we studied previously
+```
+
+#' Exercice 2
+
+#' Questions 4 & 5
+```{r}
+
+T1 = mean(costs)
+T1
+T2 = log(2)*mean(costs)
+T2
+T3 = median(costs)
+
+# The T2 estimator is closer to the empirical median that T1. However it is still 5 to 6 times larger than the empirical median
+```
+
+#' Question 6
+```{r}
+risk_T1 =c(1:n)
+risk_T2 =c(1:n)
+N <- 1:n
+for (i in 1:n){
+  risk_T1[i] = (1/i)*(T1**2)
+  risk_T2[i] = (1/i)*(T1)**2+((log(2)-1)*T1)**2
+}
+plot(N, risk_T1, col='blue', type='l' )
+lines(N, risk_T2, col = 'red')
+legend("topright", ## position de la légende
+       legend = c("Risque de l'estimateur T1", "Risque de l'estimateur T2"), ## texte de la légende
+       lty=1,## pour avoir des lignes
+       col=c("blue","red") ## le code couleur
+       ) 
+
+```
+
+#' Exercice 3
+
+#' Question 2
+```{r}
+sum_costs = sum(costs)
+t = qgamma(0.95,n,0.001)
+t
+# The sum of costs for our empirical data was 39948.5 for n=55 samples. We have to evaluate if the p-value is < to 0.05
+p = 1-pgamma(sum_costs,55,rate=0.001)
+p
+# The p-value for our test is larger than 0.05, so we can confidently confirm that the average cost is lower than $1Bn
+```
+#' Question 3
+```{r}
+ABSC_test = seq(0,100000,length.out=100)  
+DENSITY_test = dgamma(ABSC_test,shape = 55,rate = 0.001) 
+limit = qgamma(0.95,n,0.001)
+plot(ABSC_test,DENSITY_test)
+abline(v=limit, col='red')
+#La région de rejet correspond à l'intervalle [67740 , +inf]
+```
+#' Question 4
+```{r}
+#T est une somme de lois iid. On peut l'approcher par une gaussienne de moyenne n/lambda et de variance n/(lambda**2) grâce au théorème centrale limite
+
+DENSITY_test_2 = dnorm(ABSC_test,n*1/0.001,n**0.5*1/0.001)
+limit_2 = qnorm(0.95,n*1/0.001,n**0.5*1/0.001)
+plot(ABSC_test,DENSITY_test)
+abline(v=limit_2, col='red')
+
+```
+
+
+
+
+
+
+
+
+

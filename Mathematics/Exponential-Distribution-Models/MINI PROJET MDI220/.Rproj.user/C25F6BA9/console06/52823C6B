@@ -1,0 +1,46 @@
+[0m[0KMicrosoft Windows [version 10.0.17134.345][0K[?25l
+(c) 2018 Microsoft Corporation. Tous droits réservés.[0K
+[0K
+C:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>set.seed(1,kind="Marsaglia-Mul[0Kt
+icarry")[0K
+[0K
+C:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>[0K[?25h[?25l[3AC:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>set.seed(1,kin[0Kd
+="Marsaglia-Multicarry")[0K
+[0K
+C:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>[0K[?25h  accident_dat[0Ke[?25l
+=as.Date("03/28/1979", format = "%m/%d/%Y")[0K
+[0K[?25h'accident_date' n’est pas reconnu en tant que commande interne[0K[?25l
+ou externe, un programme exécutable ou un fichier de commandes.[0K
+[0K
+C:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>[0K[?25hdim(data)#216[0K[?25l
+'dim' n’est pas reconnu en tant que commande interne[0K
+ou externe, un programme exécutable ou un fichier de commandes.[0K
+[0K
+C:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>[0K[?25h[?25l[12AC:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>set.seed(1,kind="Marsaglia-Multicarry[0K"
+)[0K
+[0K
+C:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>  accident_date=as.Date("03/28/1979",[0K
+format = "%m/%d/%Y")[0K
+'accident_date' n’est pas reconnu en tant que commande interne[0K
+ou externe, un programme exécutable ou un fichier de commandes.[0K
+[0K
+C:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>dim(data)#216[0K
+'dim' n’est pas reconnu en tant que commande interne[0K
+ou externe, un programme exécutable ou un fichier de commandes.[0K
+[0K
+C:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>[0K[?25hnames(data)[0K[?25l
+[0K[?25h'names' n’est pas reconnu en tant que commande interne[0K[?25l
+ou externe, un programme exécutable ou un fichier de commandes.[0K
+[0K
+C:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>[0K[?25hnames(data)[0K[?25l
+'names' n’est pas reconnu en tant que commande interne[0K
+ou externe, un programme exécutable ou un fichier de commandes.[0K
+[0K
+C:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>[0K[?25hcosts = c()[0K[?25l
+'costs' n’est pas reconnu en tant que commande interne[0K
+ou externe, un programme exécutable ou un fichier de commandes.[0K
+[0K
+C:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>[0K[?25hn <- length(costs)[0K[?25l
+Le fichier spécifié est introuvable.[0K
+[0K
+C:\Users\Max Tchibozo\Desktop\MINI PROJET MDI220>[0K[?25h

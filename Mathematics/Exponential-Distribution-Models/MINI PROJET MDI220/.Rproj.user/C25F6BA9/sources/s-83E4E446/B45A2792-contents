@@ -1,0 +1,66 @@
+
+##Exercice 1
+set.seed(1,kind="Marsaglia-Multicarry")
+getwd()
+setwd("C:/Users/Max Tchibozo/Desktop/MINI PROJET MDI220")
+data = read.csv("NuclearPowerAccidents2016.csv")
+dim(data)#216
+names(data)
+n = dim(data)[1]
+
+costs = c()
+for (i in 2:n-1){
+  date=as.Date(data["Date"][i,][1], format = "%m/%d/%Y")
+  accident_date=as.Date("03/28/1979", format = "%m/%d/%Y")
+  if ((date < accident_date) & !(is.na(data["Cost..millions.2013US.."][i,][1]))){
+    print(data["Cost..millions.2013US.."][i,][1])
+    costs <- append(costs,data["Cost..millions.2013US.."][i,][1])}}
+
+n <- length(costs)
+
+#quantiles - loi normale
+costs <- sort(costs)
+
+valeurs_norm = c()
+for (i in 1:n){
+  valeurs_norm <- append(valeurs_norm,qnorm((2*i-1)/(2*n),0,1))
+}
+
+valeurs_norm_25 = qnorm(0.25)
+valeurs_norm_75 = qnorm(0.75)
+quantile_25 = costs[n%/%4]
+quantile_75 = costs[3*n%/%4]
+a=(quantile_75-quantile_25)/(valeurs_norm_75-valeurs_norm_25)
+b=quantile_25-a*valeurs_norm_25
+estimate_absc =  c()
+quantiles=c(1:n)
+for (i in 1:n){
+  estimate_absc <- append(estimate_absc,a*valeurs_norm[i]+b)
+  quantiles[i] <-qnorm((2*i-1)/(2*n),0,1)
+}
+plot(quantiles, costs , main = "Trac? exp?rimental de qqline") 
+lines(quantiles, estimate_absc, col="red")
+
+qqnorm(costs)
+qqline(costs, col ='red')
+#quantiles - loi exponentielle
+valeurs = sort(rexp(n = 100, rate = 1))
+niveaux = c()
+for (i in 1:100){
+  niveaux <- append(niveaux,(2*i-1)/(2*n))
+}
+
+quantiles = quantile(valeurs,niveaux)
+quantile_25 = quantiles[25]
+quantile_75 = quantiles[75]
+
+estimate_absc =  c()
+for (i in 1:100){
+  estimate_absc <- append(estimate_absc,(valeurs[75]-valeurs[25])/(quantile_75-quantile_25)*(quantiles[i]-quantile_25)+valeurs[25])
+}
+plot(quantiles, valeurs , main = "Trac? exp?rimental de qqline - Loi exponentielle") 
+lines(quantiles, estimate_absc, col="red")
+
+plot(sort(valeurs,decreasing = TRUE),matrix(0,1,100))
+
+#
