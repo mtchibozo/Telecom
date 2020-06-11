@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Teech</string>
+    <string name="title_activity_login">TEECH - Connexion</string>
+
+    <string name="ok">OK</string>
+
+    <!-- Strings related to login -->
+    <string name="identifiant">Identifiant</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="confirm_password">Confirmez mot de passe</string>
+    <string name="action_sign_in">Connexion</string>
+    <string name="action_sign_in_short">Connexion</string>
+    <string name="error_invalid_email">Cette addresse email est invalide</string>
+    <string name="error_used_email">Cette addresse email possède déjà un compte</string>
+    <string name="error_invalid_password">Ce mot de passe est trop court</string>
+    <string name="error_incorrect_password">Email ou mot de passe incorrect</string>
+    <string name="error_incorrect_confirmation">Mot de passe et confirmation différents</string>
+    <string name="error_field_required">Champ requis</string>
+    <string name="permission_rationale">"L'accès est nécessaire pour l'autocomplétion d'emails"
+    </string>
+    <string name="action_register">Inscription</string>
+
+    <!-- Strings related to register -->
+    <string name="student">Etudiant</string>
+    <string name="teacher">Professeur</string>
+    <string name="prompt_name">Identifiant</string>
+    <string name="prompt_etablissement">Etablissement</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_ville">Ville</string>
+    <string name="prompt_classe">Classe</string>
+    <string name="prompt_spec">Spécialité</string>
+    <string name="next">Suivant</string>
+    <string name="back">Retour</string>
+    <string name="finish">Fin</string>
+    <string name="title_activity_side_drawer">SideDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="title_activity_login2">Inscription</string>
+
+    <string name="historique">Historique des exercices</string>
+    <string name="title_activity_add_exercise3">AddExerciseActivity3</string>
+
+    <string name="matiere">Matière:</string>
+    <string name="prop">Proportion en pourcentage:</string>
+    <string name="diff">Difficulté:</string>
+    <string name="profil_identifiant">Identifiant: %1$s</string>
+    <string name="profil_email">Email: %1$s</string>
+    <string name="profil_statut">Statut: %1$s</string>
+    <string name="profil_etab">Etablissement: %1$s</string>
+    <string name="profil_ville">Ville: %1$s</string>
+    <string name="profil_classe">Classe: %1$s</string>
+
+    <string name="hintLatex">Enoncé en Latex</string>
+    <string name="saveLatex">Enregistrer en Latex</string>
+    <string name="importPhoto">Importer une photo</string>
+    <string name="corrLatex">Correction en Latex</string>
+    <string name="Indic">Indications</string>
+    <string name="liste">Liste des matières de l\'exercice</string>
+    <string name="addMat">Matière supplémentaire</string>
+    <string name="questionMat">Dans quelle matière voulez-vous travailler ?</string>
+    <string name="corrDescrip">Photo de la correction</string>
+    <string name="exoDescrip">Photo de l\'exercice</string>
+    <string name="eval">Evaluation</string>
+    <string name="correction">Correction</string>
+    <string name="passe">Passer</string>
+    <string name="titreComm">COMMENTAIRES</string>
+    <string name="tonCom">Votre commentaire</string>
+
+    <!-- Strings related to feedback -->
+    <string name="noteVous">Notez vous sur cet exercice</string>
+    <string name="nextExo">Prochain Exercice</string>
+    <string name="perti">Pertinence de l\'exercice</string>
+
+    <!-- Strings related to main activity -->
+    <string name="exos">Trouver un exercice</string>
+    <string name="addExo">Ajouter un Exercice</string>
+    <string name="profil">Profil</string>
+    <string name="deco">Déconnexion</string>
+
+
+    <!-- Strings related to profil activity -->
+    <string name="pp">Photo de profil</string>
+
+    <!-- Strings related to messages -->
+    <string name="mymes">Mes messages</string>
+    <string name="rep">Répondre</string>
+    <string name="auteur">Auteur</string>
+    <string name="msg">Message</string>
+    <string name="msgs">Messages</string>
+    <string name="envoyes">Envoyés</string>
+    <string name="newmsg">Nouveau</string>
+    <string name="actu">Actualiser</string>
+    <string name="env">Envoyer</string>
+    <string name="msgTest">Ecrivez votre message</string>
+    <string name="msgNo">Message numero %d</string>
+
+
+    <string name="desciptionDrawer">Image du drawer</string>
+    <string name="androidStudio">Android Studio</string>
+    <string name="mailAndroid">android.studio@android.com</string>
+    <string name="title_activity_write_new_message">WriteNewMessageActivity</string>
+    <string name="title_activity_message_test">MessageTest</string>
+    <string name="noMsg">Aucun message</string>
+
+</resources>

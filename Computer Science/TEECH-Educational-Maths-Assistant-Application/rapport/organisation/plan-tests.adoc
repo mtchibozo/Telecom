@@ -1,0 +1,74 @@
+=== Plans de test (PAN2+)
+
+Vous allez travailler sur chaque bloc de votre projet, et qu’il soit
+informatique, électronique ou matériel, vous allez devoir faire du
+test :
+
+* tester que le bloc que vous venez de finir fait ce qu’il faut ;
+* tester que le bloc fonctionne avec les blocs en amont ou en aval dans
+l’architecture ;
+* tester que les performances sont acceptables…
+* et plus globalement, tester que le projet « marche ».
+
+Vous allez devoir faire ce travail sur le prototype allégé, puis sur le
+prototype final. C’est un travail dans le module « intégration et
+tests ».
+
+Cette section rassemble les plans de test du proto allégé et du proto
+final. C’est une liste des tests à effectuer, sous la forme, pour chaque
+test :
+
+* situation/contexte
+* action ou entrée à appliquer
+* réaction ou sortie attendue.
+
+=== Prototype allégé
+
+=== Tests de composants (vérification du fonctionnement indépendant des modules)
+
+* Intelligence Artificielle
+
+Test 1: Les exercices proposés sont-ils pertinents ?
+Vérifier la pertinence des suggestions de l'IA : créer un profil utilisateur simple, créer une centaine d'exercices inutiles et un seul exercice 
+pertinent. Voir si cet exercice est bien proposé à l'utilisateur, définir un taux de réponses pertinentes acceptables
+
+* Bases de données
+
+Test 1 : Les requêtes sont-elles valides ?
+Générer des profils d'utilisateurs et des exercices, vérifier la validité des requêtes. (A préciser)
+
+* Application Android
+
+Test 1 : Les pages sont-elles accessibles ? Les boutons effectuent-ils les bonnes fonctions ? L'affichage correspond-il à ce qui était voulu ?
+Utiliser une Machine Android Virtuelle (émulateur) et tester chacun des boutons, chacune des pages, chacun des liens.
+
+
+=== Tests d'intégration (vérification du fonctionnement en interaction des modules)
+
+
+* Base de données - Intelligence Artificielle
+
+Test 1 : La base de données se met-elle à jour systématiquement après la réalisation d'un exercice ?
+Créer un exercice élémentaire, simuler la réalisation de cet exercice par un utilisateur, vérifier que le profil de l'utilisateur est mis à jour correctement dans la base de données.
+
+Test 2 : L'IA suggère un exercice, l'exercice renvoyé par la base de données à l'application est-il bien l'exercice voulu ?
+On fait suggérer à l'IA un exercice choisi, on vérifie que l'exercice affiché par l'application est le même exercice.
+
+* Android - Base de données
+
+Test 1 : Les données de l'application sont-elles bien transmises à la base de données?
+Générer des profils utilisateurs ou exercices élémentaires sur l'application, vérifier qu'ils ont bien été ajoutés automatiquement à la base de données.
+
+Test 2 : Les exercices pris en photos sont-ils stockés au bon endroit ?
+Même principe que ci-dessus
+
+=== Tests de performances
+
+Test 1 : L'application est-elle rapide ?
+Chronométrer le temps de chargement des différentes pages.
+
+Test 2 : Le parcours de la base de données (lors de la recherche d'exercices) est-il trop coûteux en temps ?
+Créer des bases de données avec des nombres différents d'exercices (arbitraires) et chronométrer le temps de recherche d'exercice.
+
+
+

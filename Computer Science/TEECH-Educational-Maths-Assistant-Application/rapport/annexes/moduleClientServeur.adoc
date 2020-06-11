@@ -1,0 +1,13 @@
+=== Module Client/Serveur
+
+L'objectif de ce module est d'assurer l'échange de données entre les clients Android et le Serveur qui héberge la base données.
+
+==== Travail effectué
+
+Nous avons utilisé des socket Java pour permettre la communication entre l'application Android et le progamme Java Serveur. Nous devions échangé des entiers, 
+des chaînes de caractères et des images. Nous avons donc mis au point notre propre protocole pour ce projet, en particuliers, toutes les données sont échangées sont forme de chaînes de 
+caractères (on a utilisé l'encodage en base 64 pour le transfert d'image). Côté serveur, nous avons implémenter un daemon facile d'utilisation pour les autres groupes et un protocoles permettant de
+traîter les messages envoyer par les clients. Côté client, nous avons mis au point le code client offrant des fonctions permettant à l'application d'envoyer les messages correspondant
+aux données qu'elle souhaite récupérer. Les membres du module Android se sont chargés d'intégrer ce code à leur programme.
+
+

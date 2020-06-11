@@ -1,0 +1,22 @@
+=== Description des interfaces
+
+
+
+
+==== Interface Base de données/Client Serveur:
+
+Les entrées de la base de données sont converties en chaîne de caractères pour être envoyés aux clients. Les messages des clients, sous forme de chaîne de caractères,
+sont analysés et interprétés grâce à un protocole de notre conception, ils peuvent nécessité des appels à la base de données grâce à des fonctions ad hoc.
+
+
+
+==== Interface Base de données/Optimisation
+
+Cette interface permet de faire le lien entre la base de données et l'algorithme d'optimisation de la même manière qu'entre la base de données et le module Android.
+Elle est à priori la même  que l'interface base de données/Android.
+
+
+==== Interface Android/Optimisation
+
+Cette interface codée en Java permettra au module Android d'envoyer des requêtes (exercices/liste d'exercice) à l'algorithme d'optimisation et à les faire dialoguer entre eux.
+Elle sera réalisée par le groupe en charge de l'algorithme d'optimisation.

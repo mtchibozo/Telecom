@@ -1,0 +1,70 @@
+== Définition de l’objectif
+
+
+Le sujet de notre projet PACT est de créer une application appelée *TEECH*, qui est un coach scolaire intelligent développé sur smartphone. Notre projet est décomposé en plusieurs modules, notamment les modules Base de données, Android et algorithme d’optimisation.
+Le module base de données dont nous sommes responsables doit être en mesure de contenir, créer, et mettre a disposition les données nécessaires au bon fonctionnement de notre application. En effet, le module Android aura besoin des données des utilisateurs ainsi que des exercices pour l’affichage graphique sur smartphone, tandis que le module algorithme d’optimisation s’appuiera sur des données de taux de réussite d’exercices, ou encore des profils des utilisateurs pour proposer les exercices les plus adaptés à ceux-la.
+Le travail à réaliser est le suivant : nous allons construire une base de données, et programmer des fonctions en JAVA permettant d’effectuer des requêtes sur la base de données en fonction des besoins des modules Android et algorithme d’optimisation. Enfin, en association avec le module « Communication Client-Serveur » nous assurerons la communication entre l’ensemble des modules afin que faire notre application fonctionne.
+
+
+== Compte-rendu PAN2
+
+
+=== Travail effectué au PAN2
+
+
+Nous avons d'abord mené un travail de réflexion avec les autres binômes pour concevoir la structure de la base de données [1], que l'on amendera si cela devient nécessaire plus tard pour le développement de notre projet. Ainsi nous avons établi les différentes tables dont nous avions besoin ainsi que leurs colonnes et le type des données stockées dans la base. Une fois ce travail préliminaire accompli, nous avons créer la base de données que l'on utilisera par la suite [2] sous un format SQLite à l'aide de l'add-on SQlite Manager proposé sur Mozilla Firefox. Dans un premier temps, nous avions tenté d'utiliser MySQL pour créer notre base et tester nos requêtes mais face à la difficulté de prise en main nous avons opté pour SQLite qui, de plus, convient aux contraintes de notre projet. Nous avons alors commencé à rédiger des requêtes SQL [3] que nous avons pu tester grâce à SQLite Manager. En parallèle de cela, nous avons réussi à établir une connexion Java avec la base de données [4] et nous sommes actuellement en train d’implémenter des méthodes permettant d’exécuter des requêtes simples et d'en renvoyer le résultat notre à programme Java.
+
+
+=== Travail à réaliser pour les PAN3 et PAN4
+
+Le livrable correspondant pour le PAN3 a été défini pour le PAN1 dans le cadre de l’organisation du projet PACT. 
+Ainsi, le PAN3 correspond au prototype allégé de notre application. Notre module base de données devra donc réaliser :
+
+
+* Création de la base de donnée
+
+* Inscription des élèves/professeurs
+
+* Édition d’exercices et de corrigés
+
+* Consultation d’exercice
+
+* Mise à jour des profils élèves après auto-évaluation
+
+* Visualisation des profils
+
+Une partie de ces objectifs sont déjà remplis. Pour la grande majorité du reste des objectifs, nous allons implémenter peu à peu les méthodes JAVA permettant de réaliser les requêtes sur la base de donnée. Pour cela, nous avons mis à la disposition de nos camarades responsables des modules Android et algorithme d’optimisation plusieurs interfaces JAVA où ils peuvent ajouter la signature des méthodes dont ils ont besoin. Nous implémenterons ensuite les méthodes correspondantes en appliquant les requêtes SQL. Toutes les méthodes nécessaires à la réalisation des objectifs ci- dessus seront donc prêtes pour le PAN3. Nous envisageons également l'usage d'index pour optimiser le temps de recherche dans la base de données.
+Concernant le PAN4 et le prototype final, le module base de données sera dépendant du reste des autres modules. Si l’avancement est suffisant dans le module Android et dans le module algorithme d’optimisation, nous pourrons ajouter de nouvelles fonctionnalités à l’application et ajouter de nouvelles méthodes permettant de les mettre en place.
+Références à des fichiers du dépôts Git, voir la branche constructionBdD : 
+
+
+
+== Compte-rendu PAN3
+
+
+=== Travail effectué au PAN3
+
+
+Le cadre de notre travail a bien été établi au préalable. Nous avons créé des classes correspondant aux entrées de la base de données et les avons doté de méthodes permettant aux autres modules en contact direct avec la base de données (Client/Serveur et Android)de les extraire facilement.
+Nous avons pu donc écrire la totalité des fonctions nécessaires et nous avons prévus des fonctionnalités supplémentaires dans le cas où nous prendrions de l'avance.
+
+
+=== Travail à réaliser pour le PAN4
+
+Le travail pour ce module est pratiquement fini. Nous restons à l'écoute des autres en cas de besoin de fonctions supplémentaires non prévues.
+
+
+
+== Compte-rendu PAN4
+
+
+Quelques fonctions ajoutées à la suite de demande des autres modules.
+
+
+    [1] BdD\Description.adoc
+
+    [2] BdD\Java\TeechDb\data\TEECH.sqlite
+
+    [3] Les fichiers situés dans le dossier BdD\Requetes
+
+    [4] BdD\Java\TeechDb\src\bdd\DatabaseConnection.java

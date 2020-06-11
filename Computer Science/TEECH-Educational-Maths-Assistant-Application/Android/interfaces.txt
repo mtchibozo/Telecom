@@ -1,0 +1,23 @@
+faire une calsse abstraite Personne regroupant les attributs communs aux proffesseurs et aux étudiants,
+qui hériteront tous les deux de cette classe
+
+une fonction qui prend en entrée une adresse email et un mot de passe
+et qui renvoie l'id de la personne si le mdp est bonet  un code d'erreur (-1 ?) sinon
+
+une fonction qui prend en entrée un id et qui crée la personne correspondant
+
+une fonction qui vérifie qu'une adresse email est déjà dans la base de données ou pas
+
+une fonction qui prend en entrée une personne et l'ajoute dans la BDD, en lui attribuant un nouvel id unique
+une fonction qui prend en entrée un exercice et l'ajoute dans la BDD, en lui attribuant un nouvel id unique
+
+un enum Matières pour lister les différentes matières
+
+une classe exercice qui comprend en attribut les matières correspondant à l'exercice, ainsi qu'un titre et un énoncé (chaines)
+
+une fonction pour renvoyer à la base de données le résultat d'un exercice
+
+une fonction renvoyant la liste des exercices déjà faits par un utilisateur en prenant en entrée son id
+
+une fonction qui prend en entrée un id d'exercice et récupère celui correspondant dans la BDD
+

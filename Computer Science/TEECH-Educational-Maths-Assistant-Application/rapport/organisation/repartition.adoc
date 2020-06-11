@@ -1,0 +1,21 @@
+=== Répartition des élèves par module
+
+
+
+[cols=",^,^,^,^,^,^,^",options="header",]
+|================================================================================================
+| Nom        | Base de donnees          | Interface graphique  | Algorithmique           | Application Android | Module Entretien | Client/Serveur       | Test & Intégration
+| Nom Expert |     Marie Al-Ghossein    |     Thomas Robert    |  Marie Al-Ghossein      |   Thomas Robet      |    Julien Morel  | Jean-Claude Moissinac| Jean-Claude Moissinac
+
+| Maxime Lhoustau   | X                 |                      |                         |                     |  X               |  X                   |                 
+
+| Louison Braun     |                   | X                    |                         |     X               |      X           |                      |                   
+
+| Amyn Kassara      |                   |                      |  X                      |                     |      X           |                      |   X               
+
+| Arthur Ndoko      |           X       |                      |                         |                     |     X            | X                    |                   
+
+| Maxime Tchibozo   |                   |    X                 |                         |   X                 |     X            |                      |                   
+
+| Jean Vassoyan     |                   |                      | X                       |                     |    X             |                      |    X               
+|================================================================================================

@@ -1,0 +1,313 @@
+﻿UnPACTed 34
+
+TEECH : Base de données
+
+Expert : Marie Al-Ghossein
+
+
+
+
+### Description des tables de la base de données Teech
+
+
+
+## Tables d’entités :
+
+
+
+==== UTILISATEURS
+
+*Champs* :
+
+	- id* : numéro unique propre à chaque utilisateur.
+
+	- identifiant* : une chaîne de caractères propre a chaque utilisateur.
+
+	- motDePasse
+
+	- photoDeProfil
+
+	- email
+
+	- statut : une chaîne de caractères qui indique si l'utilisateur est un professeur ou un élève.
+
+	- niveau : une chaîne de caractères qui indique le niveau scolaire (ex : 6eme, 2nde, MPSI etc.).
+
+
+	- description : une chaîne de caractères (250 carac. max) qui contient une auto-description rédigée par l'utilisateur.
+etablissement
+	- etablissement
+
+	- classe 
+
+	- ville
+
+
+
+==== GROUPES
+
+*Champs* :
+
+	- id* : numéro unique propre à chaque groupe, commence 1000000.
+
+  - nom
+
+	- photoDeGroupe
+
+	- statut : une chaîne de caractères qui indique si le groupe est secret, ferme, public etc.
+
+	- description : une chaîne de caractères (250 carac. max) qui contient une auto-description rédigée par un administrateur du groupe.
+
+
+
+==== MATIERES
+
+*Champs* :
+
+	- id* : numéro unique propre à chaque matière.
+
+	- nom
+
+	- niveau : une chaîne de caractères qui indique le niveau scolaire de la matière.
+
+	- idMatiereMere : exemple : admettons l'id des « Maths de MPSI » est 1, pour l’entrée de l’ « Algèbre linéaire de MPSI» le champs idMatiereMere vaudra 1. Ce champs peut éventuellement être vide, par exemple pour les « Maths de MPSI » (sauf si on crée la matière « Sciences de MPSI »). En réalité, ce champs permet de créer un arbre des matières pour un niveau donné, les matières pour lesquelles le champ est vide sont les racines.
+
+
+
+==== EXERCICES
+
+*Commentaire* : le fichier contenant l'exercice d'id i est se nomme "exo_i.png" ou "exo_i.tex"
+
+*Champs* :
+
+	- id* : numéro unique propre à chaque exercice.
+
+  - description
+
+	- recommendation : un entier compris entre 0 et 10 (par exemple) qui évalue la pertinence de l'exercice.
+
+	- enonce : une chaîne de caractères qui contient le format sous lequel est stocke l'exercice : image ou latex.
+
+	- difficulteAuteur : un entier compris entre 0 et 10 (par exemple) qui représente la difficulté de l'exercice estimée par son auteur.
+
+	- idAuteur (clé étrangère) : l'identifiant de l'auteur de l'exercice.
+
+	- DureeConseillee : un entier, le nombre de minutes nécessaires à finir l'exercice selon son auteur.
+
+	- type
+
+
+
+==== SUJETS
+
+*Champs* :
+
+	- id* : numéro unique propre à chaque sujet, commence a partir de 2000000.
+
+	- description
+
+	- recommendation : un entier compris entre 0 et 10 (par exemple) qui évalue la pertinence du sujet.
+
+	- difficulte : un entier compris entre 0 et 10 (par exemple) qui représente la difficulté du sujet estimée par son auteur.
+
+	- idAuteur (clé étrangère) : l'identifiant de l'auteur du sujet.
+
+
+
+==== CORRIGES
+
+*Commentaire* : le fichier contenant le corrigé d'id i est se nomme "corr_i.png" ou "corr_i.tex" suivant sont format latex ou png,
+
+*Champs* :
+
+	- id* : commence a partir de 2000000
+
+	- idExercice* : identifiant de l'exercie que le corrigé traite.
+
+	- indication : une chaîne de caractères qui donne des pistes de résolution pour l'exercice.
+
+  - description
+
+	- recommendation : un entier compris entre 0 et 10 (par exemple) qui évalue la pertinence de l'exercice.
+
+	- enonce : une chaîne de caractères qui contient l'adresse du fichier qui contient l’énoncé du corrige.
+
+	- idAuteur (clé étrangère) : l'identifiant de l'auteur de l'exercice.
+
+	- type
+
+
+
+==== DEMANDES_UTILISATEUR
+
+*Champs* :
+
+	- id*
+
+	- idMatiere (clé étrangère):  l'identifiant de la matière que l'utilisateur souhaite travailler.
+
+	- typeTravail :  entier : 0 pour « entraînement » (l'utilisateur veut des exos correspondant à son niveau),
+	1 pour « vérifier les acquis » (l'utilisateur veut des exos de difficulté inférieure à son niveau), 2 pour « approfondissement »
+	(l'utilisateur veut des exos de difficulté supérieure à son niveau).
+
+  - date
+
+
+==== CRITERES
+
+*Commentaire* : l’éditeur  peut définir, si il le juge nécessaire, des critères d’évaluation pour son exercice.
+
+*Champs* :
+
+	- id*
+
+	- idExercice : numéro unique propre à chaque exercice.
+
+	- idMatiere
+
+	- description
+
+	- coeff
+
+
+
+
+
+### Tables d'associations :
+
+
+
+==== MATIERE_EXERCICE
+
+*Champs* :
+
+	- idExercice (clé étrangère) :  l'identifiant de l'exercice concerné.
+
+	- idMatiere (clé étrangère):  l'identifiant de la matière concernée.
+
+	- proportion :  entier (1  3), importance de la matière dans le sujet.
+
+	- difficulte :  entier, difficulte relative a la matiere dans l'exerice
+
+
+
+==== EVALUATIONS
+
+*Commentaire* : une entrée est ajoutée dans cette table à chaque fois qu'un utilisateur finit un exercice.
+
+*Champs* :
+
+	- id
+
+	- idUtilisateur (clé étrangère) :  l'identifiant de l'utilisateur qui a fait l'exercice.
+
+	- idExercice (clé étrangère) : l'identifiant de l'exercice fait.
+
+	- evaluation : un entier compris entre 0 et 10 (par exemple) qui représente l'autoévaluation faite par l'utilisateur après avoir fini leur exercice.
+1
+	- recommandation : un entier compris entre 0 et 10 (par exemple) qui représente la pertinence de l'exercice estimée par l'utilisateur.
+
+	- difficulte : un entier compris entre 0 et 10 (par exemple) qui représente la difficulté de l'exercice estimée par l'utilisateur.
+
+	- date : la date à laquelle l'exercice a été fait.
+
+	- idDemande (clé étrangère) : identifiant de la demande à  laquelle répond l'algorithme en proposant l'exercice, vide si l'exercice n'a pas été suggéré automatiquement à l'utilisateur.
+
+
+
+==== EVAL_CRITERES
+
+*Commentaire* : Lorsque l’élève résout son exercice, remplit un questionnaire pour vérifier qu'il a rempli les critères définis par l'auteur de l'exercice.
+
+*Champs* :
+
+	- idCritere
+
+	- resultat_critere : entier entre 0 et 2 (non validé, en cours, validé)
+
+	- idEvaluation
+
+
+
+==== PROFILS
+
+*Commentaire* : Cette table rassemble les données concernant le niveau des élèves dans les différentes matières disponibles dans la base de données.  Le champ date  permettra de visualiser l’évolution de l'utilisateur dans le temps.
+On peut imaginer que des entrées dans cette table seront faites à chaque « session de travail » d'un utilisateur. Les entrées seront automatiquement détruite au bout d'une certaine ancienneté.
+
+*Champs* :
+
+	- idUtilisateur (clé étrangère) : l'identifiant de l'utilisateur concerné.
+
+	- idMatiere (clé étrangère) : l'identifiant de la matière concernée.
+
+	- aisance : un entier compris entre 0 et 10 (par exemple) qui représente  l'aisance de l’élève concerné dans la matière concernée.
+
+	- date : la date de l’entrée.
+
+
+
+==== MESSAGERIE
+
+*Champs* :
+
+	- idEmetteur (clé étrangère) : l'identifiant émetteur.
+
+	- contenu : chaîne de caractères (250 max.).
+
+	- idDestinataire(clé étrangère): champ rempli avec l'id du groupe ou de l'utilisateur destinataire.
+
+	- typeDestinataire  : 0 si le destinataire est un utilisateur, 1 si c'est un groupe.
+
+	- date
+
+
+
+==== COMMENTAIRES
+
+*Champs* :
+
+	- id
+
+	- idEmetteur (clé étrangère) : l'identifiant émetteur.
+
+	- contenu : chaîne de caractères (250 max.).
+
+	- typeContenu (clé étrangère) : 0 si le contenu commenté est un exercice, 1 pour les corrigés, 2 pour les sujets.
+
+	- idContenu (clé étrangère) : champ rempli avec l'id du corrigé, de l'exercice, ou du sujet commenté.
+
+	- appreciation : entier nombre de « j'aime » reçus par le commentaire.
+
+	- date
+
+	- reponseA : id du commentaire auquel, commentaire répond (champ éventuellement vide).
+
+
+
+==== APPARTENANCE_GROUPE
+
+*Champs* :
+
+	- idUtilisateur (clé étrangère) :  l'identifiant de l'utilisateur concerné.
+
+	- idGroupe (clé étrangère):  l'identifiant du groupe concerné.
+
+	- statut :  chaîne de caractères qui représente  le statut de  l'utilisateur concerné dans le groupe concerné (par exemple : membre ou admin.)
+
+
+
+==== APPARTENANCE_SUJET
+
+*Champs* :
+
+	- idExo (clé étrangère) :  l'identifiant de l'exercice concerné.
+
+	- idSujet (clé étrangère) :  l'identifiant du sujet concerné.
+
+	- coeff :  entier, coefficient de l'exercice dans le sujet.
+
+	- ordre : entier, position de l'exercice dans le sujet (1er exercice, 2eme exercice etc.).
+
+
+
+Les champs marqués par « * » sont des clés primaires.

@@ -1,0 +1,150 @@
+==== Réunion du 09/11/2017
+* Présents:
+** Jean Vassoyan
+** Amyn Kassara
+** EXPERT : Pierre-Alexandre Murena
+* Sujets abordés
+** *Intelligence artificielle*: Nous avons discuté des différents moyens d'introduire
+une intelligence artificielle au projet. 
+
+==== Réunion du 15/11/2017
+* Présents:
+** Jean Vassoyan
+** Amyn Kassara
+** EXPERT : Marie Al-Ghossein
+* Sujets abordés
+** *Intelligence artificielle*: Nous avons discuté des différents moyens d'introduire
+une intelligence artificielle au projet et de différentes techniques
+de simulation pour tester notre application. 
+
+
+==== Réunion du 16/11/2017
+
+* Présents:
+** Maxime Tchibozo
+** Louison Braun
+** EXPERT : Thomas Robert
+* Sujets abordés
+
+
+** *Contrat Pédagogique de la partie Android* : Nous nous sommes mis d'accord sur les priorités pour la partie android. Nous avons accepté de mettre en second-plan les systèmes de groupes et les diagrammes pour les pages personnelles.
+
+
+==== Réunion du 15/11/2017
+
+* Présents:
+** Arthur Ndoko
+** Maxime Lhoustau
+** EXPERT : Thomas Robert
+* Sujets abordés
+
+==== Réunion du 18/01/2018
+** *Android* : Evaluation de l'avancement de la partie Android pour le PAN 2: L'encadrant était satisfait des fonctionnalités que nous avions implémentés
+mais l'interface graphique avait plusieurs petits défauts.
+
+* Présents:
+** Maxime Tchibozo
+** Louison Braun
+** EXPERT : Thomas Robert
+
+
+
+** *Base de données* : Première rencontre avec un expert pour poser les questions préalables à la création de notre base.
+
+==== Réunion du 27/01/2018
+
+* Présents:
+** Arthur Ndoko
+** Maxime Lhoustau
+** EXPERT : Marie Al-Ghossein 
+* Sujets abordés
+
+
+** *Base de données* : Compte-rendu du travail accompli pour le PAN2.
+
+
+==== Réunion du 26/01/2018
+
+* Présents:
+** Arthur Ndoko
+** Maxime Lhoustau
+** EXPERT : Jean-Claude Moissinac
+* Sujets abordés
+
+
+** *Client/Serveur* : Compte-rendu du travail accompli pour le PAN2.
+
+==== Réunion du 01/03/2018
+
+* Présents:
+** Arthur Ndoko
+** Maxime Lhoustau
+** Jean Vassoyan
+** Maxime Tchibozo
+** Amyn Kassara
+** Louison Braun
+* Sujets abordés
+
+
+** *PAN3* : Mise au point des objectifs pour le PAN3.
+
+
+
+==== Réunion du 16/03/2018
+
+* Présents:
+** Maxime Lhoustau
+** Jean Vassoyan
+** Maxime Tchibozo
+** Amyn Kassara
+** Louison Braun
+* Sujets abordés
+
+
+** *PAN3* : Mise au point de la stratègie de présentation lors du PAN3.
+
+==== Réunion du 21/03/2018
+
+* Présents:
+** Arthur Ndoko
+** Jean Vassoyan
+** Maxime Tchibozo
+** Amyn Kassara
+** Louison Braun
+* Sujets abordés
+
+
+** *PAN4* : Mise au point des objectifs pour le PAN4.
+
+==== Réunion du 15/04/2018
+
+* Présents:
+** Arthur Ndoko
+** Maxime Lhoustau
+** Amyn Kassara
+** Louison Braun
+* Sujets abordés
+
+
+** *PAN4* : Etat de l'avancement pour le PAN4. Reflexions sur l'affiche.
+
+==== Réunion du 7/05/2018
+
+* Présents:
+** Arthur Ndoko
+** Maxime Lhoustau
+** Amyn Kassara
+** Jean Vassoyan
+** Maxime Tchibozo
+* Sujets abordés
+
+
+** *PAN4* : Réalisation de la vidéo et du diaporama de présentation du projet.
+
+==== Réunion du 16/05/2018
+** *Android* :évaluation du module Android: PAN 4
+
+* Présents:
+** Maxime Tchibozo
+** Louison Braun
+** EXPERT : Thomas Robert

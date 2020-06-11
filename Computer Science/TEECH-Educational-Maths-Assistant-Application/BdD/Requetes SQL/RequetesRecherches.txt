@@ -1,0 +1,33 @@
+
+//Rechercher le mot de passe d'un utilisateur a partir de son identifiant pour la connection :
+SELECT motDePasse FROM UTILISATEURS
+	WHERE identifiant = ?
+
+//Rechercher tout les identifiants des exos d'une matiere donnee
+SELECT EXERCICES.id FROM EXERCICES, MATIERE_EXERCICE
+	WHERE EXERCICES.id = MATIERE_EXERCICE.idExercice AND idMatiere = 3
+	ORDER BY recommandation
+
+//Rechercher les corriges d'un exercice
+SELECT id FROM CORRIGES
+	WHERE idExercice = ?
+
+//Rechercher l'aisance d'un eleve dans une matiere
+SELECT aisance FROM PROFILS
+	WHERE idUtilisateur = ? AND idMatieres = ?
+
+//Rechercher les messages recus par un utilisateur
+SELECT * FROM MESSAGERIE
+	WHERE idDestinataire = ?
+	ORDER BY date
+
+//Rechercher les commentaires postes sur un contenu
+SELECT contenu FROM COMMENTAIRES
+	WHERE idContenu  = ?
+	ORDER BY appreciation,date
+
+//Rechercher tous les membres d'un groupe
+SELECT identifiant, UTILISATEURS.id FROM UTILISATEURS, GROUPES, APPARTENANCE_GROUPE
+	WHERE GROUPES.id = ?
+	AND GROUPES.id = idGroupe
+	AND UTILISATEURS.id = APPARTENANCE_GROUPE.idUtilisateur

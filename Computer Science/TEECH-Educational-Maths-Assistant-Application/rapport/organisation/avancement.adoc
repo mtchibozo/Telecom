@@ -1,0 +1,76 @@
+=== Diagramme d’avancement des tâches (PAN2+)
+
+*Mettre à jour le* Tableau *à chaque PAN*
+
+Vous devez y résumer l’avancement de vos modules.
+
+L’avancement est mesuré par rapport à l’ensemble du travail à effectuer.
+L’avancement prévu correspond à l’avancement prévu au PANx, tel que
+renseigné dans votre diagramme temporel. L’avancement réel est ce que
+vous avez réellement atteint.
+
+Vous préciserez également le temps passé sur le module, afin d’apprendre
+à évaluer la durée des tâches.
+
+La description du travail effectué est brève mais vous devez absolument
+rencontrer votre expert (encadrant de module) pour qu’il détaille ses
+attentes en termes de rendus dans la fiche module qu’il vous remettra.
+Avant chaque PAN vous devrez le rencontrer pour récupérer une
+appréciation de votre travail.
+
+Lorsque vous estimerez votre module terminé, vous demanderez une
+soutenance afin d’être évalué et d’obtenir une note de module. La
+soutenance s’effectue devant au moins deux enseignants.
+
+[width="100%",cols="8%,9%,9%,7%,67%",options="header",]
+|=======================================================================
+|Module |Avancement Prévu (%) |Avancement Réel (%) |Temps passé (h)
+|Description brève du travail effectué, analyse des écarts constatés
+|Base de données |60% |100% |50 |PAN 3 : Base de données crées ordonnancée par SQlite et gérée par un code JAVA produit par nos soins. Rapport
+transmis à l'expert. PAN2 effectué. Fin des réunions avec l'expert. Optimisation des requêtes et implémentation des nouvelles
+fonctions dont ont besoin les autres modules à effectuer.
+
+PAN4 :Toutes les fonctions nécessaires aux fonctionalités prévu pour le PAN4 ont été réalisées, des outils supplémentaires sont prévus dans le cas où nous aurions le temps de les intégrer.
+
+
+|Client-Serveur |30% |100% |40 |PAN3 : Programmes tests d'une communication client serveur avec communication de différents types de données
+entre 2 terminaux distincts. Protocole simple réalisé sur la base de la méthode du KnockKnock. PAN2 effectué. Maitrise des outils nécessaires pour la suite du projet.
+On envisage de compléter le programme avec l'implémentation de JSon dans le protocole pour sérialisé et conventionné la communication. Partie Client à transmettre sur la partie Android.
+
+PAN4 :Toutes les fonctions nécessaires aux fonctionalités prévu pour le PAN4 ont été réalisées.
+
+|Android |65% | 65%|30+ |PAN 2: Préparation d'une conception détaillée des vues de l'application finale puis implémentation de ces vues. Méthodes écrites pour enregistrer des données depuis 
+l'interface utilisateur sur la mémoire locale. Méthodes crées pour modifier des TextView afin qu'ils puissent afficher du texte sous format LaTex. Méthodes crées pour créer des vues
+"dynamiques", où le nombre de boutons se met à jour au fur et à mesure que des exercices sont remplis. Implémentation d'un système de login. 
+
+|Android |80% |80% |20 |PAN 3: Etablissement du lien entre application android et base de données sur un serveur distant. 
+Ecriture de méthodes permettent l'accès aux données pour les activités d'ajout d'exercice, d'inscription, et de vérification de compte.
+Mise en place des vues liées à un système de messsagerie.
+
+|Android |100% |100% |30 |PAN4 : Toutes les fonctionnalités nécessaires ont été implémentées et sont intégrées avec le module IA ainsi que le module Client-Serveur.
+Nous avons ajouté des fonctionnalités supplémentaires: système de messagerie (type mail) et possibilité qu'un utilisateur ajoute des matières pas encore présente dans la liste de matières, lorsqu'il
+ajoute son exercice.
+
+
+|Algorithmique |100% |100% | 50| Création d'un algorithme sur Python qui permet de suggérer une liste cohérente d'exercices adaptée au profil de l'utilisateur. Création d'un algorithme de clustering 
+permettant de distinguer entre différents groupes d'exercices afin de proposer aux étudiants des exercices utiles. Rapport transmis à l'expert lors du PAN2. Pour le PAN3, modélisation d'une méthode
+ permettant de distinguer entre des groupes d'étudiant. Méthode pas encore implémentée.
+
+PAN 4 : Après maintes réflexions, nous avons jugé bon de rajouter à notre algorithme une partie « évolutive », en lui rajoutant une composante basée sur le principe des chaînes de Markov.
+Une nouvelle classe Python a été créée, qui contient les différents objets utiles à la création et l’entretien d’une matrice de Passage, elle-même mise à jour à chaque retour d’un utilisateur.
+Dès lors, plus l’application est utilisée (plus les utilisateurs font de retours), plus la matrice de passage est fournie et pertinente.
+Ainsi, lorsqu’un utilisateur demande de nouveaux exercices, une double sélection a lieu : un premier brassage d’exercices est effectué par l’algorithme des chaînes de Markov, 
+puis la sélection est affinée par l’application de l’algorithme de clustering qui permet de trier les exercices ainsi sélectionnés.
+
+|Tests et Intégration |100% |100% | 50|PAN 3 : Création et renforcement de liens entre les différents modules. L'essentiel du travail effectué porte sur la communication entre les modules Base de Données 
+d'un côté, et Android de l'autre, par l'intermédiaire du module Client-Serveur. Une attention particulière a également été accordée au travail de concert entre les modules algorithmique et 
+base de données, qui seront tous deux localisés sur la même machine (serveur distant) : il a notamment fallu passer par une conversion des données calculées par les programmes python 
+(module algorithmique) en données lisibles pour les programmes java (par l'intermédiaire de fichiers textes au format json). De nombreux tests ont été réalisés pour vérifier le bon 
+fonctionnement des modules, d'abord indépendamment les uns des autres, puis dans leur ensemble, montrant ainsi un bon fonctionnement global du prototype allégé.
+
+PAN4 : Pour la partie algorithmique : création de « faux » étudiants dans la base de données qui ont permis d’effectuer les tests nécessaires au bon fonctionnement de la partie « Chaînes de Markov ».
+Création de quelques fichiers log pour avoir un visuel, à chaque exécution, du bon déroulement du programme.
+Pour la partie Android : tests avec différents choix d'inputs qui pourraient/devraient provoquer des erreurs. Tests d'affichage d'images, de latex et tests de la communication avec le serveur.
+Recours à des logs et des toasts pour vérifier le bon déroulement
+des programmes.
+|=======================================================================

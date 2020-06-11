@@ -1,0 +1,31 @@
+=== Modifications (PAN2+)
+
+==== Modifications de fond
+
+Tableau des modifications de fond apportées au projet avec validation
+des experts et encadrant informatique
+
+[cols=",,",options="header",]
+|===============================================
+| libellé / date | Description brève | Validé par :
+|                |                   |
+|                |                   |
+|===============================================
+
+==== Modifications du rapport
+
+Vous noterez dans cette section les modifications apportées au rapport
+depuis le PAN précédent. Si votre planification temporelle a été
+modifiée, vous laisserez l’ancienne planification dans cette annexe.
+
+===== Modifications du rapport au PAN2
+
+Aucune modification du cahier des charges.
+
+===== Modifications du rapport au PAN3
+
+Aucune modification du cahier des charges.
+
+===== Modifications du rapport au PAN4
+
+Aucune modification du cahier des charges.

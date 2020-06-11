@@ -1,0 +1,27 @@
+Module Android
+
+Descriptions
+
+
+
+Avancement
+
+Au niveau du PAN 2:
+Affichage d'un exercice en LaTeX, écriture et lecture dans des fichiers, système
+de comptes locaux, ébauche de correction et évaluation, rendu graphique, création
+de contenu graphique dynamiquement.
+
+Au niveau du PAN 3:
+Etablissement du lien avec le serveur. Tests d'inscription, de vérification de
+compte, d'échange et de réception de données avec le serveur réussis. Début du
+système de messagerie. L'application minimale est complète et fonctionne pour
+quelques exercices et comptes créés à l'avance.
+
+Au niveau du PAN 4:
+Ajout de fonctionnalités particulières pour l'appli: possibilité d'ajouter des
+matières qui ne figurent pas encore dans la liste. Implémentation d'un 
+système de messagerie (type mail). Nous avons ajouté plus d'options sur les 
+pages d'ajout d'exercice pour que le pôle IA ait le plus de données possibles
+Bibliographie spécifique
+
+Rendu LaTeX sur android: https://github.com/Khan/KaTeX

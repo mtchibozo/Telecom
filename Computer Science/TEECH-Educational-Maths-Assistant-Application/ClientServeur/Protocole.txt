@@ -1,0 +1,89 @@
+﻿
+Les valeurs entre crochets designent des variables
+
+
+
+> "1##[identifiant]##[mDp]"
+Renvoie, teste si le mot de passe convient, si oui "[id]##[identifiant]##[motDePasse]##[photoDeProfil]##[email]##[statut]##[niveau]##[statut]##[niveau]##[description]##[etablissement]##[classe]##[ville]" sinon "NOK"; 
+
+Type :
+	- id est un entier
+	- photoDeProfil est un tableau de byte encodes en chaine
+	- les autres variables sont des chaine 
+
+> "2$$[id]"
+Renvoie les attributs de l'utilisateurs a l'id [id] 
+message : "[id]##[identifiant]##[motDePasse]##[photoDeProfil]##[email]##[statut]##[niveau]##[statut]##[niveau]##[description]##[etablissement]##[classe]##[ville]"; 
+
+Type :
+	- id est un entier
+	- photoDeProfil est un tableau de byte encodes en chaine
+	- les autres variables sont des chaines `
+> "3$$[id]$$[identifiant]$$[motDePasse]$$[photoDeProfil]$$[email]$$[statut]$$[niveau]$$[statut]$$[niveau]$$[description]$$[etablissement]$$[classe]$$[ville]"
+Ajout du profil à la base de donnée; renvoie "OK" sinon "Add user failed" 
+
+Type :
+	- id est un entier
+	- photoDeProfil est un tableau de byte encodes en chaine
+	- les autres variables sont des chaines
+
+> "4$$[id]"
+Renvoie les informations liées à un exercice
+message :
+"id+"##"+exercice.getDescription()+"##"+exercice.getRecommandation()+"##"+exercice.getEnonce()+"##"+exercice.getDifficulteAuteur()+"##"+exercice.getIdAuteur()+"##"+exercice.getDureeConseillee()+"##"+exercice.getType()";
+
+Type :
+	- description, énoncé, type sont des strings
+	- Tout le reste sont des entiers
+	- si type ="latex" -> enonce contient le texte du fichier latex source ou "\n" est remplace par "[ENDLINE]"
+	  si type ="photo" -> tableau de byte encode en String
+
+> "5$$[description]$$[recommandation]$$[enonce]$$[difficulteAuteur]$$[idAuteur]$$[dureeConseillee]$$[type]";
+Ajoute d'un exercice à la base de donnée; renvoie "[id]" avec [id] entier l'id de l'entree ajoutee sinon "NOK"
+
+Type :
+	- description, énoncé, type sont des strings
+	- Tout le reste sont des entiers
+	- si [type] ="latex" -> [enonce] contient le texte du fichier latex source ou "\n" est remplace par "[ENDLINE]"
+	  si [type] ="photo" -> tableau de byte encode en String
+
+> "6##[id]";
+Renvoie les informations liées à un corrige
+message:
+"id+sep+corrige.getIdExercice()+sep+corrige.getIndication()+sep+corrige.getDescription()+sep+corrige.getRecommandation()+sep+corrige.getEnonce()+sep+corrige.getIdAuteur()+sep+corrige.getType()";
+
+Type :
+	- idExercice, recommandation, idAuteur sont des entiers
+	- Tout le reste sont des string
+	- si type ="latex" -> enonce contient le texte du fichier latex source ou "\n" est remplace par "[ENDLINE]"
+	  si type ="photo" -> tableau de byte encode en String
+
+> "7##[description]##[indication]##[recommandation]##[enonce]##[idAuteur]##[type]";
+Ajoute d'un corrige à la base de donnée; renvoie "[id]" avec [id] entier l'id de l'entree ajoutee sinon "NOK"
+
+Type :
+	- description, énoncé, type sont des strings
+	- Tout le reste sont des entiers
+
+>8##[id]
+Trouve un corrige de l'exercice
+
+
+>9##[nom]##[niveau]##[idMatiereMere]
+Ajout d'un matiere a la base de donnee; renvoie "[id]" avec [id] entier l'id de l'entree ajoutee sinon "NOK"
+Type : 
+	- nom, niveau -> String
+	- idMatiereMere -> int
+
+>10##[id]
+Ajout d'une matiere renvoie id##nom##niveau##idMatiere
+
+>11
+Renvoie l'ensemble des matieres
+[matiere1]|#|[matiere2]|#| ... |#|[matiere n]
+
+
+
+
+
+

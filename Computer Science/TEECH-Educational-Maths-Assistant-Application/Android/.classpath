@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Teech/app/src/androidTest/java"/>
+	<classpathentry kind="src" path="Teech/app/src/main/java"/>
+	<classpathentry kind="src" path="Teech/app/src/test/java"/>
+	<classpathentry kind="lib" path="Teech/app/lib/jlatexmath.jar"/>
+	<classpathentry kind="lib" path="Teech/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

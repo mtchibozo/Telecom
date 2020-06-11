@@ -1,0 +1,9 @@
+=== Diagramme de planification temporel des tâches
+
+L’ensemble du déroulement de PACT est disponible sur le
+https://pact.wp.mines-telecom.fr/dispositif/deroulement-2017-2018/[_site
+pédagogique_].
+
+
+
+image:../images/PlanificationProjet34.png[Diagramme plannification]

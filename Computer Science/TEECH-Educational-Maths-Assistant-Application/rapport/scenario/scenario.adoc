@@ -1,0 +1,31 @@
+=== Scénarios d’usage - "Teech"
+
+
+Luc est un étudiant en première année de classes préparatoires.
+Dans un souci de travailler plus efficacement les mathématiques, il aimerait pouvoir se concentrer sur des exercices qui portent essentiellement sur ses difficultés. Seulement, dans les livres d’exercices en vente sur le marché, il est difficile de choisir des exercices adaptés à ses besoins propres (comment connaître précisément les notions abordées dans un exercice avant de l’avoir résolu ?).
+
+Pour pallier à ce problème, il télécharge une application Teech prévue spécialement pour son profil d’étudiant.
+
+
+Cette application se présente un peu sous la forme d’un réseau social. Lors de sa première connexion, Luc se crée un profil « élève ». L’application lui demande de renseigner des informations de base sur son niveau dans les différents chapitres de mathématiques (cela peut prendre la forme d’un questionnaire, d’une série d’exercices types…).
+Elle ajoute alors ces informations à sa base de données : Luc possède désormais un profil qui rend compte de son niveau sur chaque chapitre. L’application peut alors lui proposer une série d’exercices adaptée à ses difficultés. 
+
+Par exemple, si Luc a du mal avec le calcul matriciel mais qu’il est au contraire très à l’aise sur les produits scalaires, l’application lui proposera une série d’exercices avec beaucoup de calcul matriciel et peu de produits scalaires. Ils seront d’abord simples, puis de plus en plus difficiles. Si la sélection d’exercices proposée par l’application est conçue pour mettre l’accent sur les chapitres à problèmes de Luc, ce dernier peut également décider de mettre la priorité sur certains chapitres de son choix, voire de chercher librement des exercices dans la base de données.
+
+La base de données initiale d’exercices avec corrigés est créée par les modérateurs de l’application à l’aide de livres d’exercices, de contributions de professeurs bénévoles ou de sites Internet d’exercices (www.cpgedupuydelome.fr  par exemple). Une fois inscrits, les utilisateurs ont la possibilité d’agrandir la base de données avec leurs propres exercices (en renseignant toutes les informations sur la difficulté de l’exercice, les thèmes abordés etc.) tant qu’ils fournissent également un corrigé, qu’un modérateur aura validé.
+
+
+Une fois qu’il a bien renseigné ses difficultés et ses besoins, Luc peut commencer la série d’exercices proposée par l’application. Pour chaque exercice qu’il résout, Luc est chronométré. A la fin de chaque exercice, il confronte son travail à la correction. Afin d’évaluer la rigueur de son travail, l’application lui soumet un questionnaire (propre à chaque exercice) visant à déterminer s’il a bien réalisé toutes les étapes de la résolution. Ce questionnaire permet d’identifier les facilités et faiblesses de Luc en plus de l’autoévaluation initiale effectuée lors de l’inscription. 
+
+A l’aide de ces données, couplées au temps de résolution, l’application est désormais en mesure d’évaluer le taux de réussite de Luc pour cet exercice et de mettre à jour son niveau dans les chapitres concernés. Ainsi, au fur et à mesure que Luc résout des exercices, l’application réajuste peu à peu son niveau dans les différents chapitres et modifie la liste d’exercices prévue initialement en fonction de ses réactions (difficulté à faire correctement les exercices proposés, lenteur dans la résolution…).
+Si un exercice lui a été utile, Luc peut le mentionner en cliquant sur la mention « j’aime » à la fin de sa résolution. Les exercices les plus « aimés » seront alors proposés en priorité aux autres utilisateurs de l’application. 
+
+L’application permet également à Luc d’entrer en contact avec d’autres étudiants : chaque exercice dispose d’un espace « commentaires », permettant d’ajouter des remarques qui contribueront peut-être plus tard à modifier l’exercice. Elle lui permet également de rejoindre des groupes de travail, créés de façon intelligente par l’application de sorte à regrouper des profils complémentaires.
+
+Grâce à cette application, Luc ne perd plus de temps sur des exercices mal adaptés à son niveau et est en permanence conscient de ses difficultés (il a toujours accès à la base de données sur son niveau dans les différents chapitres) !
+
+Le professeur de Luc, s’apercevant que beaucoup d’élèves de sa classe utilisent Teech, peut lui aussi décider de l’installer, en se créant un profil « professeur ». Afin d’avoir un retour sur les performances de ses élèves, le professeur a accès à une rubrique « Résultats & Statistiques» dans laquelle il trouvera entre autres notes et graphes d’évaluation des élèves dans chaque chapitre.
+Ceci lui permet d’avoir un aperçu statistique sur les plus grosses difficultés de sa classe (par exemple, que 90% de ses élèves ont des difficultés en calcul matriciel) et d'adapter sa pédagogie en fonction.
+
+
+

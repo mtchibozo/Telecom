@@ -1,0 +1,51 @@
+=== Tableau détaillé des tâches
+
+****Note : 2 pages max - les fiches modules seront placées en annexe,
+elles doivent être rédigées avec l’expert.****
+
+Les différents aspects du projet sont découpés en tâches numérotées et
+hiérarchisées (Tâches/sous-tâches, etc.). Chaque tâche est décrite
+précisément et une équipe (typiquement un binôme) est affecté à sa
+réalisation. Un module est typiquement constitué de plusieurs tâches et
+sous-tâches. Pour le PAN3, vous aurez à démontrer une version simple,
+*intégrée* et fonctionnelle de ce projet, nommée « prototype allégé ».
+Dans le Tableau 1, complétez la colonne « Intégrée au PAN3 » comme
+suit :
+
+* Intégrée au PAN3 : la sous-tâche est soit finie soit en cours et
+intégrée dans le prototype allégé.
+* Non-intégrée au PAN3 : la sous-tâche est en cours, mais non intégrée
+dans le prototype allégé, l’intégration se fera pour PAN4. L’avancement
+de la sous-tâche sera donc démontré au PAN3 indépendamment du prototype
+allégé (code MatLab ou autre)
+
+Certaines sous-tâches peuvent ne pas être démontrables dans le prototype
+allégé. Mettez-vous d’accord avec vos experts techniques pour savoir ce
+qu’il est réaliste de démontrer au PAN3. N’hésitez pas à redécouper en 2
+sous-taches, l’une démontrable au PAN3 et l’autre uniquement au PAN4.
+
+=== Description du prototype allégé
+
+Nous souhaitons que le prototype allégé permette aux utilisateurs (professeurs et élèves) 
+de s'incrire sur l'application. Il devra etre possible aux professeurs d'ajouter des exercices.
+Un élève pourra rechercher et consulter des exercices, ainsi que leurs corrigés, de la matière de son choix 
+puis s'autoévaluer de manière simple (en se donnant une note sur 10) depuis l'application.
+
+[cols=",,^",options="header",]
+|=================================================================================
+| Tâche | Description                                           | Intégré au PAN3
+| T1    | Création de la base de donnée                         | X
+| T2.1  | Inscription des élèves                                | X
+| T2.2  | Incription des professeurs                            | X
+| T3    | Interface graphique Android fonctionnelle             | X
+| T4    | Edition d'exercice et de corriges                     | X
+| T5.1  | Consultation d'exercice                               | X
+| T5.2  | Système d'auto-évaluation simple                      | X
+| T5.3  | Mise à jour des profils élèves après auto-évaluation  | X
+| T6    | Visualisation des profils                             |
+|=================================================================================
+
+
+
+
+

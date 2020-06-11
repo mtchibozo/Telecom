@@ -1,0 +1,66 @@
+
+
+// Ajout d'un nouvel utilisateur
+INSERT INTO UTILISATEURS (id, identifiant, motDePasse, photoDeProfil, email, statut, niveau, description, etablissement, classe) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+
+// Ajout d'un nouveau SUJETS
+INSERT INTO SUJETS (id, description, recommandation, difficulte, idAuteur) VALUES(?, ?, ?, ?, ?);
+
+
+// Ajout d'une entree dans la table PROFILS
+INSERT INTO PROFILS (idUtilisateur, idMatiere, aisance, date) VALUES(?, ?, ?, ?);
+
+
+// Ajout d'une entree dans la table MESSAGERIE
+INSERT INTO MESSAGERIE (idEmetteur, contenu, idDestinataire, date) VALUES(?, ?, ?, ?);
+
+
+// Ajout d'une entree dans la table MATIERE_EXERCICE
+INSERT INTO MATIERE_EXERCICE (idMatiere, idExercice, proportion ) VALUES(?, ?, ?);
+
+
+// Ajout d'une entree dans la table MATIERES
+INSERT INTO MATIERES (id, nom, niveau, idMatiereMere) VALUES(?, ?, ?, ?);
+
+
+// Ajout d'une entree dans la table APPARTENANCE_GROUPES
+INSERT INTO APPARTENANCE_GROUPE (idUtilisateur, idGroupe, statut) VALUES(7, 1000002, "membre");\
+Testee et integree a java
+
+// Ajout d'une entree dans la table APPARTENANCE_SUJET
+INSERT INTO APPARTENANCE_SUJET (idExercice, idSujet, coeff, ordre) VALUES(1, 1000003, 7, 1);\
+
+
+// Ajout d'une entree dans la table COMMENTAIRES
+INSERT INTO COMMENTAIRES (id, idEmetteur, Contenu, idContenu, appreciation, date, reponseA) VALUES(5, 8, "Incroyable!", 6, 10, "31/12/17/ 22:53",1);\
+
+
+// Ajout d'une entree dans la table CORRIGES
+INSERT INTO CORRIGES (id, idExercice, indication, description, recommendation, enonce, idAuteur) VALUES(2000012, 5, "Corrige de l'ex 5", "Table de 8", 3, "photo_enonce",2);\
+
+
+// Ajout d'une entree dans la table DEMANDES_UTILISATEURS
+INSERT INTO DEMANDES_UTILISATEURS (id, idMAtiere, typeTravail, date) VALUES(7, 10, 0, "22/12/17/ 09:53");\
+
+
+// Ajout d'une entree dans la table GROUPES
+INSERT INTO GROUPES (id, nom, PhotoDeGroupe, statut, description) VALUES(1000003, "Classe de Monsieur Seguin", "Photo par defaut", "secret", "Classe de 25 eleves");
+
+// Ajout d'une entree dans la table EVALUATIONS
+
+
+INSERT INTO EVALUATIONS (id, 
+idUtilisateur,
+idExercice
+,evaluation,
+recommandation,
+difficulte
+,date
+, idDemande) VALUES (1,
+9,
+5
+, 4,
+7,
+ 4,
+ "22/12/1007/ 09:53", null)

@@ -1,0 +1,32 @@
+=== Proposition
+
+Ayant chacun vécu l’expérience des classes préparatoires, nous avons identifié un 
+besoin pressant de modernisation dans ce système. 
+
+Aujourd’hui pour s’entraîner, un élève doit acheter des livres d’annales pour une
+quarantaine d’euros, dans lesquels une grande proportion des exercices sont mal adaptés à ses besoins.
+Chacun d’entre nous se souvient des heures perdues à chercher des exercices faisables avec une correction claire.
+
+S’il existe certains sites proposant des exercices, très peu le font de manière 
+intelligente, et un étudiant perd toujours beaucoup de temps à trouver un exercice
+qu’il n’a pas encore fait, sur le chapitre où il veut progresser.
+
+Les professeurs de classes préparatoire se plaignent aussi de ce système.
+Lorsqu’ils donnent des exercices aux élèves ils ne peuvent pas être sûrs de si ceux-ci
+ont été bien faits. Par ailleurs, les élèves ont tendance à cacher leurs difficultés,
+alors que c’est paradoxalement ces informations que doivent connaître les professeurs
+pour enseigner au mieux.
+Malheureusement, le système des classes préparatoires ne leur permet de faire
+l’état du niveau des élèves que ponctuellement, lors de devoirs surveillés.
+
+Notre application vise à faire économiser du temps aux élèves et leur faciliter la communication avec les professeurs. 
+
+Avec TEECH, un algorithme propose directement des exercices adaptés au niveau de chaque élève.
+Les exercices proposés pourront même cibler simultanément deux ou trois chapitres que l’élève souhaite travailler.
+Par ailleurs, TEECH permet aux élèves d’avoir un suivi de leurs progrès, de 
+voir facilement où ils ont des difficultés et d'accéder à la collection
+de tous les exercices qu’ils ont déjà faits.
+
+TEECH permet aux professeurs de communiquer directement avec les élèves et leur recommander des exercices. 
+Ils voient desormais plus clairement quelles parties du cours n'ont pas été comprises,
+les points qui n’ont pas été bien assimilés, et ils pourront adapter leur pédagogie pour mieux aider leurs élèves.

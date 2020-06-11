@@ -1,0 +1,52 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{color}
+\usepackage{fancybox}
+\usepackage{tcolorbox}
+\tcbuselibrary{most}
+\usepackage[all]{xy}
+\usepackage{dsfont}
+
+\newcommand{\R}{\mathbb{R}}
+
+\begin{document}
+\textbf{Exercice 1 :} Soit $X$ une variable aléatoire réelle admettant une variance.
+  Montrer
+  \[
+  \mathbb{E}(X)^{2} \leq \mathbb{E}(X^{2})\mathbb{P}(X \neq 0)
+  \]
+  
+\textbf{Correction 1 :} On applique l’inégalité de Cauchy-Schwarz à l’étude de l’espérance du produit des variables $X$ et $\mathds{1}_{(X \neq 0)}$.
+
+La variable $X$ étant à valeurs positives, on a $X=X\mathds{1}_{(X \neq 0)}$. En effet, l’égalité est vraie lorsque la valeur de la variable $X$ est non nulle car la fonction indicatrice prend la valeur $1$ et l’égalité est aussi vraie lorsque X prend la valeur nulle. Les variables $X$ et $\mathds{1}_{(X \neq 0)}$ admettant chacune une variance, l’inégalité de Cauchy-Schwarz donne
+	\[
+\mathbb{E}\left(X\mathds{1}_{(X \neq 0)}\right)^{2} \leq \mathbb{E}\left(X^{2}\right)E\left(\mathds{1}_{(X \neq 0)}^{2}\right)
+	\]
+avec
+	\[
+\mathbb{E}\left(X \mathds{1}_{(X \neq 0)}\right) = \mathbb{E}\left(X\right) \hspace{2mm} et \hspace{2mm} \mathbb{E}\left(\mathds{1}_{(X \neq 0)}^{2}\right)= \mathbb{E}\left(\mathds{1}_{(X \neq 0)}\right)= \mathbb{P}\left(X \neq 0\right)
+	\]
+On en déduit
+	\[
+\mathbb{E}\left(X\right)^{2} \leq \mathbb{E}\left(X^{2}\right)\mathbb{P}\left(X \neq 0\right)
+	\]
+
+\textbf{Exercice 2 :} Soient $f : \R \longrightarrow \R$ une fonction continue et croissante et $y : [-a,a] \longrightarrow \R$ une solution de l'équation différentielle \footnote{Il ne s'agit pas ici d'une équation différentielle linéaire: ce type d'équation sort du cadre théorique étudié dans le cours.} $y'' = f(y)$.
+
+  On suppose $y(-a) = y(a)$. Montrer que la fonction $y$ est paire.
+
+\textbf{Correction 2 :} On montre la nullité de l’intégrale $$\int_{-a}^{a}(y'(t)+y'(-t))^{2}dt$$
+Par intégration par parties avec les fonctions $u$ et $v$ de classe $\mathcal{C}^{1}$ déterminées 
+par $u(t) = y(t)-y(-t)$ et $v(t)=y'(t)+y'(-t)$ on obtient $$\int_{-a}^{a}(y'(t)+y'(-t))^{2}dt = [(y(t)-y(-t))(y'(t)+y'(-t))]_{-a}^{a}	
+- \int_{-a}^{a}(y(t)-y(-t))(y''(t)-y''(-t))dt$$	
+Or le terme défini par le crochet est nul car la fonction $y$ prend la même valeur en $a$ et en $-a$. Aussi, $$\int_{-a}^{a}(y(t)-y(-t))(y''(t)-y''(-t))dt = \int_{-a}^{a}(y(t)-y(-t))(f(y(t))-f(y(-t)))dt$$
+Il s’agit de l’intégrale d’une fonction positive car la croissance de $f$ assure que les termes $y(t)-y(-t)$ et $f(y(t))-f(y(-t))$ ont le même signe. Ainsi, $$\int_{-a}^{a}(y'(t)+y'(-t))^{2}dt \geq 0 = - \int_{-a}^{a}(y(t)-y(-t))(f(y(t))-f(y(-t))) \geq 0$$
+et donc $$\int_{-a}^{a}(y'(t)+y'(-t))^{2}dt = 0$$
+Par nullité de l’intégrale d’une fonction continue et positive, on obtient $y'(t)+y'(-t)=0$ pour tout $t \in [-a,a]$. Ainsi, la dérivée de la fonction $t \mapsto y(t)-y(-t)$ est nulle et, puisque cette fonction s’annule en $a$, c’est la fonction nulle. Finalement $y$ est une fonction paire.	
+\end{document}

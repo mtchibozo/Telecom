@@ -1,0 +1,35 @@
+=== Etat de l’art
+ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
+
+Nombreuses sont les applications Android qui proposent de fournir aux étudiants
+des cours permettant d'évaluer leur niveau et de progresser .
+Mais très peu le font de manière intelligente, et la plupart se contentent d'une
+application statique [1] qui n'évolue pas avec le profil de l'utilisateur. On a 
+donc cherché à profiter du bouillonnement scientifique autour de l'intelligence 
+artificielle[2] , d'autant plus que c'est un thème abondamment abordé au sein
+de l'école, afin  de créer une application intelligente.
+
+L'idée de suivre la progression de l'élève nous est venue en utilisant les 
+différentes applications d'apprentissage de langue [3] [4], qui proposent un 
+suivi personnalisé de l'utilisateur en fonction des ses besoins. Sauf que celles
+ci se limitent à des questions simples, qui ne nécessitent pas de rédaction. 
+L'évaluation est donc souvent directe et sans ambiguïté. Un exercice de 
+mathématiques est plus complexe, au sens où il peut faire intervenir plusieurs 
+axes et demande beaucoup de rigueur lors de la rédaction. Une évaluation 
+"automatique" est alors impossible, et on a choisi de lui substituer une auto 
+évaluation basée sur certaines caractéristiques de l'exercice définies par son 
+auteur.
+
+On a aussi été très influencés par l'émergence récente de forums scientifiques 
+[5] [6] [7], qui cherchent à faire diffuser le savoir entre internautes. 
+L'idée est qu'une communauté de gens passionnés peut valoir une poignée d'experts
+. Il reste que ceci ne peut être vérifié que lorsqu'il existe un grand nombre 
+d'utilisateurs, ce qui est impossible dans notre cas. D'où l'introduction 
+d'un profil "professeurs" pour améliorer dans un premier temps la qualité des 
+exercices proposés. Ainsi, les exercices les plus intéressants 
+vont se démarquer rapidement du reste. Chose qui pose aussi une question d'ordre
+humain sur ce genre d'approche: comment motiver, élèves et professeurs, à poster
+des exercices accompagnés de corrigés. Sur ce point,  nous songeons à suivre les
+pas de forums du type [5][6], par exemple accorder des points aux utilisateurs 
+les plus actifs. Pour les professeurs, TEECH pourrait être un outil statistique 
+intéressant pour suivre de près la progression de leurs élèves.

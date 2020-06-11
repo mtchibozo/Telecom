@@ -1,0 +1,10 @@
+=== Diagramme de séquence
+
+
+==== Diagramme de séquence général:
+
+image:../images/DiagSeq34_2.PNG[Diagramme de sequence (page 1)]
+
+==== Diagramme de séquence lors de l'exercice:
+
+image:../images/DiagSeq34_1.PNG[Diagramme de sequence (page 2)]
