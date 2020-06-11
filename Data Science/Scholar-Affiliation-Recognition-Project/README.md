@@ -10,4 +10,5 @@ This tool was useful to the Social Sciences and Administration departments as it
 
 
 Supervisor: Jean-Claude Moissinac
+
 Project Guidelines: https://paf.telecom-paris.fr/projets/affiliations
