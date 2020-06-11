@@ -13,7 +13,7 @@ This list is not comprehensive:
 
 * All Humanities courses have been omitted:
 
-  - Philosophy, Introduction to Economics (SES103), Introduction to Management (SES107), Ethics (SES105), Labor Law, Corporate Finance (SES202), Cinema and Management (SES206).
+  - Philosophy, Introduction to Economics (SES103), Introduction to Management (SES107), Ethics (SES105), Labor Law, Corporate Finance (SES202), Cinema and Management (SES206), Political Science.
 
 * All Language courses have been omitted:
 
