@@ -1,0 +1,1904 @@
+
+Clock was successfully recovered on a 10-GHz sinusoidal
+The PLL is locked in; the electrical clock jitter can be es-
+(cid:127)
+megahertz.)
+1460
+blind it. This error signal’s envelope depends on the input and
+[7] J. Rutman, “Characterization of phase and frequency instabilities in
+point is tuned by a dc voltage shifter. Its output drives the elec-
+(or even
+the phase comparator. Since PPLN is passive, it generates no
+beam at 763 nm, detected by a silicon avalanche photodetector,
+placed outside the loop, decreasing its length, thus improving
+ﬁer’s gain,
+1462
+in Section IV-A.
+photodetector output signal bears a low-frequency component at
+The VCO is a standard electronic oscillator. Its operating
+in the visible (763 nm), therefore easily separated from infrared
+40-to-10 GHz), without modiﬁcations. The corresponding ex-
+vol. 66, no. 9, pp. 1048–1075, Sep. 1978.
+frequency is a multiple of the clock frequency; therefore, we an-
+[3] C. Ware and D. Erasme, “30 GHz sub-clock recovery using an opto-
+the ampli-
+nW gives a total loop
+Supposing that the input and clock signal are sinusoidal, and
+REFERENCES
+semiconductor optical ampliﬁers [1]–[3] or electroabsorption
+Electronics Department, École Nationale Supérieure des Télécommunications
+that the phase comparator has a sinusoidal response, these sig-
+GHz, ampliﬁed by an erbium-
+tivity
+L. J. Christiansen, “Clock recovery for 320 Gb/s OTDM data using
+Paper CI3-5-MON.
+B. Clock Recovery
+insensitive to the infrared input signals which would otherwise
+modulator as phase comparator,” in OFC, Anaheim, CA, Mar. 2005,
+around 10 GHz.
+scheme should be able to reach still higher bit rates, on the order
+letter presents an optoelectronic PLL where three-wave mixing
+V. CONCLUSION
+precision frequency sources: Fifteen years of progress,” Proc. IEEE,
+(1e)
+posed, which agrees with our preliminary results [5] as well
+(2)
+(GET/Télécom Paris), CNRS LTCI (UMR 5141), 75634 Paris Cedex 13,
+same loop gain would be achieved for the same average input
+the
+, which results from ﬁltering and amplifying the output
+experiment.
+[4] C. Boerner, V. Marembert, S. Ferber, C. Schubert, C. Schmidt-
+nals can be modelled as [6]
+if the loop ﬁlter does not include an integrator, the max-
+Fig. 4. Recovered clock and signal. (a) Input signal, triggered by generator.
+demonstration of the use of PPLN for clock recovery.
+value, we used an EDFA to amplify the beam at 1550 nm, which
+CLEO, Long Beach, CA, May 2006, Paper JWB34.
+for reasons of source availability had to be the clock signal;
+PPLN, and successful clock recovery from a 10-GHz sinusoidal
+troabsorption modulator of an integrated laser and modulator
+Systems using four-wave mixing or cross-phase modulation in
+phase difference between them. The equation which describes
+[2] L. K. Oxenløwe, P. Jeppesen, D. Zibar, M. Galili, A. T. Clausen, and
+The authors would like to thank their colleague H. Teimoori
+Fakultät für Naturwissenschaften Department Physik, Angewandte Physik,
+GHz by an external modulator.
+optical signal. Fig. 4(a) and (b) shows a sampling oscilloscope
+ﬁltering-assisted XPM in an SOA,” in CLEO/Eur., Munich, Germany,
+(1a)
+(PPLN) device provides the phase comparator operation. Since
+phase-locked loops (PLLs) at higher bit rates, several all-optical
+Fausto Gómez Agis, Cédric Ware, Didier Erasme, Raimund Ricken, Viktor Quiring, and Wolfgang Sohler
+determined by the loop ﬁlter’s response time.
+and 11 kHz, which is of the order of the loop gain determined
+optical signal. Being based on ultrafast nonlinear effects, this
+ticipate this scheme to be capable of subclock extraction (e.g.,
+power (requiring twice as much power in the 1’s if half the bits
+as a function of this phase offset.
+ACKNOWLEDGMENT
+Fig. 3. TWM error signal for two 10-GHz sinusoidal signals as a function of
+The PLL basic scheme is illustrated in Fig. 1. The clock
+where
+(ILM) at
+power. Associated with a photodetector sensitivity
+nm . That beam is sinusoidally modulated at
+It is to be noted that in order to bring the loop’s gain to a useful
+imum lock bandwidth is twice the loop gain;
+ampliﬁed spontaneous emission noise; also, the error signal is
+ON–OFF keying modulation of the input signal. The loop ﬁlter
+autocorrelator.
+. (Other components, at the sum frequency, are ﬁltered
+so as to be synchronous, and a delay line is used to create a
+is the phase comparator’s sensitivity,
+CLOCK recovery is a critical function of any digital com-
+ulated at a frequency
+GÓMEZ AGIS et al.: 10-GHz CLOCK RECOVERY USING AN OPTOELECTRONIC PLL BASED ON TWM IN PPLN
+of several hundred gigahertz. Also, subclock extraction (e.g.,
+Index Terms—Clock recovery, optical signal processing, period-
+doped ﬁber ampliﬁer (EDFA). This forms the clock signal.
+optical signal.
+ﬁlter.
+(1d)
+1041-1135/$20.00 © 2006 IEEE
+Hz and a tracking bandwidth between 12 and
+nm so as to match the wavelength where the
+The PLL’s behavior depends on the loop gain and the ﬁlter’s
+The clock signal is coupled into a 3-dB coupler along with
+two basic results can be used:
+1461
+[6] A. Blanchard, Phase-Locked Loops: Application to Coherent Receiver
+(1b)
+regenerating the signal. It is traditionally performed by an elec-
+tegrating the phase comparator onto an optical circuit.
+signals into it. Both signals are driven by the same synthesizer
+the TWM-based phase comparator operates as well if the signal
+40-to-10 GHz) should be possible without modiﬁcations.
+PLLs, which use the same basic scheme, replacing the up-front
+The clock recovery system is described in Fig. 2. The three
+Abstract—Clock recovery is a critical function of any dig-
+R. Ricken, V. Quiring, and W. Sohler are with Universität Paderborn,
+this yields a phase comparator sensi-
+wave mixing (TWM) in a periodically poled lithium niobate
+and the input signal
+are 0’s). Likewise, resistance to a long string of zeros would be
+nW and
+nals at higher bit rates, electronic devices become a bottleneck.
+the longer the loop and the higher its gain, the less stable
+ductor optical ampliﬁer,” in CLEO/Eur., Munich, Germany, Jun. 2005,
+trace of the input signal triggered, respectively, by the synthe-
+stant, and its level depends on the delay between the input and
+Periodically Poled Lithium Niobate
+France (e-mail: fausto.gomez@enst.fr; cedric.ware@enst.fr).
+(1c)
+periments remain to be done.
+electro-optical PLL using a bidirectionally operated electroabsorption
+munications system, required for receiving and possibly
+IEEE PHOTONICS TECHNOLOGY LETTERS, VOL. 18, NO. 13, JULY 1, 2006
+II. GENERAL PLL PRINCIPLES
+Therefore, numerous all-optical or optoelectronic clock
+A. Phase Comparator Using TWM
+phase lock loop based on four-wave mixing in a traveling-wave laser
+based on three-wave mixing in periodically-poled lithium niobate,” in
+D-33098 Paderborn, Germany.
+at
+Aug. 1996.
+ically poled lithium niobate (PPLN), phase-locked loops (PLLs),
+Clock recovery of a data-modulated signal has not yet been
+of a phase comparator, which in turn measures the phase
+its stability. The loop length could be minimized further by in-
+Upon injection into the PPLN, these signals generate a TWM
+Manuscript received March 9, 2006; revised April 21,2006. The work of
+PPLN performs a sum-frequency generation:
+for his assistance in the phase comparator experiment.
+.
+VCO’s natural frequency and sensitivity. The loop gain is de-
+Fig. 2. Optoelectronic PLL basic scheme. Illustrates the three basic PLL blocks (VCO, mixer, and ﬁlter): The “VCO” includes an integrated laser and modulator,
+the loop is.
+This comparator’s output is low-pass ﬁltered and shifted, then
+III. OPTOELECTRONIC PLL SETUP
+inputs is
+nm. Thus one has an optical signal, mod-
+Jun. 2005, Paper CI3-4-MON.
+frequency doubling wavelength, would allow the EDFA to be
+electronic phase-locked loop based on four-wave mixing in a semicon-
+timated at 6.6 ps by integragting the pedestal on Fig. 4(c) as
+Phase-Locked Loop Based on Three-Wave Mixing in
+Another experiment with
+[5] F. G. Agis, C. Ware, D. Erasme, R. Ricken, V. Quiring, and W. Sohler,
+making its output an optical pulse train; the “mixer” is based on TWM in the PPLN, detected by a silicon photodetector; the “ﬁlter” includes a voltage shifter so
+by
+IV. EXPERIMENTAL RESULTS
+ital communications system. To replace the classical electronic
+the ﬁlter’s impulse response (possibly including a
+ﬁned as
+V/W,
+Hz.
+16 kHz, which also shows an agreement between theory and
+attempted, but earlier SOA-based experiments [3] indicate that
+nals by a silicon photodetector. To our knowledge, it is the ﬁrst
+is shown Fig. 4(c).
+I. INTRODUCTION
+tronic phase-locked loop (PLL); however, to process optical sig-
+Design. New York: Wiley, 1976.
+clock signals’ intercorrelation—in the same way as in an optical
+mixer or phase comparator by a nonlinear optical device.
+PLL principles, our setup is described. An analysis is then pro-
+10-GHz Clock Recovery Using an Optoelectronic
+bandwidth being small compared to the clock frequency, the
+If the modulation frequencies
+electrical mixer, which can act as a phase comparator.
+(b) Input signal, triggered by recovered clock. (c) Recovered clock spectrum
+Hz/V, we have a total loop gain
+recovery methods are being researched, notably optoelectronic
+Fig. 3 shows the optical power of the resulting TWM beam
+strated by injecting two 10-GHz sinusoidally modulated optical
+three-wave mixing (TWM).
+(763 nm), therefore easily separated from the infrared input sig-
+F. Gómez Agis, C. Ware, and D. Erasme are with Communications and
+the input signal. The latter is produced by a tunable laser set
+TWM in PPLN. This device successfully recovers clock from
+“10 GHz clock recovery using an opto-electronic phase-locked loop
+speciﬁed in [7]; and the tracking bandwidth varies between 6
+this setup should withstand pseudorandom binary sequence
+difference between said clock
+On the other hand, if the PLL is locked in
+nm
+vol. 2, Paper CI3-4-MON.
+time delay to account for the loop length), and
+are not equal, the
+out by the photodetector, whose bandwidth is only a few tens of
+We have demonstrated an optoelectronic PLL based on
+nW from the TWM beam
+Fig. 1. PLL basic scheme.
+as new experimental results: phase comparison using TWM in
+the operation of the PPLN as phase comparator for sinusoidal
+a 10-GHz sinusoidal signal.
+modulators [4] have been previously demonstrated.
+gain
+PPLN is passive, it generates no ampliﬁed spontaneous emis-
+The operation of the PPLN as a phase comparator is demon-
+[1] O. Kamatani and S. Kawanishi, “Ultrahigh-speed clock recovery with
+for subclock recovery), the error signal is con-
+This scheme being based on ultrafast nonlinear effects, it
+sion noise; in addition, the error signal is in the visible range
+After a brief reminder of current clock recovery methods and
+Digital Object Identiﬁer 10.1109/LPT.2006.877586
+as to tune the VCO’s operating point.
+using different wavelengths, or a PPLN sample with a higher
+input signals. Clock recovery is performed on a 10-GHz sinusoidal
+basic blocks of a PLL can be recognized: VCO, mixer, and loop
+In the clock recovery experiment, we estimate
+drives the VCO, which closes the loop.
+response. A full analysis is outside the scope of this letter, but
+in a periodically poled lithium niobate (PPLN) device provides
+In this letter, we present an optoelectronic PLL where three-
+diode ampliﬁer,” J. Lightw. Technol., vol. 14, no. 8, pp. 1757–1767,
+Langhorst, R. Ludwig, and H. Weber, “320 Gbit/s clock recovery with
+should be able to reach still higher bit rates, on the order of sev-
+sizer clock and the recovered clock. The latter clock’s spectrum
+and
+F. Gómez Agis was supported by a scholarship from CONACYT—Mexico.
+clock pulse trains. This behavior, therefore, mimics that of an
+is generated by a voltage-controlled oscillator (VCO), driven
+V; with
+eral hundred gigabits per second. Also, as noted in Section III,
+or optoelectronic clock recovery methods are being studied. This
+the time delay between them.
+
+Clock was successfully recovered on a 10-GHz sinusoidal
+The PLL is locked in; the electrical clock jitter can be es-
+(cid:127)
+megahertz.)
+1460
+blind it. This error signal’s envelope depends on the input and
+[7] J. Rutman, “Characterization of phase and frequency instabilities in
+point is tuned by a dc voltage shifter. Its output drives the elec-
+(or even
+the phase comparator. Since PPLN is passive, it generates no
+beam at 763 nm, detected by a silicon avalanche photodetector,
+placed outside the loop, decreasing its length, thus improving
+ﬁer’s gain,
+1462
+in Section IV-A.
+photodetector output signal bears a low-frequency component at
+The VCO is a standard electronic oscillator. Its operating
+in the visible (763 nm), therefore easily separated from infrared
+40-to-10 GHz), without modiﬁcations. The corresponding ex-
+vol. 66, no. 9, pp. 1048–1075, Sep. 1978.
+frequency is a multiple of the clock frequency; therefore, we an-
+[3] C. Ware and D. Erasme, “30 GHz sub-clock recovery using an opto-
+the ampli-
+nW gives a total loop
+Supposing that the input and clock signal are sinusoidal, and
+REFERENCES
+semiconductor optical ampliﬁers [1]–[3] or electroabsorption
+Electronics Department, École Nationale Supérieure des Télécommunications
+that the phase comparator has a sinusoidal response, these sig-
+GHz, ampliﬁed by an erbium-
+tivity
+L. J. Christiansen, “Clock recovery for 320 Gb/s OTDM data using
+Paper CI3-5-MON.
+B. Clock Recovery
+insensitive to the infrared input signals which would otherwise
+modulator as phase comparator,” in OFC, Anaheim, CA, Mar. 2005,
+around 10 GHz.
+scheme should be able to reach still higher bit rates, on the order
+letter presents an optoelectronic PLL where three-wave mixing
+V. CONCLUSION
+precision frequency sources: Fifteen years of progress,” Proc. IEEE,
+(1e)
+posed, which agrees with our preliminary results [5] as well
+(2)
+(GET/Télécom Paris), CNRS LTCI (UMR 5141), 75634 Paris Cedex 13,
+same loop gain would be achieved for the same average input
+the
+, which results from ﬁltering and amplifying the output
+experiment.
+[4] C. Boerner, V. Marembert, S. Ferber, C. Schubert, C. Schmidt-
+nals can be modelled as [6]
+if the loop ﬁlter does not include an integrator, the max-
+Fig. 4. Recovered clock and signal. (a) Input signal, triggered by generator.
+demonstration of the use of PPLN for clock recovery.
+value, we used an EDFA to amplify the beam at 1550 nm, which
+CLEO, Long Beach, CA, May 2006, Paper JWB34.
+for reasons of source availability had to be the clock signal;
+PPLN, and successful clock recovery from a 10-GHz sinusoidal
+troabsorption modulator of an integrated laser and modulator
+Systems using four-wave mixing or cross-phase modulation in
+phase difference between them. The equation which describes
+[2] L. K. Oxenløwe, P. Jeppesen, D. Zibar, M. Galili, A. T. Clausen, and
+The authors would like to thank their colleague H. Teimoori
+Fakultät für Naturwissenschaften Department Physik, Angewandte Physik,
+GHz by an external modulator.
+optical signal. Fig. 4(a) and (b) shows a sampling oscilloscope
+ﬁltering-assisted XPM in an SOA,” in CLEO/Eur., Munich, Germany,
+(1a)
+(PPLN) device provides the phase comparator operation. Since
+phase-locked loops (PLLs) at higher bit rates, several all-optical
+Fausto Gómez Agis, Cédric Ware, Didier Erasme, Raimund Ricken, Viktor Quiring, and Wolfgang Sohler
+determined by the loop ﬁlter’s response time.
+and 11 kHz, which is of the order of the loop gain determined
+optical signal. Being based on ultrafast nonlinear effects, this
+ticipate this scheme to be capable of subclock extraction (e.g.,
+power (requiring twice as much power in the 1’s if half the bits
+as a function of this phase offset.
+ACKNOWLEDGMENT
+Fig. 3. TWM error signal for two 10-GHz sinusoidal signals as a function of
+The PLL basic scheme is illustrated in Fig. 1. The clock
+where
+(ILM) at
+power. Associated with a photodetector sensitivity
+nm . That beam is sinusoidally modulated at
+It is to be noted that in order to bring the loop’s gain to a useful
+imum lock bandwidth is twice the loop gain;
+ampliﬁed spontaneous emission noise; also, the error signal is
+ON–OFF keying modulation of the input signal. The loop ﬁlter
+autocorrelator.
+. (Other components, at the sum frequency, are ﬁltered
+so as to be synchronous, and a delay line is used to create a
+is the phase comparator’s sensitivity,
+CLOCK recovery is a critical function of any digital com-
+ulated at a frequency
+GÓMEZ AGIS et al.: 10-GHz CLOCK RECOVERY USING AN OPTOELECTRONIC PLL BASED ON TWM IN PPLN
+of several hundred gigahertz. Also, subclock extraction (e.g.,
+Index Terms—Clock recovery, optical signal processing, period-
+doped ﬁber ampliﬁer (EDFA). This forms the clock signal.
+optical signal.
+ﬁlter.
+(1d)
+1041-1135/$20.00 © 2006 IEEE
+Hz and a tracking bandwidth between 12 and
+nm so as to match the wavelength where the
+The PLL’s behavior depends on the loop gain and the ﬁlter’s
+The clock signal is coupled into a 3-dB coupler along with
+two basic results can be used:
+1461
+[6] A. Blanchard, Phase-Locked Loops: Application to Coherent Receiver
+(1b)
+regenerating the signal. It is traditionally performed by an elec-
+tegrating the phase comparator onto an optical circuit.
+signals into it. Both signals are driven by the same synthesizer
+the TWM-based phase comparator operates as well if the signal
+40-to-10 GHz) should be possible without modiﬁcations.
+PLLs, which use the same basic scheme, replacing the up-front
+The clock recovery system is described in Fig. 2. The three
+Abstract—Clock recovery is a critical function of any dig-
+R. Ricken, V. Quiring, and W. Sohler are with Universität Paderborn,
+this yields a phase comparator sensi-
+wave mixing (TWM) in a periodically poled lithium niobate
+and the input signal
+are 0’s). Likewise, resistance to a long string of zeros would be
+nW and
+nals at higher bit rates, electronic devices become a bottleneck.
+the longer the loop and the higher its gain, the less stable
+ductor optical ampliﬁer,” in CLEO/Eur., Munich, Germany, Jun. 2005,
+trace of the input signal triggered, respectively, by the synthe-
+stant, and its level depends on the delay between the input and
+Periodically Poled Lithium Niobate
+France (e-mail: fausto.gomez@enst.fr; cedric.ware@enst.fr).
+(1c)
+periments remain to be done.
+electro-optical PLL using a bidirectionally operated electroabsorption
+munications system, required for receiving and possibly
+IEEE PHOTONICS TECHNOLOGY LETTERS, VOL. 18, NO. 13, JULY 1, 2006
+II. GENERAL PLL PRINCIPLES
+Therefore, numerous all-optical or optoelectronic clock
+A. Phase Comparator Using TWM
+phase lock loop based on four-wave mixing in a traveling-wave laser
+based on three-wave mixing in periodically-poled lithium niobate,” in
+D-33098 Paderborn, Germany.
+at
+Aug. 1996.
+ically poled lithium niobate (PPLN), phase-locked loops (PLLs),
+Clock recovery of a data-modulated signal has not yet been
+of a phase comparator, which in turn measures the phase
+its stability. The loop length could be minimized further by in-
+Upon injection into the PPLN, these signals generate a TWM
+Manuscript received March 9, 2006; revised April 21,2006. The work of
+PPLN performs a sum-frequency generation:
+for his assistance in the phase comparator experiment.
+.
+VCO’s natural frequency and sensitivity. The loop gain is de-
+Fig. 2. Optoelectronic PLL basic scheme. Illustrates the three basic PLL blocks (VCO, mixer, and ﬁlter): The “VCO” includes an integrated laser and modulator,
+the loop is.
+This comparator’s output is low-pass ﬁltered and shifted, then
+III. OPTOELECTRONIC PLL SETUP
+inputs is
+nm. Thus one has an optical signal, mod-
+Jun. 2005, Paper CI3-4-MON.
+frequency doubling wavelength, would allow the EDFA to be
+electronic phase-locked loop based on four-wave mixing in a semicon-
+timated at 6.6 ps by integragting the pedestal on Fig. 4(c) as
+Phase-Locked Loop Based on Three-Wave Mixing in
+Another experiment with
+[5] F. G. Agis, C. Ware, D. Erasme, R. Ricken, V. Quiring, and W. Sohler,
+making its output an optical pulse train; the “mixer” is based on TWM in the PPLN, detected by a silicon photodetector; the “ﬁlter” includes a voltage shifter so
+by
+IV. EXPERIMENTAL RESULTS
+ital communications system. To replace the classical electronic
+the ﬁlter’s impulse response (possibly including a
+ﬁned as
+V/W,
+Hz.
+16 kHz, which also shows an agreement between theory and
+attempted, but earlier SOA-based experiments [3] indicate that
+nals by a silicon photodetector. To our knowledge, it is the ﬁrst
+is shown Fig. 4(c).
+I. INTRODUCTION
+tronic phase-locked loop (PLL); however, to process optical sig-
+Design. New York: Wiley, 1976.
+clock signals’ intercorrelation—in the same way as in an optical
+mixer or phase comparator by a nonlinear optical device.
+PLL principles, our setup is described. An analysis is then pro-
+10-GHz Clock Recovery Using an Optoelectronic
+bandwidth being small compared to the clock frequency, the
+If the modulation frequencies
+electrical mixer, which can act as a phase comparator.
+(b) Input signal, triggered by recovered clock. (c) Recovered clock spectrum
+Hz/V, we have a total loop gain
+recovery methods are being researched, notably optoelectronic
+Fig. 3 shows the optical power of the resulting TWM beam
+strated by injecting two 10-GHz sinusoidally modulated optical
+three-wave mixing (TWM).
+(763 nm), therefore easily separated from the infrared input sig-
+F. Gómez Agis, C. Ware, and D. Erasme are with Communications and
+the input signal. The latter is produced by a tunable laser set
+TWM in PPLN. This device successfully recovers clock from
+“10 GHz clock recovery using an opto-electronic phase-locked loop
+speciﬁed in [7]; and the tracking bandwidth varies between 6
+this setup should withstand pseudorandom binary sequence
+difference between said clock
+On the other hand, if the PLL is locked in
+nm
+vol. 2, Paper CI3-4-MON.
+time delay to account for the loop length), and
+are not equal, the
+out by the photodetector, whose bandwidth is only a few tens of
+We have demonstrated an optoelectronic PLL based on
+nW from the TWM beam
+Fig. 1. PLL basic scheme.
+as new experimental results: phase comparison using TWM in
+the operation of the PPLN as phase comparator for sinusoidal
+a 10-GHz sinusoidal signal.
+modulators [4] have been previously demonstrated.
+gain
+PPLN is passive, it generates no ampliﬁed spontaneous emis-
+The operation of the PPLN as a phase comparator is demon-
+[1] O. Kamatani and S. Kawanishi, “Ultrahigh-speed clock recovery with
+for subclock recovery), the error signal is con-
+This scheme being based on ultrafast nonlinear effects, it
+sion noise; in addition, the error signal is in the visible range
+After a brief reminder of current clock recovery methods and
+Digital Object Identiﬁer 10.1109/LPT.2006.877586
+as to tune the VCO’s operating point.
+using different wavelengths, or a PPLN sample with a higher
+input signals. Clock recovery is performed on a 10-GHz sinusoidal
+basic blocks of a PLL can be recognized: VCO, mixer, and loop
+In the clock recovery experiment, we estimate
+drives the VCO, which closes the loop.
+response. A full analysis is outside the scope of this letter, but
+in a periodically poled lithium niobate (PPLN) device provides
+In this letter, we present an optoelectronic PLL where three-
+diode ampliﬁer,” J. Lightw. Technol., vol. 14, no. 8, pp. 1757–1767,
+Langhorst, R. Ludwig, and H. Weber, “320 Gbit/s clock recovery with
+should be able to reach still higher bit rates, on the order of sev-
+sizer clock and the recovered clock. The latter clock’s spectrum
+and
+F. Gómez Agis was supported by a scholarship from CONACYT—Mexico.
+clock pulse trains. This behavior, therefore, mimics that of an
+is generated by a voltage-controlled oscillator (VCO), driven
+V; with
+eral hundred gigabits per second. Also, as noted in Section III,
+or optoelectronic clock recovery methods are being studied. This
+the time delay between them.
+
+reduction option is the most credible solution to limit the impact of XPM and XPolM in such legacy infrastructure. Nonetheless, we do 
+1France Telecom, Orange Labs, 2 Avenue Pierre Marzin, 22307 Lannion, France, mehrez.selmi@orange.com 
+with  a  multiplex  of  79  wavelengths  spaced  by  50  GHz  and  modulated  at  10.7  Gbps  by  NRZ-OOK.  Like  previously,  the  DP-QPSK 
+free (a) and legacy (b) system infrastructure. 
+In the second configuration (described in Fig.1b), one  channel at 1548.11 nm carrying a 112 Gbps DP-QPSK signal is combined 
+embedded  into  a  real-time  oscilloscope  (DPO).  The  "off-line"  digital  signal  processing  (DSP)  is  then  performed  with  four  basic  steps: 
+transmission line. The second option consists in upgrading legacy system infrastructure at 100 Gbps through the insertion of DP-QPSK 
+channels into the existing dispersion-managed 10 Gbps NRZ-based WDM system. 
+line  carrying  only  100  Gbps  DP-QPSK  channels.  The  optical  link  is  made  of  10  spans  of  G.652  standard  single-mode  fibre  (SSMF), 
+E. Pincemin1, J. Karaki1, M. Selmi1, D. Grot1, T. Guillossou1, C. Gosset2, Y. Jaouen2, P. Ciblat2 
+the optical link. Our first configuration reproduces the "greenfield" deployment strategy, which consists in using a DCF-free transmission 
+not recover the BER obtained in the SC configuration, in which intra-channel nonlinearities only are excited. Note that no error has been 
+Attenuator), RS (Reed-Solomon), ODL (Optical Delay Line), PBC/S (Polarization Beam Combiner / Splitter) 
+modulated  with  decorrelated  231-1  PRBS,  and  then  coupled  with  the  100  Gbps  DP-QPSK  channel.  The  dispersion-managed  (DM) 
+Coherent  Dual-Polarization  Quadrature  Phase  Shift  Keying  (DP-QPSK)  is  today  the  industrial  solution  for  100  Gbps long-haul WDM 
+DP-QPSK and 10 Gbps NRZ  channels. By reducing  significantly the power  of 10 Gbps wavelengths  with respect to  that of  100 Gbps 
+WDM  system.  We  show  that  100  Gbps  DCF-free  transmission  over  1000  km  is  error-free,  while  legacy 
+236
+978-1-4577-0733-9/12/$26.00 ©2012 IEEE
+[5] C. Xie, Opt. Express, Vol. 17, n°6, pp. 4815-4823 (2009) 
+increasing the GB width from 100 GHz to 150 GHz does not further improve transmission performance. 
+permits  to  recover  system  margins  and  to  ensure  an  error-free  1000-km  transmission,  confirming  that  the  10 Gbps  channel  power 
+channel is fed by an ECL, while the 79 NRZ channels at 10.7 Gbps are fed by standard laser diodes (LD). The 79 odd and even 10 Gbps 
+ps/nm the cumulated dispersion of the channel at 1550 nm. 
+transmission  line  shown  in  Fig.1b  is  constituted  of  a  pre-compensation  stage  of  -1000  ps/nm  at  1550  nm,  followed  by  ten  spans  of 
+channels  are  firstly  encoded  thanks  to  a  RS(255,239)  forward  error  correction  (FEC)  code,  separately  multiplexed,  independently 
+100 Gbps DCF-free transmission over 1000 km is error-free, while legacy system is not able to carry over 1000 km a mix of 100 Gbps 
+(LO).  The  signal  is  converted  back  to  the  digital  domain  thanks  to  4  analogue-to-digital  converters  (ADC)  operating  at  50  GSa/s  and 
+At the receiver side, the 100 Gbps DP-QPSK signal at 1548.11 nm is selected by a square flat-top optical band-pass filter (OBPF) 
+enhanced  of  3  dB  when  compared  to  the  "No  GB"  configuration,  pointing  out  a  better  robustness  to  nonlinearities.  This  configuration 
+100 Gbps DP-QPSK transmission over legacy dispersion-managed system infrastructure carrying 10 Gbps NRZ channels (b), with VOA (Variable Optical 
+2 Institut Télécom, Télécom ParisTech, CNRS UMR 5141, 46 Rue Barrault, 75634 Paris, France 
+channels is increased up to 112 Gbps. Only one 100 Gbps DP-QPSK channel is fed by an external cavity laser (ECL) at 1548.11 nm to 
+for  100  Gbps  long-haul WDM  transmission  over  DCF-free  and  legacy  infrastructure  supporting  a  10  Gbps 
+measured 100 Gbps channel ("GB=100 GHz" & "GB=150 GHz" configurations), has been tested. This option slightly improves the BER 
+237
+significantly (by 5 dB) the 10 Gbps channel power with respect to the  power of 100 Gbps channels. 
+km  of  G.652  fiber  line,  as  BERs  largely  exceed  the  FEC  limit.  In  order  to  limit  the  impact  of  cross-phase  modulation  (XPM)  and  its 
+system is not able to carry over 1000 km a mix of 100 Gbps DP-QPSK and 10 Gbps NRZ channels. 
+channels, error-free transmission is fortunately recovered. 
+the curves of Fig.2b. 
+cross-polarization modulation (XPolM) corollary between the 10 Gbps NRZ channels and the 100 Gbps one [5], a first scheme consisting 
+several  schemes  have  been  investigated.  Firstly,  no  guard  band  (GB)  is  inserted  between  our  100  Gbps  channel  and  the  10  Gbps 
+G.652 fibre. 100 Gbps DP-QPSK transmission over legacy infrastructure is also possible over 1000 km under the condition to decrease 
+ 
+channels are separately multiplexed, independently modulated, and then combined together thanks to a coupler before being injected into 
+5 dB with respect to that of the 100 Gbps signal ("P(100G)-P(10G)= 5 dB" configuration). This solution improves significantly the BER 
+modulator  (CMZM)  which  generates  QPSK  constellation.  A  10-ns  timing  delay  is  introduced  between  the  two  replica  of  the  QPSK 
+done  by  the  methods  described  in  [3-4].  To  avoid  cycle  slips,  the  detection  is  differential.  The  10.7  Gbps  NRZ  channel  under 
+Abstract: We experimentally compare over 1000 km of G.652 fiber the performance of coherent DP-QPSK 
+transport [1]. Two strategies are envisaged by the network operators to deploy the 100 Gbps technology. The "greenfield" deployment is 
+for 100 Gbps long-haul WDM transmission over DCF-free and legacy infrastructure supporting a 10 Gbps WDM system. We show that 
+[2] S.J. Savory, Opt. Express, Vol. 16, n°2, pp. 804-817 (2008). 
+100 Gbps DP-QPSK Performance over DCF-Free and 
+DSP  is  based  on  blind  equalization,  and  more  particularly  on  the  constant  modulus  algorithm  (CMA)  which  carries  out  polarization 
+QPSK channel. The second one  ("with 10G" configuration) corresponds to the experimental set-up already described above, for which 
+Then,  provided  that  the  10 Gbps  NRZ  channels  have  an  advantage  of  5  dB  in  terms  of  back-to-back  OSNR  sensitivity  over  the 
+In  the  first  configuration  investigated  here  (described  in  Fig.1a),  a  multiplex  of  80  wavelengths  spaced  by  50  GHz  and  modulated  at 
+In this paper, we compare through transmission experiments over 1000 km of G.652 fiber the performance of coherent DP-QPSK 
+[4] A. Leven et al., IEEE Photon. Technol. Lett., Vol. 19, n° 6, pp.366-368 (2007). 
+TuE2 (Contributed Oral)
+in inserting a guard band of 100 GHz and 150 GHz, corresponding to one and two 10 Gbps channels switched off from each side of the 
+of  0.4  nm  bandwidth,  and  detected  by  a  polarization  diversity  coherent  receiver  using  a  ~100  kHz  bandwidth  ECL  as  local  oscillator 
+for PIN SPAN ~ +1 dBm in the SC configuration. In the WDM configuration, the lowest BER (~ 6x10-5) is reached for PIN SPAN ~ 0 dBm. 
+[1] Alcatel-Lucent 1830 PSS  brochure, www.alcatel-lucent.com; Ciena 6500 product data sheet, www.ciena.com. 
+detected for the two 10 Gbps nearest neighbors of the 100 Gbps DP-QPSK channel, at the optimum span input power per channel over 
+100 Gbps DP-QPSK signal near the FEC limit (BER ~ 1x10-3 for an OSNR (0.1 nm) ~ 11 dB for 10 Gbps NRZ-OOK / BER ~ 1x10-3 for 
+signal  into  the  polarization-multiplexing  module  in  order  to  generate  the  DP-QPSK  signal.  The  100 Gbps  DP-QPSK  odd  and  even 
+This work has been partly supported by the "FUI9 100GRIA" project of the "Pôle de Compétitivité Systematic".  
+separated by Erbium-doped fibre amplifiers (EDFA) with 20 dB gain and 5.5 dB noise figure. In the middle of our transmission line, a 
+Figure 1: Experimental set-up for the two configurations under study: 100 Gbps DP-QPSK transmission over DCF-free system infrastructure (a), 
+100 Gbps  by  DP-QPSK  is  implemented.  With  the  7%  Forward  Error  Correction  (FEC)  overhead,  the  global  data  rate  of  DP-QPSK 
+and a 10.7 GHz clock and data recovery (CDR). The FEC card sends the decoded 231-1 PRBS to a 9.95 Gbps bit-error-rate tester (BERT). 
+diodes (LD). Decorrelated 215-1 pseudo-random bit sequences (PRBS) are used to drive the I and Q ports of the complex Mach-Zehnder 
+QPSK  channel  at  1548.11  nm  is  plotted  as  a  function  of  the  span  input  power  per  channel  (PIN  SPAN).  In  the  "single-channel"  (SC) 
+Legacy System Infrastructure 
+9:00 AM – 9:15 AM
+of  the  100  Gbps  DP-QPSK  channel:  nearly  one  decade  is  gained.  In  the  same  time,  the  optimum  span  input  power  per  channel  is 
+The performance of the DCF-free transmission configuration is summarized in Fig.2a, in which the bit-error rate (BER) of the DP-
+2. Experimental set-up and results 
+measurement is selected by a Gaussian OBPF of 0.25 nm bandwidth, detected by a 10 GHz photo-receiver, which feds the FEC decoder 
+(fixed here at 2x10-3): the 1000 km DCF-free 100 Gbps transmission over the G.652 fibre is thus fully error-free.  
+We  have  shown  here  that  "greenfield"  DCF-free  system  infrastructure  is  the  most  efficient  for  100  Gbps  DP-QPSK  transmission  over 
+The  SC  and  WDM  performance  of  the  100  Gbps  DP-QPSK  system  for  this  DCF-free  infrastructure  is  thus  well  below  the  FEC  limit 
+dynamic gain equalizer (DGE) is inserted in order to flatten the multiplex power after 1000 km. 
+100 km of G.652 fibre, separated by double-stage EDFAs with 30 dB  gain and 5.5 dB noise figure, whose inter-stage is equipped with 
+dispersion compensation  module  (DCM) adapted to 90-km SSMF spans. A  post-compensation stage  of -700  ps/nm brings back to  ~ 0 
+OCIS codes: (060.0060) Fiber Optics and Optical Communications; (060.1660) Coherent Communications. 
+separation  and  residual  chromatic  dispersion  (CD)  compensation  [2].  Frequency  offset  compensation  and  carrier  phase  estimation  are 
+Figure 2: BER versus span input power per channel after the 10x100-km G.652 fibre line of the 112 Gbps DP-QPSK channel at 1548.11 nm for the DCF-
+the first  option, for which a  100 Gbps WDM system implementing up  to  eighty  DP-QPSK  channels only is  installed  over a  DCF-free 
+multiplex ("No GB" configuration). As observed in Fig.2b for this scheme, the 100 Gbps DP-QPSK channel do not work after 10x100 
+configuration) used as reference, the wavelengths were not modulated except the channel at 1548.11 nm, which carries the 100 Gbps DP-
+configuration, the 79 neighbors of the DP-QPSK channel under measurement are not modulated. The optimal BER (~ 1x10-5) is obtained 
+[3] D.S. Ly-Gagnon et al., J. Lightwave Technol., Vol. 24, n° 2, pp.12-21 (2008) 
+1. Introduction 
+an OSNR (0.1 nm) ~ 16 dB for 100 Gbps DP-QPSK), we have intentionally reduced, in the transmitter, the 10 Gbps channel power of 
+3.  Conclusions  
+Two various configurations have been evaluated in Fig.2b for the case of legacy infrastructure. In the first one ("Single-Channel" 
+limit the impact of laser phase noise, while the 79 other channels ranging from 1529.16 nm to 1560.61 nm are fed by cheap standard laser 
+of the 100 Gbps channel while increasing its optimum span input power, but not sufficiently to be below the FEC limit. Note as well that 
+
+(C) 2006 OSA
+022317 (2003).
+FWHM based for example on photomultiplier tubes may soon become available. This will open
+References and links
+tion signal provided locally using a short electric line between Alice and Bob was sufﬁcient,
+attacks is taken into account. For implementations of the BB84 protocol [7] with a Poisson
+showed that the improved timing jitter characteristics of the detectors allowed us to signif-
+of the IEEE International Conference on Computers, Systems, and Signal Processing, Bangalore, India, (IEEE,
+protocol, namely error correction and privacy ampliﬁcation, with appropriate algorithms rather
+Eleni Diamanti1, Hiroki Takesue 2,3, Carsten Langrock1,
+14. K. Inoue, E. Waks and Y. Yamamoto, “Differential Phase Shift Quanum Key Distribution,” Phys. Rev. Lett. 8
+at the same time guaranteeing its security against the most general individual eavesdropping
+multiplexing of the quantum and clock signals in the same transmission ﬁber using different
+16. E. Diamanti, H. Takesue, T. Honjo, K. Inoue and Y. Yamamoto, “Performance of various quantum-key-
+3CREST, Japan Science and Technology Agency, 4-1-8 Honcho, Kawaguchi, Saitama,
+6. D. Rosenberg, J. W. Harrington, P. R. Rice, P. A. Hiskett, C. G. Peterson, R. J. Hughes, J. E. Nordholt, A. E. Lita
+145–195 (2002).
+cols. Often the average photon number per pulse is set to the arbitrary value 0.1, which is not
+Phys. Lett. 8
+telecom ﬁbre,” Electron. Lett. 40, 1603–1605 (2004).
+the result of a security proof. In the best cases, only a limited set of potential eavesdropping
+state BB84 protocol [12, 13], which achieved secure key distribution over 107 km and 60 km
+generation rate with a corresponding secure key generation rate of 0.468 Mbit/s over 10 km of
+in a practical system remote synchronization will be mandatory, and will probably involve
+9. G. Brassard, N. L¨utkenhaus, T. Mor and B. C. Sanders, “Limitations on Practical Quantum Cryptography,” Phys.
+vide the phase modulation signal will need to be replaced by a true random number generator,
+and silicon avalanche photodiodes. Based on the security analysis of the
+distribution systems using 1.55-µm up-conversion single-photon detectors,” Phys. Rev. A 72, 052311 (2005).
+230504 (2005).
+New York, 1984), 175–179.
+and S. W. Nam, “Long distance decoy state quantum key distribution in optical ﬁber,” quant-ph/0607186 (2006).
+system ready for practical implementation in a network will require some important additional
+© 2006 Optical Society of America
+4. H. Takesue, E. Diamanti, T. Honjo, C. Langrock, M. M. Fejer, K. Inoue and Y. Yamamoto, “Differential phase
+Cryptology 5, 3–28 (1992).
+photon detection at communication wavelengths by use of upconversion in reverse-proton-exchanged periodi-
+the generated keys against general eavesdropping attacks, despite the fact that security proofs
+25 December 2006 / Vol. 14,  No. 26 / OPTICS EXPRESS  13074
+source this set usually does not include the powerful photon number splitting attack, rendering
+jitter up-conversion detectors
+protocol against general individual attacks, we generated secure keys at a
+100 km differential phase shift quantum
+timing jitter characteristics of the Si APDs. The dark counts caused by noise photons generated
+these systems, however, featured a very small secure key generation rate, which prevents their
+DAAD19-03-1-0199).
+#74039 - $15.00 USD
+support was provided by the SORST program of Japan Science and Technology Agency
+generation rate and the bit error rate. Finally, although in our experiment a clock synchroniza-
+photon number splitting attacks [4, 16, 17]. In this implementation, the security analysis against
+ton number splitting attacks, was taken into account. Although it is important to demonstrate a
+1Edward L. Ginzton Laboratory, Stanford University, Stanford, California 94305-4088
+splitting attack,” Phys. Rev. A 71, 042305 (2005).
+9,
+230503 (2005).
+(JST), the National Institute of Information and Communications Technology (NICT) of
+via spontaneous Raman scattering can be reduced by using a shorter signal wavelength
+7. C. H. Bennett and G. Brassard, “Quantum cryptography: Public key distribution and coin tossing,” in Proceedings
+by quantum mechanics were distributed over 100 km of optical ﬁber. We
+icantly increase both the key distribution rate and distance of the DPS-QKD system, while
+light-wave circuit Mach-Zehnder interferometer,” Opt. Lett. 29, 2797–2799 (2004).
+dividual attacks and their distribution over 50 km of optical ﬁber using the BB84 protocol with
+21. H. Takesue, E. Diamanti, C. Langrock, M. M. Fejer and Y. Yamamoto, “10-GHz clock differential phase shift
+2. N. Gisin, G. Ribordy, W. Tittel and H. Zbinden, “Quantum cryptography,” Rev. Mod. Phys. 7
+Most of the previous experiments, however, have not been able to guarantee the security of
+rate was reported in [10]. Furthermore, [6] and [11] reported implementations of the decoy
+key distribution experiment with low
+distribution over 60 km telecom ﬁber,” Proc. IEEE Int. Symp. Inf. Theor. 2006, 2094–2098.
+3762–3764 (2004).
+15. K. Inoue, E. Waks and Y. Yamamoto, “Differential-phase-shift quanum key distribution using coherent light,”
+The authors would like to thank E. Waks for useful comments and G. Kalogerakis for
+In the experiment presented in [4], we implemented the differential phase shift quantum key
+13. X.-B. Wang, “Beating the Photon-Number-Splitting Attack in Practical Quantum Cryptography,” Phys. Rev.
+10 km of ﬁber.
+practical QKD system that is secure against these realistic attacks, it is also crucial to consider
+wavelengths.
+and used low timing jitter 1.55 µm single-photon detectors based on
+to substantially reduce the effective dark counts, thus improving the signal to noise ratio and
+M. M. Fejer 1 and Yoshihisa Yamamoto
+The above results show that the quantum cryptography system we implemented achieves a
+1. C. H. Bennett, F. Bessette, G. Brassard, L. Salvail and J. Smolin, “Experimental quantum cryptography,” J.
+the way to megahertz secure key generation rates and very long distance secure communication.
+8. N. L¨utkenhaus, “Security against individual attacks for realistic quantum key distribution,” Phys. Rev. A 61,
+Japan, and the MURI Center for Photonic Quantum Information Systems (ARO/ARDA
+1330–1333 (2000).
+332-0012, Japan
+integration into practical telecommunication networks.
+led to small pulse broadening, which allowed the use of a short measurement time window
+jitter up-conversion detectors for telecom wavelength GHz QKD,” New J. Phys. 8, 32 (2006).
+tance and the highest possible communication rate. The rapid progress in the ﬁeld has re-
+243-0198, Japan
+2NTT Basic Research Laboratories, NTT Corporation, 3-1 Morinosato Wakamiya, Atsugi,
+frequency up-conversion in periodically poled lithium niobate waveguides
+optical ﬁber, and secure key distribution over 100 km of ﬁber at a rate of 166 bit/s, which is two
+detectors also increased the sifted key generation rate to 2 Mbit/s over
+19. C. Langrock, E. Diamanti, R. V. Roussev, Y. Yamamoto, M. M. Fejer and H. Takesue, “Highly efﬁcient single-
+a limited set of eavesdropping attacks, in particular the beamsplitter, intercept-resend and pho-
+characteristics of the up-conversion detectors employed in the system. These characteristics
+OCIS codes: (270.0270) Quantum optics; (270.5570) Quantum detectors
+17. K. Inoue and T. Honjo, “Robustness of differential-phase-shift quanum key distribution against photon-number-
+Phys. Rev. A 6
+11. Y. Zhao, B. Qi, X. Ma, H.-K. Lo and L. Qian, “Simulation and implementation of decoy state quantum key
+12. H.-K. Lo, X. Ma and K. Chen, “Decoy State Quantum Key Distribution,” Phys. Rev. Lett. 9
+frequency [3, 4] and extended the key distribution distance to more than 100 km [4, 5, 6].
+5,
+10. C. Gobby, Z. L. Yuan and A. J. Shields, “Unconditionally secure quantum key distribution over 50 km of standard
+quantum key distribution experiment,” Opt. Express 14, 9522–9530 (2006).
+1
+operate in a standard telecommunication network. However, the realization of a full scale QKD
+while it is also necessary to perform the classical data post-processing steps of the DPS-QKD
+of ﬁber using superconducting transition-edge sensors and InGaAs/InP APDs, respectively. All
+decreasing the bit error rate.
+than calculating the secure key generation rate using the experimental values of the sifted key
+orders of magnitude higher than previously reported values. The system’s capabilities can be
+elements. In particular, the pseudo-random number generator used in the experiment to pro-
+18. E. Waks, H. Takesue and Y. Yamamoto, “Security of differential-phase-shift quantum key distribution against
+a Poisson source and InGaAs/InP avalanche photodiodes (APDs) with a very small dark count
+Acknowledgements
+Lett. 9
+further extended by improving the dark count behavior of the up-conversion detectors and the
+cally poled LiNbO3 waveguides,” Opt. Lett. 30, 1725–1727 (2005).
+phase shift quantum key distribution protocol with low jitter up-conversion detectors. We
+25 December 2006 / Vol. 14,  No. 26 / OPTICS EXPRESS  13082
+Introduction
+individual attacks,” Phys. Rev. A 73, 012344 (2006).
+25 December 2006 / Vol. 14,  No. 26 / OPTICS EXPRESS  13073
+5. C. Gobby, Z. L. Yuan and A. J. Shields, “Quantum key distribution over 122 km of standard telecom ﬁber,” Appl.
+shift quantum key distribution experiment over 105 km ﬁbre,” New J. Phys. 7, 232 (2005).
+implemented the differential phase shift quantum key distribution protocol
+3. T. Honjo, K. Inoue and H. Takahashi, “Differential-phase-shift quanum key distribution experiment with a planar
+making quantum cryptography practical by achieving the longest possible communication dis-
+037902 (2002).
+1.
+5. Conclusion
+than pump wavelength, while single-photon detectors with a Gaussian response and narrow
+8,
+We presented a quantum key distribution experiment, in which we implemented the differential
+these systems ultimately insecure [8, 9]. Generation of keys that were secure against general in-
+have been numerous efforts toward the implementation of such systems [2] with the goal of
+052304 (2000).
+Since the ﬁrst demonstration of a quantum key distribution (QKD) system in 1992 [1], there
+ediam@stanfordalumni.org
+keys that were secure against all individual eavesdropping attacks allowed
+distribution (DPS-QKD) protocol, which uses a Poisson light source [14, 15] but is robust to
+Rev. Lett. 8
+practical rate of 166 bit/s over 100 km of ﬁber. The use of the low jitter
+20. R. T. Thew, S. Tanzilli, L. Krainer, S. C. Zeller, A. Rochas, I. Rech, S. Cova, H. Zbinden and N. Gisin, “Low
+cently led to the implementation of ﬁber-based QKD systems that operated at 1 GHz clock
+providing the conditions required for unconditional security exist for the implemented proto-
+attacks allowed by quantum mechanics. With this system we achieved a 2 Mbit/s sifted key
+Abstract: We present a quantum key distribution experiment in which
+providing ﬁber spools and electronic components. H. Takesue also thanks T. Honjo and Y.
+Tokura for helpful discussions and support during his stay at Stanford University. Financial
+sufﬁciently high communication rate and a long enough communication distance to be able to
+Received 14 August 2006; revised 8 November 2006; accepted 8 November 2006
+4,
+
+Difference-of-Arrival  (FDOA).  The  architecture,  the  technique  and  the  system  performance  are  presented  in  this  paper  which  is 
+The realized Indoor Localization System (ILS) is shown in Fig 2; the active-Tag and LBS are shown on the left and right sides, 
+linearly swept sinusoidal FMCW signal covering the 6-7 GHz (∆f=1GHz) frequency is generated with a sweep time, Tm=10 msec, 
+Another  drawback  is  that  the  number  of  known  references/anchors  and  their  positions  play  an  important  role  in  the  localization 
+The  Active-Tag  is  used  as  a  remote  active-reflector.  It  includes  a  frequency  down-converter  (1.5GHz),  two  amplifiers,  two 
+Antenna 
+and  active-Tag  will  help  in  reducing  the  mutual  coupling  among  the  antennas  at  the  LBS  as  well  as  in  suppressing  the  strong 
+Introduction 
+                      
+European UWB Band  
+active-Tag. The up-conversion is done with a Local Oscillator (1.5 GHz) and a mixer.   Each RF chain of the LBS (two receivers 
+1.2. Technique for 2D-Measurement [7] 
+Mixer     Amplifier      Passband-Filter 
+The Indoor Localization with an accuracy under a meter-scale is a great challenge. Although, an accuracy of a meter-scale may be 
+in reducing the coupling effects among the antennas- A0, A1, & A2. The two bandpass filters ([7.5-8.5 GHz] & [6-7 GHz] frequency 
+f
+Fig. 5.  Estimated AoA and its root-mean-square error 
+Range
+bandpass  filters  (BPF),  and  a  dual  circular  polarised  antenna  [6].  The  incoming  signal,  from  A0,  is  down-shifted  by  1.5GHz 
+1-  Y. Gu, A. Lo, and I. Niemegeer, “A survey of indoor positioning systems for wireless personal networks,” IEEE Cummunications Survey & 
+LO 
+compared to other methods, like in triangulation, where a good synchronization among the different reference positions becomes a 
+q
+References 
+paths A0-Tag-A1 and A0-Tag-A2 which is computed with the help of FMCW Radar technique for the delays (TDelay1 & TDelay2) as 
+3.  Conclusion 
+Connected 
+indoor environment for the line-of-sight case with respect to a single known reference position. The estimated root-mean-square 
+ Arrival Approach”, Radio and 
+was oberved in the range estimation case (error 4.5cm), a single large error 16.6° is also present here which might be accounted 
+Application,” Antenna and Propagation (EuCAP) , pp. 1474-1478, 8-12 April 2013. 
+and one transmitter) is connected to a dedicated circular polarized antenna [4-5]. The transmitter antenna is connected to a linearly 
+for the fading because of harsh indoor conditions while rest of the data are under 10°. 
+ues 25/26 mars 2014
+(cid:32)
+Therefore, the calculation of the radial distance d between the LBS and the Tag can be done by measuring the average value of the 
+   (1) 
+Ref.Signals Mixer  Passband-Filter  Amplifier 
+Where, c is the speed of light and TDelay as the average value, respectively.  
+This paper presents  a hybrid technique for 2D position estimation of an active-Tag in a real indoor environment for a LOS case 
+measurement.  Using  a  single  known  referenc e  position  gives  a  great  advantage  in  terms  of  synchronization-free  system  as 
+Active-Tag 
+U
+m
+*
+In this paper, a hybrid 2D-Measurement technique is presented for the estimation of the remote position of an active reflector unit 
+7-  R.  Kumar,  J.  C.  Cousin,  B.  Huyart,  and  K.  Mabrouk,  “2D  Measurement  using  Interferometry  and  FMCW  Multistatic  Radar  System  for 
+2D Measurement with Single Known Reference Position for Indoor Localization in 
+signals from 6-7 GHz to baseband signals by mixing with the reference signal (generated FMCW signal, 6-7 GHz). 
+(Tag),  in  terms  of  radial  distance  and  azimuth  angle.  The  technique  is  based  on  Interferometry  and  FMCW  multistatic  radar 
+Transmitter (Tx) 
+square error is equal to 7.1° and its maximum error is 16.6°. The variation of the deviation comes from the measurement of the 
+_ 
+   (2) 
+for minimizing the multipath and back-scattering effects while utilizing a single known reference (anchor) position as LBS for 2D 
+and then this signal is up-converted to 7.5-8.5 GHz and finally amplified before being transmitted by the antenna A0 towards the 
+Similarly, the x-axis of Fig 5 shows the estimated AoA while y-axis shows the error in AoA estimation. The observed root-mean-
+ 
+2-  E.  Goldoni,  A.  Savioli,  M.  Risi,  and  P.  Gamba,  “'Experimental  analysis  of  RSSI-based  indoor  localization  with  IEEE  802.15.4,”  2010 
+3-  C. Zhang, M. Kuhn, and B. Merkl, “Accurate UWB Indoor Localization System Utilizing Time Difference of
+Wireless Symposium, pp. 515-518, 17-19 Oct. 2006.    
+d
+J
+The photo of the active-Tag shows the antenna mounted on a white-box which contains the filters and mixers as the architecture 
+and that of the transmitter-port is attached to the transmitter antenna (A0, see Fig 1-2). The transmitted antenna has used the LHCP 
+frequency. It helps in cancelling & suppressing the feedback in Tag and multipath effects produced by the radio channel as well as 
+necessary condition to obtain a good performance. Thus, the use of one known reference position makes the presented system into a 
+system  which  operates  in  the  European  UWB  frequency  band  [6-8 .5  GHz].  The  measurements  have  been  performed  in  a  real 
+application de localisation indoor,” Journées nationales Microondes (JNM), 15-17 May 2013. 
+echoes/backscatters of an indoor environment. 
+* 
+by the FMCW radar for the paths A0-Tag-A1 and A0-Tag-A2, respectively. 
+structure. Each one consists of a bandpass filter (6-7 GHz), a low noise amplifier and a mixer for the down conversion of incoming 
+109
+interesting to help people to find ways around museums, airports, malls but it is not adequate for many other situations [1].  Most of 
+Tutorials, vol.11, NO. 1, pp. 13-32, First Quarter 2009. 
+pp. 1463-1466, 3-8 July 2011. 
+,
+5-  Y. Shen, and C.L. Law, “A microstrip-fed quasi spiral circularly polarized ultra-wideband antenna,” Antenna and Propagation (APSURSI) , 
+6-  R. Kumar, J. C. Cousin, B. Huyart, and K. Mabrouk, “Dual-Crcular Polarizes Dumbbell-Shaped Crossed-Dipole Planar Antenna for UWB  
+known  position  for  2D  localization  and  it  uses  a  hybrid-technique  based  on  Frequency-of-Arrival  (FOA)  and  Frequency-
+consists  of  two  main  subsystems:  Localization  Base  Station  &  the  active-Tag.  The  schematic  of  the  LBS,  allowing  the 
+(cid:39)
+Delay
+tag is received by the two antennas (A1 & A2) separated by a distance denoted dbaseline (Fig 1).  The delays to reach A1 and A2 from 
+T
+less complex with an accuracy of few centimetres.    
+;
+The  transmitted  signal  from  A0  reaches  to  A1  &  A2  via  the  active-Tag  with  some  delays-  TDelay1  &  TDelay2,  respectively. 
+8.5GHz [6].  For the active-Tag, a single antenna is used for the reception and transmission of the signals with different circularly 
+o
+This paper describes a system using two jointly techniques, FMCW multistatic radar and optic’s interferometry techniques, for 2D 
+1
+errors observed are 2.1cm & 7.1° over [1 1.6] m & [45° 90°], respectively.  
+4-  R.  Kumar,  J.  C.  Cousin,  B.  Huyart,  and  K.  Mabrouk,  “Antenne  spirale  asymétrique  couvrant  la  bande  UWB  (6-8.5  GHz)  pour  une 
+SI-France
+position  is  used  for  location-estimation  and  simultaneously,  the  multipath  effects  can  be  strongly  reduced  by  shifting  the 
+Rupesh KUMAR*, Jean-Christophe Cousin*, Bernard Huyart*, Kais Mabrouk*
+105
+Fig. 1.  On the left: Architecture defined for the LBS & active-Tag.  
+Receivers (Rx) 
+1.1. System design and consideration   
+known  techniques  are  based  on  radio-signature  or  time  delay  measurement  which  presents  an  accuracy  of  more  than  a  meter. 
+It consists of one transmitting antenna (A0) and two receiving antennas (A1 & A2) which are placed closely on the same axis. A 
+R
+bands) are used to filter the downlink and uplink channels at the active-Tag. The retransmitted FMCW signal (6-7 GHz) from the 
+urnées scienti
+1.  System Design Consideration and Implementation 
+Fig. 2.  Realized ILS: Active-Tag & LBS. 
+DelayTc
+polarizations of  radio-frequency  waveforms.    The  RHCP (right  hand  circular polarized) waveform  (7.5-8.5  GHz)  is  used  for the 
+S
+The dedicated waveforms (RHCP & LHCP) and frequency spectrums (6-7 & 7.5-8.5 GHz’s) for the wireless link between LBS 
+estimation. Generally, it requires at least three known positions for the location [2-3]. The presented system just requires a single 
+frequencies FS1 & FS2 for the computation of the path-difference (difference in distance measured by the two receiver chains). As it 
+frequency spectrum by the active-Tag (to be localized). This technique requires the measurements of the FOA and FDOA which 
+Abstract 
+lead  to  the  computation  of  radial  distance  and  azimuth-angle  as  Angle-of-Arrival  (AoA),  simultaneously.  The  system  design 
+localization of an active-Tag by using FMCW radar technique, is shown in Fig 1. 
+Index: Angle-of-Arrival, FMCW radar, indoor environment 
+the tag are TDelay1 & TDelay2, respectively. The two receiver chains (Rx-Chain) of the LBS are identical and based on a heterodyne 
+signal’s reception and the LHCP (left hand circular polarized) waveform is used for the retransmission of the down-shifted signal 
+_
+used for the 2D position estimation of a remote active-Tag in a real Indoor Environment for a Line-of-Sight (LOS) case. 
+(7.5-8.5 GHz), simultaneously. 
+F
+   
+Indoor Localization,” European Microwave Week (EuMA) , pp. 17-20, 6-11 October 2013. 
+2
+with accuracy around few centimetres (2cm). The estimated parameters (range & angle) demonstrate the robustness of the system 
+waveform and the reception of the signal is considered as the RHCP waveform via an active-Tag. 
+respectively. 
+to Antenna 
+Where, Tm is sweep time of FMCW signal (10msec), ∆f is equal to 1GHz, and the frequency-shifts (FS1 and FS2) are measured 
+presented  in  Fig  1.  The  active-Tag  uses  a  dedicated  dual  circular  polarized  antenna  designed  for  the  European  UWB  band,  6-
+106
+sinusoidal FMCW signal (6-7 GHz) generator via a 10dB coupler. The output of the coupled-port is taken as the reference signal, 
+    
+Tf
+European Wireless Conference, pp. 71-77, 12-15 April 2010. 
+DC-supply 
+localization  of  a  remote  active-Tag.  The  main  advantages  of  this  system,  compared  to  [1-3]  are:  only  one  known  reference 
+i
+
+, leading to two detail subbands, and two
+3D-SBC schemes are based on the fact that a subband decom-
+(4)
+implementations enabled the use of longer temporal ﬁlters
+quence will be denoted by
+(3D-SBC) schemes constitute an alternative approach to
+Each detail subband is obtained by prediction from a single
+recently proposed, concerning for example weighted spatial
+She is an Assistant Professor in the Electrical Engineering Department, Uni-
+to diverse devices [4].
+signals can be computed at the same spatial positions as the
+Researcher at Philips Research in both The Netherlands and the U.S., where
+leads to an efﬁcient energy concentration on low-pass temporal
+that involves motion estimation and compensation (ME/MC).
+brieﬂy review the generic 3-band MCT lifting scheme, and in
+case, the introduction of the motion estimation/compensation
+lifting scheme.
+adaptive update depending on the content characteristics (e.g.,
+, while the approximation frame can be
+[9] represents a powerful tool for spatio-temporal optimizations
+base layer. The dyadic structure of the wavelet transform used
+Let us now analyze the beneﬁts of this structure for two
+, where the
+bility by a factor 3. However, general nonlinear M-band lifting
+by low-pass ﬁltering the input sequence (i.e., its frequency re-
+large range of bit rates, while maintaining a very high coding
+Index Terms—Three-band (3-band) bidirectional temporal ﬁl-
+we only describe one transform level, but extensions to mul-
+like scheme and MPEG-4 hybrid codec.
+framework. In Section III, we introduce the new 3-band struc-
+duced in the classical lifting framework. These newly introduced
+(6)
+algorithm [16]. Unconstrained prediction using multiple ref-
+based on the MC temporal prediction error).
+and sampling artifacts from the content through use of longer
+building a 3-band structure and the scheme obtained in this
+[22], [25] to more ﬂexible long-term motion-compensated tem-
+tive wavelets, and multimedia applications. She holds 20 patents in wavelet-
+3 and 2. Finally, we show that classical hybrid coding solutions
+First, let us introduce some notations: the frames in the se-
+(2)
+cial Issue on Video Analysis and Coding for Robust Transmission. She is a
+These are the shortest operators that can be employed for
+update operators. However, while the simple Haar-like 3-band
+long-term temporal redundancies present within the sequence
+2545
+2557
+these operators will be nonlinear due to the temporal prediction
+of the proposed structure. Concluding remarks and hints for fu-
+sponse should cancel at the normalized frequency 1/2). This
+(e-mail: mihaela@ee.ucla.edu).
+the 3D-SBC schemes provide temporal/spatial/SNR scalability,
+University of Technology, Eindhoven, The Netherlands, in 2001.
+UMR 5141, Paris, France (e-mail: tillier@tsi.enst.fr; pesquet@tsi.enst.fr).
+of motion-compensated temporal ﬁltering (MCTF) that was intro-
+well as SNR (embedded) scalabilities [1]–[3]. Consequently,
+IEEE TRANSACTIONS ON IMAGE PROCESSING, VOL. 15, NO. 9, SEPTEMBER 2006
+The paper is organized as follows. In the next section, we
+poral ﬁlters and analyse the invertibility of this structure. If our
+an update step.
+MULTIMEDIA and the SPIE Electronic Imaging Journal from 2002 to 2005. Cur-
+small absolute value of the detail signals and will not use these
+schemes with perfect reconstruction have been introduced in
+To allow for easy adaptation to different transmission bit-rates
+manner.
+the framework of motion compensated subband coding. In this
+If we insert ME/MC in the previous scheme, the two detail
+Dr. van der Schaar was an Associate Editor of the IEEE TRANSACTIONS ON
+ratio and complexity scalability with ﬁne granularity over a
+tiresolution decompositions by subsequent decompositions of
+ture, analyse its invertibility and discuss optimal parameters.
+(5)
+in 3D-SBC coders [5]–[7], [18] enables only temporal down-
+coding them in the base layer. Then, the temporal enhancement
+Sections II-A and II-B, we discuss two particular cases of this
+M. van der Schaar is with the Department of Electrical Engineering, Univer-
+she led a team of researchers working on multimedia compression, networking,
+versity of California at Los Angeles (UCLA). Prior to this, she was a Senior
+dated frame. Such functions will behave as linear functions for
+achieved naturally from the subband structure, thereby enabling
+implemented using Haar temporal ﬁlters, the proposed lifting
+In this paper, we extend the simple operators introduced in
+cessing Letters. She received the National Science Foundation Career Award in
+Departement, Ecole Nationale Supérieure des Télécommunications and CNRS
+ture research are given in Section VI.
+operators (as discussed in the next section), by performing an
+schemes can provide ﬂexible spatial, temporal, signal-to-noise
+Haar MC wavelet decomposition, the new scheme introduced in
+erence frames is another interesting technique that has been
+. In the temporal wavelet decomposition, we denote
+diction operators is depicted in Fig. 1. The corresponding equa-
+abilities should be possible. In particular, temporal downsam-
+subbands. Subsequently, the temporal subbands are coded using
+the proposed scheme does no longer appertain to this frame-
+temporal wavelet ﬁltering have ﬁnally enabled implementation of
+, where is the temporal index
+temporal multiresolution decompositions
+conventional subband coding techniques that provide spatial as
+offer only dyadic factors of temporal scalability. In this paper, we
+various temporal levels, it becomes possible to achieve more
+proposed schemes. In Section V, we present simulation results
+breakthroughs
+associate editor coordinating the review of this manuscript and approving it for
+tiresolution analysis (MRA), as well as with the 3-band Haar-
+ﬁrst scheme can be considered as a 3-band equivalent of the
+show improved coding efﬁciency compared with dyadic mul-
+fect reconstruction is achieved by the inversion property of the
+based video coding and has authored more than 100 book chapters, journal, and
+the inversion is straightforwardly guaranteed by the structure,
+hybrid coding concepts usually used in today’s video standards.
+Manuscript received March 4, 2004; revised November 11, 2005. This work
+perfect reconstruction.
+prediction errors for updating when they are too large, with a
+. As in the case of two-band temporal decompositions,
+(see Fig. 2).
+erators.
+[9], [12]–[15]. Longer temporal ﬁlters (i.e., the 9/7 ﬁlters) using
+posed three-band (3-band) temporal structures. In closed-loop
+compression, processing, communications, networking, and architectures and
+prediction, such as no recursive predictive loop, separation of noise
+vertibility of this 3-band structure and determine conditions for
+is obtained
+worked for two years as a Research Scientist in scal-
+ﬂexible temporal downsampling of video, with e.g., factors of
+been an active participant to the ISO Motion Picture Expert Group (MPEG)
+Digital Object Identiﬁer 10.1109/TIP.2006.877411
+Structures for Scalable Video Coding
+signed [20], [21]. These works do not consider the applica-
+(1)
+publication was Prof. Trac D. Tran.
+on Multimedia Test-bed for three years.
+By combining this structure with dyadic decompositions at
+engineering degree in telecommunications from
+tionale Supérieure des Télécommunications (ENST), Paris, France. Her current
+ﬁltering in occluded areas [10] or the increase of motion
+one out of, e.g., three frames of the original sequence and en-
+in motion-compensated
+is a spatial variable that takes values in
+,
+estimation accuracy [11]. Also, while initially 3D-SBC were
+by ﬁltering three consecutive frames, as follows:
+tion of such structures for performing the temporal transform in
+1995, and the Ph.D. degree from Ecole Normale
+Assistant Professor in the Electrical and Computer Engineering Department,
+rently, she is an Associate Editor of IEEE TRANSACTIONS ON CIRCUITS AND
+tive behavior can also be implemented for motion-compensated
+pling by a factor different than 2, e.g., 3, should be possible
+Dr. Pesquet-Popescu received the EURASIP Best Student Paper Award in the
+(3)
+poral ﬁltering (MCTF), nonlinear lifting, scalable video compres-
+positive constant
+layer is obtained by predicting the remaining frames from the
+The corresponding transfer function of the ﬁlter bank de-
+Member of the Technical Committee on Multimedia Signal Processing of the
+was presented in part at the IEEE ICIP 2003 and the IEEE ICASSP 2004. The
+Very simple linear functions can be considered also for the up-
+and numerous improvements based on this idea have been
+frames
+Mihaela van der Schaar (M’04) received the Ph.D. degree from Eindhoven
+Section IV discusses the temporal scalability properties of the
+tions reduce to
+B. Nonlinear Spatio-Temporal Operators
+pensated (MC)
+temporal ﬁlters, removal of long range as well as short range
+predictors, i.e., identity operators. In this case, the generic equa-
+1057-7149/$20.00 © 2006 IEEE
+is used as reference for both forward
+Investigator Award granted by the French Physical Society in 1998. She was
+MCTF.
+3-band scheme”.
+2004 and the IBM Faculty Award in 2005.
+wavelet codecs provide numerous advantages over nonscalable
+2546
+in the structure needs a particular attention. In [22], [23], [13],
+The 3D-SBC schemes are based on open-loop motion-com-
+T HE spatio-temporal (“2D ” or “3D”) subband coding
+become a particular case of this framework. Simulation results
+structures provide higher temporal scalability ﬂexibility, as well as
+efﬁcient multimedia transmission over heterogeneous networks
+and [24], 3-band motion-compensated temporal decomposition
+holds 22 granted U.S. patents, with several more pending. Since 1999, she has
+on MPEG-21 Scalable Video Coding and co-chairing the MPEG ad-hoc group
+illustrating the coding performance and the scalability features
+Béatrice Pesquet-Popescu (M’06)
+proposed in [17], but in this case the scheme does not involve
+tions and user demands. For example, if a client asks for se-
+leads to
+Fig. 1. Three-band temporal lifting scheme with uni-directional prediction op-
+manner can be seen as the 3-band equivalent of the Haar
+work. We perform, therefore, a theoretical analysis of the in-
+structures that allow nondyadic scalability factors for video se-
+by
+(e.g., 5/3 ﬁlters) in the temporal direction, in order to exploit
+the “Politehnica” Institute, Bucharest, Romania, in
+the approximation subband can be derived in a straightforward
+I. INTRODUCTION
+determined at the same spatial position as frame
+sampling factors of 2 and does not allow for temporal scala-
+an Associate Professor in Multimedia at Ecole Na-
+II. HAAR-LIKE THREE-BAND SCHEME
+Moreover, nonlinear ﬁlters can be designed [27], even for
+Université Paris XI, Paris, France, in 1998 and then
+standard, to which she made more than 50 contributions and for which she re-
+Note that we have two (forward and backward) prediction
+temporal redundancies, etc. Moreover, these wavelet video coding
+ceived three ISO recognition awards. She was also chairing the ad-hoc group
+conference papers in the ﬁeld.
+the detail (“high-frequency”) subband frames and by
+University of California at Davis. She has published extensively on multimedia
+efﬁciency. However, most motion-compensated wavelet video
+quences have been proposed.
+this paper is the 3-band equivalent of the 5/3 MC temporal ﬁlter-
+such a simple scheme, leading to an improved quality of the up-
+tions describing this analysis structure are
+SYSTEM FOR VIDEO TECHNOLOGY and an Associate Editor of IEEE Signal Pro-
+and to an approximation subband obtained
+research interests include scalable and joint source-channel video coding, adap-
+IEEE Signal Processing Workshop on Higher-Order Statistics in 1997 a Young
+First, consider the scheme with no ME/MC and the simplest
+joined Philips Research France in 1999, where she
+smooth transition between the two states. This kind of adap-
+[19] and lifting implementations of M-channel ﬁlterbanks de-
+improved compression performance compared with dyadic Haar
+and device characteristics, ﬂexible spatio/temporal/SNR scal-
+a Guest Editor of the EURASIP Journal on Applied Signal Proccessing Spe-
+In this case, the frame
+highly efﬁcient scalable and error-resilient video codecs. These new
+operators:
+The 3-band decomposition scheme using uni-directional pre-
+decomposition. It will be called in the sequel the “Haar-like
+She was a Research and Teaching Assistant at the
+IEEE Signal Processing Society.
+position applied along the temporal axis of a video sequence
+sity of California at Los Angeles (UCLA), Los Angeles, CA 90095-1594 USA
+able video coding. Since October 2000, she has been
+propose a three-band temporal structure that extends the concept
+Abstract—Recent
+update operators for computing the approximation subband:
+scribed by (4) and (6) are, respectively
+[5]–[7]. Lifting implementation of these decompositions [8],
+and backward ME, and we obtain the detail frames
+conventional solutions techniques based on motion-compensated
+3-Band Motion-Compensated Temporal
+can be determined such that
+TILLIER et al.: 3-BAND MOTION-COMPENSATED TEMPORAL STRUCTURES FOR SCALABLE VIDEO CODING
+sion, video coding.
+since this enables adaptation to a wider range of network condi-
+quences at 30 and 10 fps, this can be satisﬁed with the pro-
+received the
+Professor at Columbia University, New York. From 2003 to 2005, she was an
+schemes are based on classical two-band decompositions that
+simple cases.
+date operators
+predictive schemes, this feature is achieved by simply taking
+the approximation (“low-frequency”) subband frames. Below
+A. No Motion Estimation/Compensation
+motion threading have also been proposed in the 3D-ESCOT
+Christophe Tillier, Béatrice Pesquet-Popescu, Member, IEEE, and Mihaela van der Schaar, Member, IEEE
+and
+tering, 3-band temporal decomposition, motion-compensated tem-
+bank [26]. It involves bidirectional MC in both the predict and
+scheme still belongs to the classical lifting framework, where
+polyphase component of the input sequence. Therefore, the per-
+C. Tillier and B. Pesquet-Popescu are with the Signal and Image Processing
+Supérieure (ENS), Cachan, France, in 1998.
+communications, and architectures. In 2003, she was also an Adjunct Assistant
+
+Clock was successfully recovered on a 10-GHz sinusoidal
+The PLL is locked in; the electrical clock jitter can be es-
+(cid:127)
+megahertz.)
+1460
+blind it. This error signal’s envelope depends on the input and
+[7] J. Rutman, “Characterization of phase and frequency instabilities in
+point is tuned by a dc voltage shifter. Its output drives the elec-
+(or even
+the phase comparator. Since PPLN is passive, it generates no
+beam at 763 nm, detected by a silicon avalanche photodetector,
+placed outside the loop, decreasing its length, thus improving
+ﬁer’s gain,
+1462
+in Section IV-A.
+photodetector output signal bears a low-frequency component at
+The VCO is a standard electronic oscillator. Its operating
+in the visible (763 nm), therefore easily separated from infrared
+40-to-10 GHz), without modiﬁcations. The corresponding ex-
+vol. 66, no. 9, pp. 1048–1075, Sep. 1978.
+frequency is a multiple of the clock frequency; therefore, we an-
+[3] C. Ware and D. Erasme, “30 GHz sub-clock recovery using an opto-
+the ampli-
+nW gives a total loop
+Supposing that the input and clock signal are sinusoidal, and
+REFERENCES
+semiconductor optical ampliﬁers [1]–[3] or electroabsorption
+Electronics Department, École Nationale Supérieure des Télécommunications
+that the phase comparator has a sinusoidal response, these sig-
+GHz, ampliﬁed by an erbium-
+tivity
+L. J. Christiansen, “Clock recovery for 320 Gb/s OTDM data using
+Paper CI3-5-MON.
+B. Clock Recovery
+insensitive to the infrared input signals which would otherwise
+modulator as phase comparator,” in OFC, Anaheim, CA, Mar. 2005,
+around 10 GHz.
+scheme should be able to reach still higher bit rates, on the order
+letter presents an optoelectronic PLL where three-wave mixing
+V. CONCLUSION
+precision frequency sources: Fifteen years of progress,” Proc. IEEE,
+(1e)
+posed, which agrees with our preliminary results [5] as well
+(2)
+(GET/Télécom Paris), CNRS LTCI (UMR 5141), 75634 Paris Cedex 13,
+same loop gain would be achieved for the same average input
+the
+, which results from ﬁltering and amplifying the output
+experiment.
+[4] C. Boerner, V. Marembert, S. Ferber, C. Schubert, C. Schmidt-
+nals can be modelled as [6]
+if the loop ﬁlter does not include an integrator, the max-
+Fig. 4. Recovered clock and signal. (a) Input signal, triggered by generator.
+demonstration of the use of PPLN for clock recovery.
+value, we used an EDFA to amplify the beam at 1550 nm, which
+CLEO, Long Beach, CA, May 2006, Paper JWB34.
+for reasons of source availability had to be the clock signal;
+PPLN, and successful clock recovery from a 10-GHz sinusoidal
+troabsorption modulator of an integrated laser and modulator
+Systems using four-wave mixing or cross-phase modulation in
+phase difference between them. The equation which describes
+[2] L. K. Oxenløwe, P. Jeppesen, D. Zibar, M. Galili, A. T. Clausen, and
+The authors would like to thank their colleague H. Teimoori
+Fakultät für Naturwissenschaften Department Physik, Angewandte Physik,
+GHz by an external modulator.
+optical signal. Fig. 4(a) and (b) shows a sampling oscilloscope
+ﬁltering-assisted XPM in an SOA,” in CLEO/Eur., Munich, Germany,
+(1a)
+(PPLN) device provides the phase comparator operation. Since
+phase-locked loops (PLLs) at higher bit rates, several all-optical
+Fausto Gómez Agis, Cédric Ware, Didier Erasme, Raimund Ricken, Viktor Quiring, and Wolfgang Sohler
+determined by the loop ﬁlter’s response time.
+and 11 kHz, which is of the order of the loop gain determined
+optical signal. Being based on ultrafast nonlinear effects, this
+ticipate this scheme to be capable of subclock extraction (e.g.,
+power (requiring twice as much power in the 1’s if half the bits
+as a function of this phase offset.
+ACKNOWLEDGMENT
+Fig. 3. TWM error signal for two 10-GHz sinusoidal signals as a function of
+The PLL basic scheme is illustrated in Fig. 1. The clock
+where
+(ILM) at
+power. Associated with a photodetector sensitivity
+nm . That beam is sinusoidally modulated at
+It is to be noted that in order to bring the loop’s gain to a useful
+imum lock bandwidth is twice the loop gain;
+ampliﬁed spontaneous emission noise; also, the error signal is
+ON–OFF keying modulation of the input signal. The loop ﬁlter
+autocorrelator.
+. (Other components, at the sum frequency, are ﬁltered
+so as to be synchronous, and a delay line is used to create a
+is the phase comparator’s sensitivity,
+CLOCK recovery is a critical function of any digital com-
+ulated at a frequency
+GÓMEZ AGIS et al.: 10-GHz CLOCK RECOVERY USING AN OPTOELECTRONIC PLL BASED ON TWM IN PPLN
+of several hundred gigahertz. Also, subclock extraction (e.g.,
+Index Terms—Clock recovery, optical signal processing, period-
+doped ﬁber ampliﬁer (EDFA). This forms the clock signal.
+optical signal.
+ﬁlter.
+(1d)
+1041-1135/$20.00 © 2006 IEEE
+Hz and a tracking bandwidth between 12 and
+nm so as to match the wavelength where the
+The PLL’s behavior depends on the loop gain and the ﬁlter’s
+The clock signal is coupled into a 3-dB coupler along with
+two basic results can be used:
+1461
+[6] A. Blanchard, Phase-Locked Loops: Application to Coherent Receiver
+(1b)
+regenerating the signal. It is traditionally performed by an elec-
+tegrating the phase comparator onto an optical circuit.
+signals into it. Both signals are driven by the same synthesizer
+the TWM-based phase comparator operates as well if the signal
+40-to-10 GHz) should be possible without modiﬁcations.
+PLLs, which use the same basic scheme, replacing the up-front
+The clock recovery system is described in Fig. 2. The three
+Abstract—Clock recovery is a critical function of any dig-
+R. Ricken, V. Quiring, and W. Sohler are with Universität Paderborn,
+this yields a phase comparator sensi-
+wave mixing (TWM) in a periodically poled lithium niobate
+and the input signal
+are 0’s). Likewise, resistance to a long string of zeros would be
+nW and
+nals at higher bit rates, electronic devices become a bottleneck.
+the longer the loop and the higher its gain, the less stable
+ductor optical ampliﬁer,” in CLEO/Eur., Munich, Germany, Jun. 2005,
+trace of the input signal triggered, respectively, by the synthe-
+stant, and its level depends on the delay between the input and
+Periodically Poled Lithium Niobate
+France (e-mail: fausto.gomez@enst.fr; cedric.ware@enst.fr).
+(1c)
+periments remain to be done.
+electro-optical PLL using a bidirectionally operated electroabsorption
+munications system, required for receiving and possibly
+IEEE PHOTONICS TECHNOLOGY LETTERS, VOL. 18, NO. 13, JULY 1, 2006
+II. GENERAL PLL PRINCIPLES
+Therefore, numerous all-optical or optoelectronic clock
+A. Phase Comparator Using TWM
+phase lock loop based on four-wave mixing in a traveling-wave laser
+based on three-wave mixing in periodically-poled lithium niobate,” in
+D-33098 Paderborn, Germany.
+at
+Aug. 1996.
+ically poled lithium niobate (PPLN), phase-locked loops (PLLs),
+Clock recovery of a data-modulated signal has not yet been
+of a phase comparator, which in turn measures the phase
+its stability. The loop length could be minimized further by in-
+Upon injection into the PPLN, these signals generate a TWM
+Manuscript received March 9, 2006; revised April 21,2006. The work of
+PPLN performs a sum-frequency generation:
+for his assistance in the phase comparator experiment.
+.
+VCO’s natural frequency and sensitivity. The loop gain is de-
+Fig. 2. Optoelectronic PLL basic scheme. Illustrates the three basic PLL blocks (VCO, mixer, and ﬁlter): The “VCO” includes an integrated laser and modulator,
+the loop is.
+This comparator’s output is low-pass ﬁltered and shifted, then
+III. OPTOELECTRONIC PLL SETUP
+inputs is
+nm. Thus one has an optical signal, mod-
+Jun. 2005, Paper CI3-4-MON.
+frequency doubling wavelength, would allow the EDFA to be
+electronic phase-locked loop based on four-wave mixing in a semicon-
+timated at 6.6 ps by integragting the pedestal on Fig. 4(c) as
+Phase-Locked Loop Based on Three-Wave Mixing in
+Another experiment with
+[5] F. G. Agis, C. Ware, D. Erasme, R. Ricken, V. Quiring, and W. Sohler,
+making its output an optical pulse train; the “mixer” is based on TWM in the PPLN, detected by a silicon photodetector; the “ﬁlter” includes a voltage shifter so
+by
+IV. EXPERIMENTAL RESULTS
+ital communications system. To replace the classical electronic
+the ﬁlter’s impulse response (possibly including a
+ﬁned as
+V/W,
+Hz.
+16 kHz, which also shows an agreement between theory and
+attempted, but earlier SOA-based experiments [3] indicate that
+nals by a silicon photodetector. To our knowledge, it is the ﬁrst
+is shown Fig. 4(c).
+I. INTRODUCTION
+tronic phase-locked loop (PLL); however, to process optical sig-
+Design. New York: Wiley, 1976.
+clock signals’ intercorrelation—in the same way as in an optical
+mixer or phase comparator by a nonlinear optical device.
+PLL principles, our setup is described. An analysis is then pro-
+10-GHz Clock Recovery Using an Optoelectronic
+bandwidth being small compared to the clock frequency, the
+If the modulation frequencies
+electrical mixer, which can act as a phase comparator.
+(b) Input signal, triggered by recovered clock. (c) Recovered clock spectrum
+Hz/V, we have a total loop gain
+recovery methods are being researched, notably optoelectronic
+Fig. 3 shows the optical power of the resulting TWM beam
+strated by injecting two 10-GHz sinusoidally modulated optical
+three-wave mixing (TWM).
+(763 nm), therefore easily separated from the infrared input sig-
+F. Gómez Agis, C. Ware, and D. Erasme are with Communications and
+the input signal. The latter is produced by a tunable laser set
+TWM in PPLN. This device successfully recovers clock from
+“10 GHz clock recovery using an opto-electronic phase-locked loop
+speciﬁed in [7]; and the tracking bandwidth varies between 6
+this setup should withstand pseudorandom binary sequence
+difference between said clock
+On the other hand, if the PLL is locked in
+nm
+vol. 2, Paper CI3-4-MON.
+time delay to account for the loop length), and
+are not equal, the
+out by the photodetector, whose bandwidth is only a few tens of
+We have demonstrated an optoelectronic PLL based on
+nW from the TWM beam
+Fig. 1. PLL basic scheme.
+as new experimental results: phase comparison using TWM in
+the operation of the PPLN as phase comparator for sinusoidal
+a 10-GHz sinusoidal signal.
+modulators [4] have been previously demonstrated.
+gain
+PPLN is passive, it generates no ampliﬁed spontaneous emis-
+The operation of the PPLN as a phase comparator is demon-
+[1] O. Kamatani and S. Kawanishi, “Ultrahigh-speed clock recovery with
+for subclock recovery), the error signal is con-
+This scheme being based on ultrafast nonlinear effects, it
+sion noise; in addition, the error signal is in the visible range
+After a brief reminder of current clock recovery methods and
+Digital Object Identiﬁer 10.1109/LPT.2006.877586
+as to tune the VCO’s operating point.
+using different wavelengths, or a PPLN sample with a higher
+input signals. Clock recovery is performed on a 10-GHz sinusoidal
+basic blocks of a PLL can be recognized: VCO, mixer, and loop
+In the clock recovery experiment, we estimate
+drives the VCO, which closes the loop.
+response. A full analysis is outside the scope of this letter, but
+in a periodically poled lithium niobate (PPLN) device provides
+In this letter, we present an optoelectronic PLL where three-
+diode ampliﬁer,” J. Lightw. Technol., vol. 14, no. 8, pp. 1757–1767,
+Langhorst, R. Ludwig, and H. Weber, “320 Gbit/s clock recovery with
+should be able to reach still higher bit rates, on the order of sev-
+sizer clock and the recovered clock. The latter clock’s spectrum
+and
+F. Gómez Agis was supported by a scholarship from CONACYT—Mexico.
+clock pulse trains. This behavior, therefore, mimics that of an
+is generated by a voltage-controlled oscillator (VCO), driven
+V; with
+eral hundred gigabits per second. Also, as noted in Section III,
+or optoelectronic clock recovery methods are being studied. This
+the time delay between them.
+
+Clock was successfully recovered on a 10-GHz sinusoidal
+The PLL is locked in; the electrical clock jitter can be es-
+(cid:127)
+megahertz.)
+1460
+blind it. This error signal’s envelope depends on the input and
+[7] J. Rutman, “Characterization of phase and frequency instabilities in
+point is tuned by a dc voltage shifter. Its output drives the elec-
+(or even
+the phase comparator. Since PPLN is passive, it generates no
+beam at 763 nm, detected by a silicon avalanche photodetector,
+placed outside the loop, decreasing its length, thus improving
+ﬁer’s gain,
+1462
+in Section IV-A.
+photodetector output signal bears a low-frequency component at
+The VCO is a standard electronic oscillator. Its operating
+in the visible (763 nm), therefore easily separated from infrared
+40-to-10 GHz), without modiﬁcations. The corresponding ex-
+vol. 66, no. 9, pp. 1048–1075, Sep. 1978.
+frequency is a multiple of the clock frequency; therefore, we an-
+[3] C. Ware and D. Erasme, “30 GHz sub-clock recovery using an opto-
+the ampli-
+nW gives a total loop
+Supposing that the input and clock signal are sinusoidal, and
+REFERENCES
+semiconductor optical ampliﬁers [1]–[3] or electroabsorption
+Electronics Department, École Nationale Supérieure des Télécommunications
+that the phase comparator has a sinusoidal response, these sig-
+GHz, ampliﬁed by an erbium-
+tivity
+L. J. Christiansen, “Clock recovery for 320 Gb/s OTDM data using
+Paper CI3-5-MON.
+B. Clock Recovery
+insensitive to the infrared input signals which would otherwise
+modulator as phase comparator,” in OFC, Anaheim, CA, Mar. 2005,
+around 10 GHz.
+scheme should be able to reach still higher bit rates, on the order
+letter presents an optoelectronic PLL where three-wave mixing
+V. CONCLUSION
+precision frequency sources: Fifteen years of progress,” Proc. IEEE,
+(1e)
+posed, which agrees with our preliminary results [5] as well
+(2)
+(GET/Télécom Paris), CNRS LTCI (UMR 5141), 75634 Paris Cedex 13,
+same loop gain would be achieved for the same average input
+the
+, which results from ﬁltering and amplifying the output
+experiment.
+[4] C. Boerner, V. Marembert, S. Ferber, C. Schubert, C. Schmidt-
+nals can be modelled as [6]
+if the loop ﬁlter does not include an integrator, the max-
+Fig. 4. Recovered clock and signal. (a) Input signal, triggered by generator.
+demonstration of the use of PPLN for clock recovery.
+value, we used an EDFA to amplify the beam at 1550 nm, which
+CLEO, Long Beach, CA, May 2006, Paper JWB34.
+for reasons of source availability had to be the clock signal;
+PPLN, and successful clock recovery from a 10-GHz sinusoidal
+troabsorption modulator of an integrated laser and modulator
+Systems using four-wave mixing or cross-phase modulation in
+phase difference between them. The equation which describes
+[2] L. K. Oxenløwe, P. Jeppesen, D. Zibar, M. Galili, A. T. Clausen, and
+The authors would like to thank their colleague H. Teimoori
+Fakultät für Naturwissenschaften Department Physik, Angewandte Physik,
+GHz by an external modulator.
+optical signal. Fig. 4(a) and (b) shows a sampling oscilloscope
+ﬁltering-assisted XPM in an SOA,” in CLEO/Eur., Munich, Germany,
+(1a)
+(PPLN) device provides the phase comparator operation. Since
+phase-locked loops (PLLs) at higher bit rates, several all-optical
+Fausto Gómez Agis, Cédric Ware, Didier Erasme, Raimund Ricken, Viktor Quiring, and Wolfgang Sohler
+determined by the loop ﬁlter’s response time.
+and 11 kHz, which is of the order of the loop gain determined
+optical signal. Being based on ultrafast nonlinear effects, this
+ticipate this scheme to be capable of subclock extraction (e.g.,
+power (requiring twice as much power in the 1’s if half the bits
+as a function of this phase offset.
+ACKNOWLEDGMENT
+Fig. 3. TWM error signal for two 10-GHz sinusoidal signals as a function of
+The PLL basic scheme is illustrated in Fig. 1. The clock
+where
+(ILM) at
+power. Associated with a photodetector sensitivity
+nm . That beam is sinusoidally modulated at
+It is to be noted that in order to bring the loop’s gain to a useful
+imum lock bandwidth is twice the loop gain;
+ampliﬁed spontaneous emission noise; also, the error signal is
+ON–OFF keying modulation of the input signal. The loop ﬁlter
+autocorrelator.
+. (Other components, at the sum frequency, are ﬁltered
+so as to be synchronous, and a delay line is used to create a
+is the phase comparator’s sensitivity,
+CLOCK recovery is a critical function of any digital com-
+ulated at a frequency
+GÓMEZ AGIS et al.: 10-GHz CLOCK RECOVERY USING AN OPTOELECTRONIC PLL BASED ON TWM IN PPLN
+of several hundred gigahertz. Also, subclock extraction (e.g.,
+Index Terms—Clock recovery, optical signal processing, period-
+doped ﬁber ampliﬁer (EDFA). This forms the clock signal.
+optical signal.
+ﬁlter.
+(1d)
+1041-1135/$20.00 © 2006 IEEE
+Hz and a tracking bandwidth between 12 and
+nm so as to match the wavelength where the
+The PLL’s behavior depends on the loop gain and the ﬁlter’s
+The clock signal is coupled into a 3-dB coupler along with
+two basic results can be used:
+1461
+[6] A. Blanchard, Phase-Locked Loops: Application to Coherent Receiver
+(1b)
+regenerating the signal. It is traditionally performed by an elec-
+tegrating the phase comparator onto an optical circuit.
+signals into it. Both signals are driven by the same synthesizer
+the TWM-based phase comparator operates as well if the signal
+40-to-10 GHz) should be possible without modiﬁcations.
+PLLs, which use the same basic scheme, replacing the up-front
+The clock recovery system is described in Fig. 2. The three
+Abstract—Clock recovery is a critical function of any dig-
+R. Ricken, V. Quiring, and W. Sohler are with Universität Paderborn,
+this yields a phase comparator sensi-
+wave mixing (TWM) in a periodically poled lithium niobate
+and the input signal
+are 0’s). Likewise, resistance to a long string of zeros would be
+nW and
+nals at higher bit rates, electronic devices become a bottleneck.
+the longer the loop and the higher its gain, the less stable
+ductor optical ampliﬁer,” in CLEO/Eur., Munich, Germany, Jun. 2005,
+trace of the input signal triggered, respectively, by the synthe-
+stant, and its level depends on the delay between the input and
+Periodically Poled Lithium Niobate
+France (e-mail: fausto.gomez@enst.fr; cedric.ware@enst.fr).
+(1c)
+periments remain to be done.
+electro-optical PLL using a bidirectionally operated electroabsorption
+munications system, required for receiving and possibly
+IEEE PHOTONICS TECHNOLOGY LETTERS, VOL. 18, NO. 13, JULY 1, 2006
+II. GENERAL PLL PRINCIPLES
+Therefore, numerous all-optical or optoelectronic clock
+A. Phase Comparator Using TWM
+phase lock loop based on four-wave mixing in a traveling-wave laser
+based on three-wave mixing in periodically-poled lithium niobate,” in
+D-33098 Paderborn, Germany.
+at
+Aug. 1996.
+ically poled lithium niobate (PPLN), phase-locked loops (PLLs),
+Clock recovery of a data-modulated signal has not yet been
+of a phase comparator, which in turn measures the phase
+its stability. The loop length could be minimized further by in-
+Upon injection into the PPLN, these signals generate a TWM
+Manuscript received March 9, 2006; revised April 21,2006. The work of
+PPLN performs a sum-frequency generation:
+for his assistance in the phase comparator experiment.
+.
+VCO’s natural frequency and sensitivity. The loop gain is de-
+Fig. 2. Optoelectronic PLL basic scheme. Illustrates the three basic PLL blocks (VCO, mixer, and ﬁlter): The “VCO” includes an integrated laser and modulator,
+the loop is.
+This comparator’s output is low-pass ﬁltered and shifted, then
+III. OPTOELECTRONIC PLL SETUP
+inputs is
+nm. Thus one has an optical signal, mod-
+Jun. 2005, Paper CI3-4-MON.
+frequency doubling wavelength, would allow the EDFA to be
+electronic phase-locked loop based on four-wave mixing in a semicon-
+timated at 6.6 ps by integragting the pedestal on Fig. 4(c) as
+Phase-Locked Loop Based on Three-Wave Mixing in
+Another experiment with
+[5] F. G. Agis, C. Ware, D. Erasme, R. Ricken, V. Quiring, and W. Sohler,
+making its output an optical pulse train; the “mixer” is based on TWM in the PPLN, detected by a silicon photodetector; the “ﬁlter” includes a voltage shifter so
+by
+IV. EXPERIMENTAL RESULTS
+ital communications system. To replace the classical electronic
+the ﬁlter’s impulse response (possibly including a
+ﬁned as
+V/W,
+Hz.
+16 kHz, which also shows an agreement between theory and
+attempted, but earlier SOA-based experiments [3] indicate that
+nals by a silicon photodetector. To our knowledge, it is the ﬁrst
+is shown Fig. 4(c).
+I. INTRODUCTION
+tronic phase-locked loop (PLL); however, to process optical sig-
+Design. New York: Wiley, 1976.
+clock signals’ intercorrelation—in the same way as in an optical
+mixer or phase comparator by a nonlinear optical device.
+PLL principles, our setup is described. An analysis is then pro-
+10-GHz Clock Recovery Using an Optoelectronic
+bandwidth being small compared to the clock frequency, the
+If the modulation frequencies
+electrical mixer, which can act as a phase comparator.
+(b) Input signal, triggered by recovered clock. (c) Recovered clock spectrum
+Hz/V, we have a total loop gain
+recovery methods are being researched, notably optoelectronic
+Fig. 3 shows the optical power of the resulting TWM beam
+strated by injecting two 10-GHz sinusoidally modulated optical
+three-wave mixing (TWM).
+(763 nm), therefore easily separated from the infrared input sig-
+F. Gómez Agis, C. Ware, and D. Erasme are with Communications and
+the input signal. The latter is produced by a tunable laser set
+TWM in PPLN. This device successfully recovers clock from
+“10 GHz clock recovery using an opto-electronic phase-locked loop
+speciﬁed in [7]; and the tracking bandwidth varies between 6
+this setup should withstand pseudorandom binary sequence
+difference between said clock
+On the other hand, if the PLL is locked in
+nm
+vol. 2, Paper CI3-4-MON.
+time delay to account for the loop length), and
+are not equal, the
+out by the photodetector, whose bandwidth is only a few tens of
+We have demonstrated an optoelectronic PLL based on
+nW from the TWM beam
+Fig. 1. PLL basic scheme.
+as new experimental results: phase comparison using TWM in
+the operation of the PPLN as phase comparator for sinusoidal
+a 10-GHz sinusoidal signal.
+modulators [4] have been previously demonstrated.
+gain
+PPLN is passive, it generates no ampliﬁed spontaneous emis-
+The operation of the PPLN as a phase comparator is demon-
+[1] O. Kamatani and S. Kawanishi, “Ultrahigh-speed clock recovery with
+for subclock recovery), the error signal is con-
+This scheme being based on ultrafast nonlinear effects, it
+sion noise; in addition, the error signal is in the visible range
+After a brief reminder of current clock recovery methods and
+Digital Object Identiﬁer 10.1109/LPT.2006.877586
+as to tune the VCO’s operating point.
+using different wavelengths, or a PPLN sample with a higher
+input signals. Clock recovery is performed on a 10-GHz sinusoidal
+basic blocks of a PLL can be recognized: VCO, mixer, and loop
+In the clock recovery experiment, we estimate
+drives the VCO, which closes the loop.
+response. A full analysis is outside the scope of this letter, but
+in a periodically poled lithium niobate (PPLN) device provides
+In this letter, we present an optoelectronic PLL where three-
+diode ampliﬁer,” J. Lightw. Technol., vol. 14, no. 8, pp. 1757–1767,
+Langhorst, R. Ludwig, and H. Weber, “320 Gbit/s clock recovery with
+should be able to reach still higher bit rates, on the order of sev-
+sizer clock and the recovered clock. The latter clock’s spectrum
+and
+F. Gómez Agis was supported by a scholarship from CONACYT—Mexico.
+clock pulse trains. This behavior, therefore, mimics that of an
+is generated by a voltage-controlled oscillator (VCO), driven
+V; with
+eral hundred gigabits per second. Also, as noted in Section III,
+or optoelectronic clock recovery methods are being studied. This
+the time delay between them.
+
+Clock was successfully recovered on a 10-GHz sinusoidal
+The PLL is locked in; the electrical clock jitter can be es-
+(cid:127)
+megahertz.)
+1460
+blind it. This error signal’s envelope depends on the input and
+[7] J. Rutman, “Characterization of phase and frequency instabilities in
+point is tuned by a dc voltage shifter. Its output drives the elec-
+(or even
+the phase comparator. Since PPLN is passive, it generates no
+beam at 763 nm, detected by a silicon avalanche photodetector,
+placed outside the loop, decreasing its length, thus improving
+ﬁer’s gain,
+1462
+in Section IV-A.
+photodetector output signal bears a low-frequency component at
+The VCO is a standard electronic oscillator. Its operating
+in the visible (763 nm), therefore easily separated from infrared
+40-to-10 GHz), without modiﬁcations. The corresponding ex-
+vol. 66, no. 9, pp. 1048–1075, Sep. 1978.
+frequency is a multiple of the clock frequency; therefore, we an-
+[3] C. Ware and D. Erasme, “30 GHz sub-clock recovery using an opto-
+the ampli-
+nW gives a total loop
+Supposing that the input and clock signal are sinusoidal, and
+REFERENCES
+semiconductor optical ampliﬁers [1]–[3] or electroabsorption
+Electronics Department, École Nationale Supérieure des Télécommunications
+that the phase comparator has a sinusoidal response, these sig-
+GHz, ampliﬁed by an erbium-
+tivity
+L. J. Christiansen, “Clock recovery for 320 Gb/s OTDM data using
+Paper CI3-5-MON.
+B. Clock Recovery
+insensitive to the infrared input signals which would otherwise
+modulator as phase comparator,” in OFC, Anaheim, CA, Mar. 2005,
+around 10 GHz.
+scheme should be able to reach still higher bit rates, on the order
+letter presents an optoelectronic PLL where three-wave mixing
+V. CONCLUSION
+precision frequency sources: Fifteen years of progress,” Proc. IEEE,
+(1e)
+posed, which agrees with our preliminary results [5] as well
+(2)
+(GET/Télécom Paris), CNRS LTCI (UMR 5141), 75634 Paris Cedex 13,
+same loop gain would be achieved for the same average input
+the
+, which results from ﬁltering and amplifying the output
+experiment.
+[4] C. Boerner, V. Marembert, S. Ferber, C. Schubert, C. Schmidt-
+nals can be modelled as [6]
+if the loop ﬁlter does not include an integrator, the max-
+Fig. 4. Recovered clock and signal. (a) Input signal, triggered by generator.
+demonstration of the use of PPLN for clock recovery.
+value, we used an EDFA to amplify the beam at 1550 nm, which
+CLEO, Long Beach, CA, May 2006, Paper JWB34.
+for reasons of source availability had to be the clock signal;
+PPLN, and successful clock recovery from a 10-GHz sinusoidal
+troabsorption modulator of an integrated laser and modulator
+Systems using four-wave mixing or cross-phase modulation in
+phase difference between them. The equation which describes
+[2] L. K. Oxenløwe, P. Jeppesen, D. Zibar, M. Galili, A. T. Clausen, and
+The authors would like to thank their colleague H. Teimoori
+Fakultät für Naturwissenschaften Department Physik, Angewandte Physik,
+GHz by an external modulator.
+optical signal. Fig. 4(a) and (b) shows a sampling oscilloscope
+ﬁltering-assisted XPM in an SOA,” in CLEO/Eur., Munich, Germany,
+(1a)
+(PPLN) device provides the phase comparator operation. Since
+phase-locked loops (PLLs) at higher bit rates, several all-optical
+Fausto Gómez Agis, Cédric Ware, Didier Erasme, Raimund Ricken, Viktor Quiring, and Wolfgang Sohler
+determined by the loop ﬁlter’s response time.
+and 11 kHz, which is of the order of the loop gain determined
+optical signal. Being based on ultrafast nonlinear effects, this
+ticipate this scheme to be capable of subclock extraction (e.g.,
+power (requiring twice as much power in the 1’s if half the bits
+as a function of this phase offset.
+ACKNOWLEDGMENT
+Fig. 3. TWM error signal for two 10-GHz sinusoidal signals as a function of
+The PLL basic scheme is illustrated in Fig. 1. The clock
+where
+(ILM) at
+power. Associated with a photodetector sensitivity
+nm . That beam is sinusoidally modulated at
+It is to be noted that in order to bring the loop’s gain to a useful
+imum lock bandwidth is twice the loop gain;
+ampliﬁed spontaneous emission noise; also, the error signal is
+ON–OFF keying modulation of the input signal. The loop ﬁlter
+autocorrelator.
+. (Other components, at the sum frequency, are ﬁltered
+so as to be synchronous, and a delay line is used to create a
+is the phase comparator’s sensitivity,
+CLOCK recovery is a critical function of any digital com-
+ulated at a frequency
+GÓMEZ AGIS et al.: 10-GHz CLOCK RECOVERY USING AN OPTOELECTRONIC PLL BASED ON TWM IN PPLN
+of several hundred gigahertz. Also, subclock extraction (e.g.,
+Index Terms—Clock recovery, optical signal processing, period-
+doped ﬁber ampliﬁer (EDFA). This forms the clock signal.
+optical signal.
+ﬁlter.
+(1d)
+1041-1135/$20.00 © 2006 IEEE
+Hz and a tracking bandwidth between 12 and
+nm so as to match the wavelength where the
+The PLL’s behavior depends on the loop gain and the ﬁlter’s
+The clock signal is coupled into a 3-dB coupler along with
+two basic results can be used:
+1461
+[6] A. Blanchard, Phase-Locked Loops: Application to Coherent Receiver
+(1b)
+regenerating the signal. It is traditionally performed by an elec-
+tegrating the phase comparator onto an optical circuit.
+signals into it. Both signals are driven by the same synthesizer
+the TWM-based phase comparator operates as well if the signal
+40-to-10 GHz) should be possible without modiﬁcations.
+PLLs, which use the same basic scheme, replacing the up-front
+The clock recovery system is described in Fig. 2. The three
+Abstract—Clock recovery is a critical function of any dig-
+R. Ricken, V. Quiring, and W. Sohler are with Universität Paderborn,
+this yields a phase comparator sensi-
+wave mixing (TWM) in a periodically poled lithium niobate
+and the input signal
+are 0’s). Likewise, resistance to a long string of zeros would be
+nW and
+nals at higher bit rates, electronic devices become a bottleneck.
+the longer the loop and the higher its gain, the less stable
+ductor optical ampliﬁer,” in CLEO/Eur., Munich, Germany, Jun. 2005,
+trace of the input signal triggered, respectively, by the synthe-
+stant, and its level depends on the delay between the input and
+Periodically Poled Lithium Niobate
+France (e-mail: fausto.gomez@enst.fr; cedric.ware@enst.fr).
+(1c)
+periments remain to be done.
+electro-optical PLL using a bidirectionally operated electroabsorption
+munications system, required for receiving and possibly
+IEEE PHOTONICS TECHNOLOGY LETTERS, VOL. 18, NO. 13, JULY 1, 2006
+II. GENERAL PLL PRINCIPLES
+Therefore, numerous all-optical or optoelectronic clock
+A. Phase Comparator Using TWM
+phase lock loop based on four-wave mixing in a traveling-wave laser
+based on three-wave mixing in periodically-poled lithium niobate,” in
+D-33098 Paderborn, Germany.
+at
+Aug. 1996.
+ically poled lithium niobate (PPLN), phase-locked loops (PLLs),
+Clock recovery of a data-modulated signal has not yet been
+of a phase comparator, which in turn measures the phase
+its stability. The loop length could be minimized further by in-
+Upon injection into the PPLN, these signals generate a TWM
+Manuscript received March 9, 2006; revised April 21,2006. The work of
+PPLN performs a sum-frequency generation:
+for his assistance in the phase comparator experiment.
+.
+VCO’s natural frequency and sensitivity. The loop gain is de-
+Fig. 2. Optoelectronic PLL basic scheme. Illustrates the three basic PLL blocks (VCO, mixer, and ﬁlter): The “VCO” includes an integrated laser and modulator,
+the loop is.
+This comparator’s output is low-pass ﬁltered and shifted, then
+III. OPTOELECTRONIC PLL SETUP
+inputs is
+nm. Thus one has an optical signal, mod-
+Jun. 2005, Paper CI3-4-MON.
+frequency doubling wavelength, would allow the EDFA to be
+electronic phase-locked loop based on four-wave mixing in a semicon-
+timated at 6.6 ps by integragting the pedestal on Fig. 4(c) as
+Phase-Locked Loop Based on Three-Wave Mixing in
+Another experiment with
+[5] F. G. Agis, C. Ware, D. Erasme, R. Ricken, V. Quiring, and W. Sohler,
+making its output an optical pulse train; the “mixer” is based on TWM in the PPLN, detected by a silicon photodetector; the “ﬁlter” includes a voltage shifter so
+by
+IV. EXPERIMENTAL RESULTS
+ital communications system. To replace the classical electronic
+the ﬁlter’s impulse response (possibly including a
+ﬁned as
+V/W,
+Hz.
+16 kHz, which also shows an agreement between theory and
+attempted, but earlier SOA-based experiments [3] indicate that
+nals by a silicon photodetector. To our knowledge, it is the ﬁrst
+is shown Fig. 4(c).
+I. INTRODUCTION
+tronic phase-locked loop (PLL); however, to process optical sig-
+Design. New York: Wiley, 1976.
+clock signals’ intercorrelation—in the same way as in an optical
+mixer or phase comparator by a nonlinear optical device.
+PLL principles, our setup is described. An analysis is then pro-
+10-GHz Clock Recovery Using an Optoelectronic
+bandwidth being small compared to the clock frequency, the
+If the modulation frequencies
+electrical mixer, which can act as a phase comparator.
+(b) Input signal, triggered by recovered clock. (c) Recovered clock spectrum
+Hz/V, we have a total loop gain
+recovery methods are being researched, notably optoelectronic
+Fig. 3 shows the optical power of the resulting TWM beam
+strated by injecting two 10-GHz sinusoidally modulated optical
+three-wave mixing (TWM).
+(763 nm), therefore easily separated from the infrared input sig-
+F. Gómez Agis, C. Ware, and D. Erasme are with Communications and
+the input signal. The latter is produced by a tunable laser set
+TWM in PPLN. This device successfully recovers clock from
+“10 GHz clock recovery using an opto-electronic phase-locked loop
+speciﬁed in [7]; and the tracking bandwidth varies between 6
+this setup should withstand pseudorandom binary sequence
+difference between said clock
+On the other hand, if the PLL is locked in
+nm
+vol. 2, Paper CI3-4-MON.
+time delay to account for the loop length), and
+are not equal, the
+out by the photodetector, whose bandwidth is only a few tens of
+We have demonstrated an optoelectronic PLL based on
+nW from the TWM beam
+Fig. 1. PLL basic scheme.
+as new experimental results: phase comparison using TWM in
+the operation of the PPLN as phase comparator for sinusoidal
+a 10-GHz sinusoidal signal.
+modulators [4] have been previously demonstrated.
+gain
+PPLN is passive, it generates no ampliﬁed spontaneous emis-
+The operation of the PPLN as a phase comparator is demon-
+[1] O. Kamatani and S. Kawanishi, “Ultrahigh-speed clock recovery with
+for subclock recovery), the error signal is con-
+This scheme being based on ultrafast nonlinear effects, it
+sion noise; in addition, the error signal is in the visible range
+After a brief reminder of current clock recovery methods and
+Digital Object Identiﬁer 10.1109/LPT.2006.877586
+as to tune the VCO’s operating point.
+using different wavelengths, or a PPLN sample with a higher
+input signals. Clock recovery is performed on a 10-GHz sinusoidal
+basic blocks of a PLL can be recognized: VCO, mixer, and loop
+In the clock recovery experiment, we estimate
+drives the VCO, which closes the loop.
+response. A full analysis is outside the scope of this letter, but
+in a periodically poled lithium niobate (PPLN) device provides
+In this letter, we present an optoelectronic PLL where three-
+diode ampliﬁer,” J. Lightw. Technol., vol. 14, no. 8, pp. 1757–1767,
+Langhorst, R. Ludwig, and H. Weber, “320 Gbit/s clock recovery with
+should be able to reach still higher bit rates, on the order of sev-
+sizer clock and the recovered clock. The latter clock’s spectrum
+and
+F. Gómez Agis was supported by a scholarship from CONACYT—Mexico.
+clock pulse trains. This behavior, therefore, mimics that of an
+is generated by a voltage-controlled oscillator (VCO), driven
+V; with
+eral hundred gigabits per second. Also, as noted in Section III,
+or optoelectronic clock recovery methods are being studied. This
+the time delay between them.

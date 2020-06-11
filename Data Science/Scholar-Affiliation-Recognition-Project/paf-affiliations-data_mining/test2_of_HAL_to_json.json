@@ -1,0 +1,515 @@
+[
+{
+"url": "https://tel.archives-ouvertes.fr/tel-01653192/document",
+"title": "Évolution des Architectures des Systèmes Avioniques Embarqués",
+"year": "2016",
+"authors": {
+"Marc Gatti": [
+"THALES Avionics Electrical Systems"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"THALES Avionics Electrical Systems"
+]
+},
+"affiliation_addresses": {
+"41 bd de la république - BP 53, 78401 Chatou": "41 bd de la république - BP 53, 78401 Chatou"
+}
+},
+{
+"url": "https://tel.archives-ouvertes.fr/tel-01695496/document",
+"title": "Amplificateur de puissance autonome pour applications OFDM et beamforming de la 5G aux fréquences millimétriques en technologie CMOS avancée",
+"year": "2017",
+"authors": {
+"Boris Moret": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de l'intégration, du matériau au système",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux"
+],
+"Laboratoire de l'intégration, du matériau au système": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux"
+]
+}
+},
+{
+"url": "https://tel.archives-ouvertes.fr/tel-01679732/document",
+"title": "Combinatoire de l’ASEP, arbres non-ambigus et polyominos parallélogrammes périodiques",
+"year": "2017",
+"authors": {
+"Patxi Laborde-Zubieta": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire Bordelais de Recherche en Informatique",
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)",
+"Université Bordeaux Segalen - Bordeaux 2",
+"Université Sciences et Technologies - Bordeaux 1"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Université Bordeaux Segalen - Bordeaux 2",
+"Université Sciences et Technologies - Bordeaux 1",
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)"
+],
+"Laboratoire Bordelais de Recherche en Informatique": [
+"Centre National de la Recherche Scientifique",
+"Université Bordeaux Segalen - Bordeaux 2",
+"Université Sciences et Technologies - Bordeaux 1",
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)"
+]
+}
+},
+{
+"url": "https://tel.archives-ouvertes.fr/tel-01674218/document",
+"title": "Aqueous dispersions of conducting polymers for opto-electronic applications",
+"year": "2016",
+"authors": {
+"Anna Hofmann": [
+"Centre National de la Recherche Scientifique",
+"Ecole Nationale Supérieure de Chimie, de Biologie et de Physique (ENSCBP)",
+"Institut Polytechnique de Bordeaux",
+"Université de Bordeaux",
+"Laboratoire de Chimie des Polymères Organiques"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut Polytechnique de Bordeaux",
+"Ecole Nationale Supérieure de Chimie, de Biologie et de Physique (ENSCBP)",
+"Université de Bordeaux"
+],
+"Laboratoire de Chimie des Polymères Organiques": [
+"Centre National de la Recherche Scientifique",
+"Institut Polytechnique de Bordeaux",
+"Ecole Nationale Supérieure de Chimie, de Biologie et de Physique (ENSCBP)",
+"Université de Bordeaux"
+]
+}
+},
+{
+"url": "https://tel.archives-ouvertes.fr/tel-01675982/document",
+"title": "Synthèse et formulation d’encres conductrices imprimables par jet d’encre pour l’électronique organique",
+"year": "2015",
+"authors": {
+"Maxime Le Bail": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de l'intégration, du matériau au système",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux"
+],
+"Laboratoire de l'intégration, du matériau au système": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux"
+]
+}
+},
+{
+"url": "https://tel.archives-ouvertes.fr/tel-01691707/document",
+"title": "Apprentissage et correction des imperfections des robots humanoïdes de petite taille : application à l'odométrie et à la synthèse de mouvements",
+"year": "2017",
+"authors": {
+"Quentin Rouxel": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire Bordelais de Recherche en Informatique",
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)",
+"Laboratoire bordelais de recherche en informatique",
+"Université Bordeaux Segalen - Bordeaux 2",
+"Université Sciences et Technologies - Bordeaux 1"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Université Bordeaux Segalen - Bordeaux 2",
+"Université Sciences et Technologies - Bordeaux 1",
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)"
+],
+"Laboratoire Bordelais de Recherche en Informatique": [
+"Centre National de la Recherche Scientifique",
+"Université Bordeaux Segalen - Bordeaux 2",
+"Université Sciences et Technologies - Bordeaux 1",
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)"
+]
+}
+},
+{
+"url": "http://hal.in2p3.fr/in2p3-01679489/document",
+"title": "Cluster distribution in core-collapse supernova",
+"year": "2017",
+"authors": {
+"A.F. Fantina": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+}
+},
+{
+"url": "http://hal.in2p3.fr/tel-01697598/document",
+"title": "Étude théorique et numérique d'un cyclotron à secteurs sépares en régime de charge d'espace",
+"year": "1988",
+"authors": {
+"Viviana Cazoll": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+}
+},
+{
+"url": "http://hal.in2p3.fr/in2p3-00021954/document",
+"title": "Boltzmann-Langevin approaches",
+"year": "1997",
+"authors": {
+"P. Chomaz": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+}
+},
+{
+"url": "http://hal.in2p3.fr/in2p3-01671542/document",
+"title": "Stochastic approaches to out-of-equilibrium dynamics",
+"year": "1997",
+"authors": {
+"P. Chomaz": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+}
+},
+{
+"url": "http://hal.in2p3.fr/in2p3-01679703/document",
+"title": "Influence of neutron enrichment on de-excitation properties of palladium isotopes",
+"year": "2017",
+"authors": {
+"P. St Onge": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+}
+},
+{
+"url": "http://hal.in2p3.fr/in2p3-01653605/document",
+"title": "Symmetries in Nuclear Models",
+"year": "1997",
+"authors": {
+"P. Van Isacker": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+}
+},
+{
+"url": "https://hal.archives-ouvertes.fr/hal-01669705/document",
+"title": "Use of the facility EXOTIC for fusion–evaporation studies",
+"year": "2018",
+"authors": {
+"D. Ackermann": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+}
+},
+{
+"url": "https://hal.archives-ouvertes.fr/hal-01669742/document",
+"title": "Nuclear Structure at High Isospin and Spin: The Next Step",
+"year": "2016",
+"authors": {
+"A. Navin": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+}
+},
+{
+"url": "http://hal.in2p3.fr/in2p3-01679718/document",
+"title": "The LISE spectrometer at GANIL: present and near future",
+"year": "2017",
+"authors": {
+"J.C. Thomas": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+}
+},
+{
+"url": "http://hal.in2p3.fr/tel-01697617/document",
+"title": "Étude de l'injection axiale d'un faisceau d'ions lourds dans un cyclotron compact",
+"year": "1988",
+"authors": {
+"Stéphane Chel": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+}
+},
+{
+"url": "http://hal.in2p3.fr/in2p3-01679705/document",
+"title": "NFS Neutron beam characterization and monitoring",
+"year": "2017",
+"authors": {
+"M.O. Frégeau": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+}
+},
+{
+"url": "http://hal.in2p3.fr/in2p3-01671513/document",
+"title": "Separate determination of diffraction dissociation and absorption contribution to the breakup cross-section of halo nucleus $^{11} $Be",
+"year": "1997",
+"authors": {
+"F. Negoita": [
+"Horia Hulubei National Institute of Physics and Nuclear Engineering",
+"IFIN-HH"
+],
+"M. Lewitowicz": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"M.G. Saint-Laurent": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"R. Anne": [
+"Grand Accélérateur National d'Ions Lourds",
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"S. Grévy": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Université Paris-Sud - Paris 11"
+],
+"D. Guillemaud-Mueller": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Université Paris-Sud - Paris 11"
+],
+"A.C. Mueller": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Université Paris-Sud - Paris 11"
+],
+"F. Pougheon": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Université Paris-Sud - Paris 11"
+],
+"Yu. Penionzhkevich": [
+"FLNR-JINR"
+],
+"O. Sorlin": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Université Paris-Sud - Paris 11"
+]
+},
+"Affiliation_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"IFIN-HH",
+"FLNR-JINR",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Université Paris-Sud - Paris 11"
+],
+"Horia Hulubei National Institute of Physics and Nuclear Engineering": [
+"IFIN-HH"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Institut de Physique Nucléaire d'Orsay": [
+"Centre National de la Recherche Scientifique",
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Université Paris-Sud - Paris 11"
+]
+}
+}
+]

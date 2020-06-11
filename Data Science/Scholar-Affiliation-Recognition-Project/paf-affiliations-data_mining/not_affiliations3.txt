@@ -1,0 +1,579 @@
+
+reduction option is the most credible solution to limit the impact of XPM and XPolM in such legacy infrastructure. Nonetheless, we do 
+1France Telecom, Orange Labs, 2 Avenue Pierre Marzin, 22307 Lannion, France, mehrez.selmi@orange.com 
+with  a  multiplex  of  79  wavelengths  spaced  by  50  GHz  and  modulated  at  10.7  Gbps  by  NRZ-OOK.  Like  previously,  the  DP-QPSK 
+free (a) and legacy (b) system infrastructure. 
+In the second configuration (described in Fig.1b), one  channel at 1548.11 nm carrying a 112 Gbps DP-QPSK signal is combined 
+embedded  into  a  real-time  oscilloscope  (DPO).  The  "off-line"  digital  signal  processing  (DSP)  is  then  performed  with  four  basic  steps: 
+transmission line. The second option consists in upgrading legacy system infrastructure at 100 Gbps through the insertion of DP-QPSK 
+channels into the existing dispersion-managed 10 Gbps NRZ-based WDM system. 
+line  carrying  only  100  Gbps  DP-QPSK  channels.  The  optical  link  is  made  of  10  spans  of  G.652  standard  single-mode  fibre  (SSMF), 
+E. Pincemin1, J. Karaki1, M. Selmi1, D. Grot1, T. Guillossou1, C. Gosset2, Y. Jaouen2, P. Ciblat2 
+the optical link. Our first configuration reproduces the "greenfield" deployment strategy, which consists in using a DCF-free transmission 
+not recover the BER obtained in the SC configuration, in which intra-channel nonlinearities only are excited. Note that no error has been 
+Attenuator), RS (Reed-Solomon), ODL (Optical Delay Line), PBC/S (Polarization Beam Combiner / Splitter) 
+modulated  with  decorrelated  231-1  PRBS,  and  then  coupled  with  the  100  Gbps  DP-QPSK  channel.  The  dispersion-managed  (DM) 
+Coherent  Dual-Polarization  Quadrature  Phase  Shift  Keying  (DP-QPSK)  is  today  the  industrial  solution  for  100  Gbps long-haul WDM 
+DP-QPSK and 10 Gbps NRZ  channels. By reducing  significantly the power  of 10 Gbps wavelengths  with respect to  that of  100 Gbps 
+WDM  system.  We  show  that  100  Gbps  DCF-free  transmission  over  1000  km  is  error-free,  while  legacy 
+236
+978-1-4577-0733-9/12/$26.00 ©2012 IEEE
+[5] C. Xie, Opt. Express, Vol. 17, n°6, pp. 4815-4823 (2009) 
+increasing the GB width from 100 GHz to 150 GHz does not further improve transmission performance. 
+permits  to  recover  system  margins  and  to  ensure  an  error-free  1000-km  transmission,  confirming  that  the  10 Gbps  channel  power 
+channel is fed by an ECL, while the 79 NRZ channels at 10.7 Gbps are fed by standard laser diodes (LD). The 79 odd and even 10 Gbps 
+ps/nm the cumulated dispersion of the channel at 1550 nm. 
+transmission  line  shown  in  Fig.1b  is  constituted  of  a  pre-compensation  stage  of  -1000  ps/nm  at  1550  nm,  followed  by  ten  spans  of 
+channels  are  firstly  encoded  thanks  to  a  RS(255,239)  forward  error  correction  (FEC)  code,  separately  multiplexed,  independently 
+100 Gbps DCF-free transmission over 1000 km is error-free, while legacy system is not able to carry over 1000 km a mix of 100 Gbps 
+(LO).  The  signal  is  converted  back  to  the  digital  domain  thanks  to  4  analogue-to-digital  converters  (ADC)  operating  at  50  GSa/s  and 
+At the receiver side, the 100 Gbps DP-QPSK signal at 1548.11 nm is selected by a square flat-top optical band-pass filter (OBPF) 
+enhanced  of  3  dB  when  compared  to  the  "No  GB"  configuration,  pointing  out  a  better  robustness  to  nonlinearities.  This  configuration 
+100 Gbps DP-QPSK transmission over legacy dispersion-managed system infrastructure carrying 10 Gbps NRZ channels (b), with VOA (Variable Optical 
+2 Institut Télécom, Télécom ParisTech, CNRS UMR 5141, 46 Rue Barrault, 75634 Paris, France 
+channels is increased up to 112 Gbps. Only one 100 Gbps DP-QPSK channel is fed by an external cavity laser (ECL) at 1548.11 nm to 
+for  100  Gbps  long-haul WDM  transmission  over  DCF-free  and  legacy  infrastructure  supporting  a  10  Gbps 
+measured 100 Gbps channel ("GB=100 GHz" & "GB=150 GHz" configurations), has been tested. This option slightly improves the BER 
+237
+significantly (by 5 dB) the 10 Gbps channel power with respect to the  power of 100 Gbps channels. 
+km  of  G.652  fiber  line,  as  BERs  largely  exceed  the  FEC  limit.  In  order  to  limit  the  impact  of  cross-phase  modulation  (XPM)  and  its 
+system is not able to carry over 1000 km a mix of 100 Gbps DP-QPSK and 10 Gbps NRZ channels. 
+channels, error-free transmission is fortunately recovered. 
+the curves of Fig.2b. 
+cross-polarization modulation (XPolM) corollary between the 10 Gbps NRZ channels and the 100 Gbps one [5], a first scheme consisting 
+several  schemes  have  been  investigated.  Firstly,  no  guard  band  (GB)  is  inserted  between  our  100  Gbps  channel  and  the  10  Gbps 
+G.652 fibre. 100 Gbps DP-QPSK transmission over legacy infrastructure is also possible over 1000 km under the condition to decrease 
+ 
+channels are separately multiplexed, independently modulated, and then combined together thanks to a coupler before being injected into 
+5 dB with respect to that of the 100 Gbps signal ("P(100G)-P(10G)= 5 dB" configuration). This solution improves significantly the BER 
+modulator  (CMZM)  which  generates  QPSK  constellation.  A  10-ns  timing  delay  is  introduced  between  the  two  replica  of  the  QPSK 
+done  by  the  methods  described  in  [3-4].  To  avoid  cycle  slips,  the  detection  is  differential.  The  10.7  Gbps  NRZ  channel  under 
+Abstract: We experimentally compare over 1000 km of G.652 fiber the performance of coherent DP-QPSK 
+transport [1]. Two strategies are envisaged by the network operators to deploy the 100 Gbps technology. The "greenfield" deployment is 
+for 100 Gbps long-haul WDM transmission over DCF-free and legacy infrastructure supporting a 10 Gbps WDM system. We show that 
+[2] S.J. Savory, Opt. Express, Vol. 16, n°2, pp. 804-817 (2008). 
+100 Gbps DP-QPSK Performance over DCF-Free and 
+DSP  is  based  on  blind  equalization,  and  more  particularly  on  the  constant  modulus  algorithm  (CMA)  which  carries  out  polarization 
+QPSK channel. The second one  ("with 10G" configuration) corresponds to the experimental set-up already described above, for which 
+Then,  provided  that  the  10 Gbps  NRZ  channels  have  an  advantage  of  5  dB  in  terms  of  back-to-back  OSNR  sensitivity  over  the 
+In  the  first  configuration  investigated  here  (described  in  Fig.1a),  a  multiplex  of  80  wavelengths  spaced  by  50  GHz  and  modulated  at 
+In this paper, we compare through transmission experiments over 1000 km of G.652 fiber the performance of coherent DP-QPSK 
+[4] A. Leven et al., IEEE Photon. Technol. Lett., Vol. 19, n° 6, pp.366-368 (2007). 
+TuE2 (Contributed Oral)
+in inserting a guard band of 100 GHz and 150 GHz, corresponding to one and two 10 Gbps channels switched off from each side of the 
+of  0.4  nm  bandwidth,  and  detected  by  a  polarization  diversity  coherent  receiver  using  a  ~100  kHz  bandwidth  ECL  as  local  oscillator 
+for PIN SPAN ~ +1 dBm in the SC configuration. In the WDM configuration, the lowest BER (~ 6x10-5) is reached for PIN SPAN ~ 0 dBm. 
+[1] Alcatel-Lucent 1830 PSS  brochure, www.alcatel-lucent.com; Ciena 6500 product data sheet, www.ciena.com. 
+detected for the two 10 Gbps nearest neighbors of the 100 Gbps DP-QPSK channel, at the optimum span input power per channel over 
+100 Gbps DP-QPSK signal near the FEC limit (BER ~ 1x10-3 for an OSNR (0.1 nm) ~ 11 dB for 10 Gbps NRZ-OOK / BER ~ 1x10-3 for 
+signal  into  the  polarization-multiplexing  module  in  order  to  generate  the  DP-QPSK  signal.  The  100 Gbps  DP-QPSK  odd  and  even 
+This work has been partly supported by the "FUI9 100GRIA" project of the "Pôle de Compétitivité Systematic".  
+separated by Erbium-doped fibre amplifiers (EDFA) with 20 dB gain and 5.5 dB noise figure. In the middle of our transmission line, a 
+Figure 1: Experimental set-up for the two configurations under study: 100 Gbps DP-QPSK transmission over DCF-free system infrastructure (a), 
+100 Gbps  by  DP-QPSK  is  implemented.  With  the  7%  Forward  Error  Correction  (FEC)  overhead,  the  global  data  rate  of  DP-QPSK 
+and a 10.7 GHz clock and data recovery (CDR). The FEC card sends the decoded 231-1 PRBS to a 9.95 Gbps bit-error-rate tester (BERT). 
+diodes (LD). Decorrelated 215-1 pseudo-random bit sequences (PRBS) are used to drive the I and Q ports of the complex Mach-Zehnder 
+QPSK  channel  at  1548.11  nm  is  plotted  as  a  function  of  the  span  input  power  per  channel  (PIN  SPAN).  In  the  "single-channel"  (SC) 
+Legacy System Infrastructure 
+9:00 AM – 9:15 AM
+of  the  100  Gbps  DP-QPSK  channel:  nearly  one  decade  is  gained.  In  the  same  time,  the  optimum  span  input  power  per  channel  is 
+The performance of the DCF-free transmission configuration is summarized in Fig.2a, in which the bit-error rate (BER) of the DP-
+2. Experimental set-up and results 
+measurement is selected by a Gaussian OBPF of 0.25 nm bandwidth, detected by a 10 GHz photo-receiver, which feds the FEC decoder 
+(fixed here at 2x10-3): the 1000 km DCF-free 100 Gbps transmission over the G.652 fibre is thus fully error-free.  
+We  have  shown  here  that  "greenfield"  DCF-free  system  infrastructure  is  the  most  efficient  for  100  Gbps  DP-QPSK  transmission  over 
+The  SC  and  WDM  performance  of  the  100  Gbps  DP-QPSK  system  for  this  DCF-free  infrastructure  is  thus  well  below  the  FEC  limit 
+dynamic gain equalizer (DGE) is inserted in order to flatten the multiplex power after 1000 km. 
+100 km of G.652 fibre, separated by double-stage EDFAs with 30 dB  gain and 5.5 dB noise figure, whose inter-stage is equipped with 
+dispersion compensation  module  (DCM) adapted to 90-km SSMF spans. A  post-compensation stage  of -700  ps/nm brings back to  ~ 0 
+OCIS codes: (060.0060) Fiber Optics and Optical Communications; (060.1660) Coherent Communications. 
+separation  and  residual  chromatic  dispersion  (CD)  compensation  [2].  Frequency  offset  compensation  and  carrier  phase  estimation  are 
+Figure 2: BER versus span input power per channel after the 10x100-km G.652 fibre line of the 112 Gbps DP-QPSK channel at 1548.11 nm for the DCF-
+the first  option, for which a  100 Gbps WDM system implementing up  to  eighty  DP-QPSK  channels only is  installed  over a  DCF-free 
+multiplex ("No GB" configuration). As observed in Fig.2b for this scheme, the 100 Gbps DP-QPSK channel do not work after 10x100 
+configuration) used as reference, the wavelengths were not modulated except the channel at 1548.11 nm, which carries the 100 Gbps DP-
+configuration, the 79 neighbors of the DP-QPSK channel under measurement are not modulated. The optimal BER (~ 1x10-5) is obtained 
+[3] D.S. Ly-Gagnon et al., J. Lightwave Technol., Vol. 24, n° 2, pp.12-21 (2008) 
+1. Introduction 
+an OSNR (0.1 nm) ~ 16 dB for 100 Gbps DP-QPSK), we have intentionally reduced, in the transmitter, the 10 Gbps channel power of 
+3.  Conclusions  
+Two various configurations have been evaluated in Fig.2b for the case of legacy infrastructure. In the first one ("Single-Channel" 
+limit the impact of laser phase noise, while the 79 other channels ranging from 1529.16 nm to 1560.61 nm are fed by cheap standard laser 
+of the 100 Gbps channel while increasing its optimum span input power, but not sufficiently to be below the FEC limit. Note as well that 
+
+(C) 2006 OSA
+022317 (2003).
+FWHM based for example on photomultiplier tubes may soon become available. This will open
+References and links
+tion signal provided locally using a short electric line between Alice and Bob was sufﬁcient,
+attacks is taken into account. For implementations of the BB84 protocol [7] with a Poisson
+showed that the improved timing jitter characteristics of the detectors allowed us to signif-
+of the IEEE International Conference on Computers, Systems, and Signal Processing, Bangalore, India, (IEEE,
+protocol, namely error correction and privacy ampliﬁcation, with appropriate algorithms rather
+Eleni Diamanti1, Hiroki Takesue 2,3, Carsten Langrock1,
+14. K. Inoue, E. Waks and Y. Yamamoto, “Differential Phase Shift Quanum Key Distribution,” Phys. Rev. Lett. 8
+at the same time guaranteeing its security against the most general individual eavesdropping
+multiplexing of the quantum and clock signals in the same transmission ﬁber using different
+16. E. Diamanti, H. Takesue, T. Honjo, K. Inoue and Y. Yamamoto, “Performance of various quantum-key-
+3CREST, Japan Science and Technology Agency, 4-1-8 Honcho, Kawaguchi, Saitama,
+6. D. Rosenberg, J. W. Harrington, P. R. Rice, P. A. Hiskett, C. G. Peterson, R. J. Hughes, J. E. Nordholt, A. E. Lita
+145–195 (2002).
+cols. Often the average photon number per pulse is set to the arbitrary value 0.1, which is not
+Phys. Lett. 8
+telecom ﬁbre,” Electron. Lett. 40, 1603–1605 (2004).
+the result of a security proof. In the best cases, only a limited set of potential eavesdropping
+state BB84 protocol [12, 13], which achieved secure key distribution over 107 km and 60 km
+generation rate with a corresponding secure key generation rate of 0.468 Mbit/s over 10 km of
+in a practical system remote synchronization will be mandatory, and will probably involve
+9. G. Brassard, N. L¨utkenhaus, T. Mor and B. C. Sanders, “Limitations on Practical Quantum Cryptography,” Phys.
+vide the phase modulation signal will need to be replaced by a true random number generator,
+and silicon avalanche photodiodes. Based on the security analysis of the
+distribution systems using 1.55-µm up-conversion single-photon detectors,” Phys. Rev. A 72, 052311 (2005).
+230504 (2005).
+New York, 1984), 175–179.
+and S. W. Nam, “Long distance decoy state quantum key distribution in optical ﬁber,” quant-ph/0607186 (2006).
+system ready for practical implementation in a network will require some important additional
+© 2006 Optical Society of America
+4. H. Takesue, E. Diamanti, T. Honjo, C. Langrock, M. M. Fejer, K. Inoue and Y. Yamamoto, “Differential phase
+Cryptology 5, 3–28 (1992).
+photon detection at communication wavelengths by use of upconversion in reverse-proton-exchanged periodi-
+the generated keys against general eavesdropping attacks, despite the fact that security proofs
+25 December 2006 / Vol. 14,  No. 26 / OPTICS EXPRESS  13074
+source this set usually does not include the powerful photon number splitting attack, rendering
+jitter up-conversion detectors
+protocol against general individual attacks, we generated secure keys at a
+100 km differential phase shift quantum
+timing jitter characteristics of the Si APDs. The dark counts caused by noise photons generated
+these systems, however, featured a very small secure key generation rate, which prevents their
+DAAD19-03-1-0199).
+#74039 - $15.00 USD
+support was provided by the SORST program of Japan Science and Technology Agency
+generation rate and the bit error rate. Finally, although in our experiment a clock synchroniza-
+photon number splitting attacks [4, 16, 17]. In this implementation, the security analysis against
+ton number splitting attacks, was taken into account. Although it is important to demonstrate a
+1Edward L. Ginzton Laboratory, Stanford University, Stanford, California 94305-4088
+splitting attack,” Phys. Rev. A 71, 042305 (2005).
+9,
+230503 (2005).
+(JST), the National Institute of Information and Communications Technology (NICT) of
+via spontaneous Raman scattering can be reduced by using a shorter signal wavelength
+7. C. H. Bennett and G. Brassard, “Quantum cryptography: Public key distribution and coin tossing,” in Proceedings
+by quantum mechanics were distributed over 100 km of optical ﬁber. We
+icantly increase both the key distribution rate and distance of the DPS-QKD system, while
+light-wave circuit Mach-Zehnder interferometer,” Opt. Lett. 29, 2797–2799 (2004).
+dividual attacks and their distribution over 50 km of optical ﬁber using the BB84 protocol with
+21. H. Takesue, E. Diamanti, C. Langrock, M. M. Fejer and Y. Yamamoto, “10-GHz clock differential phase shift
+2. N. Gisin, G. Ribordy, W. Tittel and H. Zbinden, “Quantum cryptography,” Rev. Mod. Phys. 7
+Most of the previous experiments, however, have not been able to guarantee the security of
+rate was reported in [10]. Furthermore, [6] and [11] reported implementations of the decoy
+key distribution experiment with low
+distribution over 60 km telecom ﬁber,” Proc. IEEE Int. Symp. Inf. Theor. 2006, 2094–2098.
+3762–3764 (2004).
+15. K. Inoue, E. Waks and Y. Yamamoto, “Differential-phase-shift quanum key distribution using coherent light,”
+The authors would like to thank E. Waks for useful comments and G. Kalogerakis for
+In the experiment presented in [4], we implemented the differential phase shift quantum key
+13. X.-B. Wang, “Beating the Photon-Number-Splitting Attack in Practical Quantum Cryptography,” Phys. Rev.
+10 km of ﬁber.
+practical QKD system that is secure against these realistic attacks, it is also crucial to consider
+wavelengths.
+and used low timing jitter 1.55 µm single-photon detectors based on
+to substantially reduce the effective dark counts, thus improving the signal to noise ratio and
+M. M. Fejer 1 and Yoshihisa Yamamoto
+The above results show that the quantum cryptography system we implemented achieves a
+1. C. H. Bennett, F. Bessette, G. Brassard, L. Salvail and J. Smolin, “Experimental quantum cryptography,” J.
+the way to megahertz secure key generation rates and very long distance secure communication.
+8. N. L¨utkenhaus, “Security against individual attacks for realistic quantum key distribution,” Phys. Rev. A 61,
+Japan, and the MURI Center for Photonic Quantum Information Systems (ARO/ARDA
+1330–1333 (2000).
+332-0012, Japan
+integration into practical telecommunication networks.
+led to small pulse broadening, which allowed the use of a short measurement time window
+jitter up-conversion detectors for telecom wavelength GHz QKD,” New J. Phys. 8, 32 (2006).
+tance and the highest possible communication rate. The rapid progress in the ﬁeld has re-
+243-0198, Japan
+2NTT Basic Research Laboratories, NTT Corporation, 3-1 Morinosato Wakamiya, Atsugi,
+frequency up-conversion in periodically poled lithium niobate waveguides
+optical ﬁber, and secure key distribution over 100 km of ﬁber at a rate of 166 bit/s, which is two
+detectors also increased the sifted key generation rate to 2 Mbit/s over
+19. C. Langrock, E. Diamanti, R. V. Roussev, Y. Yamamoto, M. M. Fejer and H. Takesue, “Highly efﬁcient single-
+a limited set of eavesdropping attacks, in particular the beamsplitter, intercept-resend and pho-
+characteristics of the up-conversion detectors employed in the system. These characteristics
+OCIS codes: (270.0270) Quantum optics; (270.5570) Quantum detectors
+17. K. Inoue and T. Honjo, “Robustness of differential-phase-shift quanum key distribution against photon-number-
+Phys. Rev. A 6
+11. Y. Zhao, B. Qi, X. Ma, H.-K. Lo and L. Qian, “Simulation and implementation of decoy state quantum key
+12. H.-K. Lo, X. Ma and K. Chen, “Decoy State Quantum Key Distribution,” Phys. Rev. Lett. 9
+frequency [3, 4] and extended the key distribution distance to more than 100 km [4, 5, 6].
+5,
+10. C. Gobby, Z. L. Yuan and A. J. Shields, “Unconditionally secure quantum key distribution over 50 km of standard
+quantum key distribution experiment,” Opt. Express 14, 9522–9530 (2006).
+1
+operate in a standard telecommunication network. However, the realization of a full scale QKD
+while it is also necessary to perform the classical data post-processing steps of the DPS-QKD
+of ﬁber using superconducting transition-edge sensors and InGaAs/InP APDs, respectively. All
+decreasing the bit error rate.
+than calculating the secure key generation rate using the experimental values of the sifted key
+orders of magnitude higher than previously reported values. The system’s capabilities can be
+elements. In particular, the pseudo-random number generator used in the experiment to pro-
+18. E. Waks, H. Takesue and Y. Yamamoto, “Security of differential-phase-shift quantum key distribution against
+a Poisson source and InGaAs/InP avalanche photodiodes (APDs) with a very small dark count
+Acknowledgements
+Lett. 9
+further extended by improving the dark count behavior of the up-conversion detectors and the
+cally poled LiNbO3 waveguides,” Opt. Lett. 30, 1725–1727 (2005).
+phase shift quantum key distribution protocol with low jitter up-conversion detectors. We
+25 December 2006 / Vol. 14,  No. 26 / OPTICS EXPRESS  13082
+Introduction
+individual attacks,” Phys. Rev. A 73, 012344 (2006).
+25 December 2006 / Vol. 14,  No. 26 / OPTICS EXPRESS  13073
+5. C. Gobby, Z. L. Yuan and A. J. Shields, “Quantum key distribution over 122 km of standard telecom ﬁber,” Appl.
+shift quantum key distribution experiment over 105 km ﬁbre,” New J. Phys. 7, 232 (2005).
+implemented the differential phase shift quantum key distribution protocol
+3. T. Honjo, K. Inoue and H. Takahashi, “Differential-phase-shift quanum key distribution experiment with a planar
+making quantum cryptography practical by achieving the longest possible communication dis-
+037902 (2002).
+1.
+5. Conclusion
+than pump wavelength, while single-photon detectors with a Gaussian response and narrow
+8,
+We presented a quantum key distribution experiment, in which we implemented the differential
+these systems ultimately insecure [8, 9]. Generation of keys that were secure against general in-
+have been numerous efforts toward the implementation of such systems [2] with the goal of
+052304 (2000).
+Since the ﬁrst demonstration of a quantum key distribution (QKD) system in 1992 [1], there
+ediam@stanfordalumni.org
+keys that were secure against all individual eavesdropping attacks allowed
+distribution (DPS-QKD) protocol, which uses a Poisson light source [14, 15] but is robust to
+Rev. Lett. 8
+practical rate of 166 bit/s over 100 km of ﬁber. The use of the low jitter
+20. R. T. Thew, S. Tanzilli, L. Krainer, S. C. Zeller, A. Rochas, I. Rech, S. Cova, H. Zbinden and N. Gisin, “Low
+cently led to the implementation of ﬁber-based QKD systems that operated at 1 GHz clock
+providing the conditions required for unconditional security exist for the implemented proto-
+attacks allowed by quantum mechanics. With this system we achieved a 2 Mbit/s sifted key
+Abstract: We present a quantum key distribution experiment in which
+providing ﬁber spools and electronic components. H. Takesue also thanks T. Honjo and Y.
+Tokura for helpful discussions and support during his stay at Stanford University. Financial
+sufﬁciently high communication rate and a long enough communication distance to be able to
+Received 14 August 2006; revised 8 November 2006; accepted 8 November 2006
+4,
+
+Difference-of-Arrival  (FDOA).  The  architecture,  the  technique  and  the  system  performance  are  presented  in  this  paper  which  is 
+The realized Indoor Localization System (ILS) is shown in Fig 2; the active-Tag and LBS are shown on the left and right sides, 
+linearly swept sinusoidal FMCW signal covering the 6-7 GHz (∆f=1GHz) frequency is generated with a sweep time, Tm=10 msec, 
+Another  drawback  is  that  the  number  of  known  references/anchors  and  their  positions  play  an  important  role  in  the  localization 
+The  Active-Tag  is  used  as  a  remote  active-reflector.  It  includes  a  frequency  down-converter  (1.5GHz),  two  amplifiers,  two 
+Antenna 
+and  active-Tag  will  help  in  reducing  the  mutual  coupling  among  the  antennas  at  the  LBS  as  well  as  in  suppressing  the  strong 
+Introduction 
+                      
+European UWB Band  
+active-Tag. The up-conversion is done with a Local Oscillator (1.5 GHz) and a mixer.   Each RF chain of the LBS (two receivers 
+1.2. Technique for 2D-Measurement [7] 
+Mixer     Amplifier      Passband-Filter 
+The Indoor Localization with an accuracy under a meter-scale is a great challenge. Although, an accuracy of a meter-scale may be 
+in reducing the coupling effects among the antennas- A0, A1, & A2. The two bandpass filters ([7.5-8.5 GHz] & [6-7 GHz] frequency 
+Fig. 5.  Estimated AoA and its root-mean-square error 
+Range
+bandpass  filters  (BPF),  and  a  dual  circular  polarised  antenna  [6].  The  incoming  signal,  from  A0,  is  down-shifted  by  1.5GHz 
+1-  Y. Gu, A. Lo, and I. Niemegeer, “A survey of indoor positioning systems for wireless personal networks,” IEEE Cummunications Survey & 
+LO 
+compared to other methods, like in triangulation, where a good synchronization among the different reference positions becomes a 
+References 
+paths A0-Tag-A1 and A0-Tag-A2 which is computed with the help of FMCW Radar technique for the delays (TDelay1 & TDelay2) as 
+3.  Conclusion 
+Connected 
+indoor environment for the line-of-sight case with respect to a single known reference position. The estimated root-mean-square 
+ Arrival Approach”, Radio and 
+was oberved in the range estimation case (error 4.5cm), a single large error 16.6° is also present here which might be accounted 
+Application,” Antenna and Propagation (EuCAP) , pp. 1474-1478, 8-12 April 2013. 
+and one transmitter) is connected to a dedicated circular polarized antenna [4-5]. The transmitter antenna is connected to a linearly 
+for the fading because of harsh indoor conditions while rest of the data are under 10°. 
+(cid:32)
+Therefore, the calculation of the radial distance d between the LBS and the Tag can be done by measuring the average value of the 
+   (1) 
+Ref.Signals Mixer  Passband-Filter  Amplifier 
+Where, c is the speed of light and TDelay as the average value, respectively.  
+This paper presents  a hybrid technique for 2D position estimation of an active-Tag in a real indoor environment for a LOS case 
+measurement.  Using  a  single  known  referenc e  position  gives  a  great  advantage  in  terms  of  synchronization-free  system  as 
+Active-Tag 
+m
+*
+In this paper, a hybrid 2D-Measurement technique is presented for the estimation of the remote position of an active reflector unit 
+7-  R.  Kumar,  J.  C.  Cousin,  B.  Huyart,  and  K.  Mabrouk,  “2D  Measurement  using  Interferometry  and  FMCW  Multistatic  Radar  System  for 
+2D Measurement with Single Known Reference Position for Indoor Localization in 
+signals from 6-7 GHz to baseband signals by mixing with the reference signal (generated FMCW signal, 6-7 GHz). 
+(Tag),  in  terms  of  radial  distance  and  azimuth  angle.  The  technique  is  based  on  Interferometry  and  FMCW  multistatic  radar 
+Transmitter (Tx) 
+square error is equal to 7.1° and its maximum error is 16.6°. The variation of the deviation comes from the measurement of the 
+_ 
+   (2) 
+for minimizing the multipath and back-scattering effects while utilizing a single known reference (anchor) position as LBS for 2D 
+and then this signal is up-converted to 7.5-8.5 GHz and finally amplified before being transmitted by the antenna A0 towards the 
+Similarly, the x-axis of Fig 5 shows the estimated AoA while y-axis shows the error in AoA estimation. The observed root-mean-
+ 
+2-  E.  Goldoni,  A.  Savioli,  M.  Risi,  and  P.  Gamba,  “'Experimental  analysis  of  RSSI-based  indoor  localization  with  IEEE  802.15.4,”  2010 
+3-  C. Zhang, M. Kuhn, and B. Merkl, “Accurate UWB Indoor Localization System Utilizing Time Difference of
+Wireless Symposium, pp. 515-518, 17-19 Oct. 2006.    
+d
+The photo of the active-Tag shows the antenna mounted on a white-box which contains the filters and mixers as the architecture 
+and that of the transmitter-port is attached to the transmitter antenna (A0, see Fig 1-2). The transmitted antenna has used the LHCP 
+frequency. It helps in cancelling & suppressing the feedback in Tag and multipath effects produced by the radio channel as well as 
+necessary condition to obtain a good performance. Thus, the use of one known reference position makes the presented system into a 
+system  which  operates  in  the  European  UWB  frequency  band  [6-8 .5  GHz].  The  measurements  have  been  performed  in  a  real 
+application de localisation indoor,” Journées nationales Microondes (JNM), 15-17 May 2013. 
+echoes/backscatters of an indoor environment. 
+* 
+by the FMCW radar for the paths A0-Tag-A1 and A0-Tag-A2, respectively. 
+structure. Each one consists of a bandpass filter (6-7 GHz), a low noise amplifier and a mixer for the down conversion of incoming 
+109
+URSI-France
+interesting to help people to find ways around museums, airports, malls but it is not adequate for many other situations [1].  Most of 
+Tutorials, vol.11, NO. 1, pp. 13-32, First Quarter 2009. 
+pp. 1463-1466, 3-8 July 2011. 
+,
+5-  Y. Shen, and C.L. Law, “A microstrip-fed quasi spiral circularly polarized ultra-wideband antenna,” Antenna and Propagation (APSURSI) , 
+6-  R. Kumar, J. C. Cousin, B. Huyart, and K. Mabrouk, “Dual-Crcular Polarizes Dumbbell-Shaped Crossed-Dipole Planar Antenna for UWB  
+known  position  for  2D  localization  and  it  uses  a  hybrid-technique  based  on  Frequency-of-Arrival  (FOA)  and  Frequency-
+consists  of  two  main  subsystems:  Localization  Base  Station  &  the  active-Tag.  The  schematic  of  the  LBS,  allowing  the 
+(cid:39)
+Delay
+tag is received by the two antennas (A1 & A2) separated by a distance denoted dbaseline (Fig 1).  The delays to reach A1 and A2 from 
+T
+less complex with an accuracy of few centimetres.    
+;
+The  transmitted  signal  from  A0  reaches  to  A1  &  A2  via  the  active-Tag  with  some  delays-  TDelay1  &  TDelay2,  respectively. 
+8.5GHz [6].  For the active-Tag, a single antenna is used for the reception and transmission of the signals with different circularly 
+This paper describes a system using two jointly techniques, FMCW multistatic radar and optic’s interferometry techniques, for 2D 
+1
+errors observed are 2.1cm & 7.1° over [1 1.6] m & [45° 90°], respectively.  
+4-  R.  Kumar,  J.  C.  Cousin,  B.  Huyart,  and  K.  Mabrouk,  “Antenne  spirale  asymétrique  couvrant  la  bande  UWB  (6-8.5  GHz)  pour  une 
+position  is  used  for  location-estimation  and  simultaneously,  the  multipath  effects  can  be  strongly  reduced  by  shifting  the 
+Rupesh KUMAR*, Jean-Christophe Cousin*, Bernard Huyart*, Kais Mabrouk*
+105
+Fig. 1.  On the left: Architecture defined for the LBS & active-Tag.  
+Receivers (Rx) 
+1.1. System design and consideration   
+known  techniques  are  based  on  radio-signature  or  time  delay  measurement  which  presents  an  accuracy  of  more  than  a  meter. 
+It consists of one transmitting antenna (A0) and two receiving antennas (A1 & A2) which are placed closely on the same axis. A 
+bands) are used to filter the downlink and uplink channels at the active-Tag. The retransmitted FMCW signal (6-7 GHz) from the 
+Fig. 2.  Realized ILS: Active-Tag & LBS. 
+1.  System Design Consideration and Implementation 
+DelayTc
+polarizations of  radio-frequency  waveforms.    The  RHCP (right  hand  circular polarized) waveform  (7.5-8.5  GHz)  is  used  for the 
+S
+The dedicated waveforms (RHCP & LHCP) and frequency spectrums (6-7 & 7.5-8.5 GHz’s) for the wireless link between LBS 
+estimation. Generally, it requires at least three known positions for the location [2-3]. The presented system just requires a single 
+frequencies FS1 & FS2 for the computation of the path-difference (difference in distance measured by the two receiver chains). As it 
+frequency spectrum by the active-Tag (to be localized). This technique requires the measurements of the FOA and FDOA which 
+Abstract 
+lead  to  the  computation  of  radial  distance  and  azimuth-angle  as  Angle-of-Arrival  (AoA),  simultaneously.  The  system  design 
+localization of an active-Tag by using FMCW radar technique, is shown in Fig 1. 
+Index: Angle-of-Arrival, FMCW radar, indoor environment 
+Journées scientifiques 25/26 mars 2014
+the tag are TDelay1 & TDelay2, respectively. The two receiver chains (Rx-Chain) of the LBS are identical and based on a heterodyne 
+signal’s reception and the LHCP (left hand circular polarized) waveform is used for the retransmission of the down-shifted signal 
+_
+used for the 2D position estimation of a remote active-Tag in a real Indoor Environment for a Line-of-Sight (LOS) case. 
+(7.5-8.5 GHz), simultaneously. 
+F
+   
+Indoor Localization,” European Microwave Week (EuMA) , pp. 17-20, 6-11 October 2013. 
+2
+with accuracy around few centimetres (2cm). The estimated parameters (range & angle) demonstrate the robustness of the system 
+waveform and the reception of the signal is considered as the RHCP waveform via an active-Tag. 
+respectively. 
+to Antenna 
+Where, Tm is sweep time of FMCW signal (10msec), ∆f is equal to 1GHz, and the frequency-shifts (FS1 and FS2) are measured 
+presented  in  Fig  1.  The  active-Tag  uses  a  dedicated  dual  circular  polarized  antenna  designed  for  the  European  UWB  band,  6-
+106
+sinusoidal FMCW signal (6-7 GHz) generator via a 10dB coupler. The output of the coupled-port is taken as the reference signal, 
+    
+Tf
+European Wireless Conference, pp. 71-77, 12-15 April 2010. 
+DC-supply 
+localization  of  a  remote  active-Tag.  The  main  advantages  of  this  system,  compared  to  [1-3]  are:  only  one  known  reference 
+
+shape  of  the   fetuses   present   in   the  database   and  the   positions
+same  order   as   the   mean  value  and  are   always   inside   the   conﬁ-
+we  can   see  here,   the  computed   values   are   still   within   the   conﬁ-
+2002;109:919–29.
+(like  the  26   WA   one)   could   not   be   reached   exactly.
+simulations.  The   construction  of   the   model   and   a   few   selected
+1.   Introduction
+this   project,   as
+[6]  Chittya  LS,  Altmanb  DG.  Charts  of  fetal  size: 
+the  evolution   model   since  inter-individual   variability   cannot   be
+noise  ratio.  Semi-automatic   segmentation   procedures   have  been
+of  fetus   growth   has  been  proposed   in   the   literature.   Our   objective
+26 
+fetal   ultrasound  imaging   [7].   The   results  are  given   in  Fig.   9.   As
+ability  between   fetuses   of   a  same  age.  This   induces   a  bias   in
+3.2.   Quantitative   validation
+I.   Segmentation  of 
+measures  and  visual   appearance   to   real   ones.  Increasing   the
+position.   This  process   results   in   an  automated   model,   the   operator   being   only   required   to   specify   the   age  and   position   of  the   desired   estimated   fetus.
+data,   a   multi-steps   algorithm   has   been   developed   as   shown   in
+Research  in  Imaging  and  Health  Technologies
+Image  resolution(mm/px) 
+model  regarding  age   and  position   has  been  studied   and  compar-
+References
+reliable   3D   meshes   from  medical   imaging  data.   These   meshes
+reliable  human  models   have   to  be   constructed.   While   many   adult
+and  allow   even  more   realistic   models.   The   presented   modeling
+human  beings,   dosimetry   studies   have   to   be   performed.   To   do   so,
+size   of   the   image   database   will   naturally  improve   this   ﬁtting
+the
+34.5 
+Fig.   1.   First,   a  semi-manual   strategy  is  applied   in   order   to   obtain
+©   2013   Elsevier   Masson   SAS.   All  rights   reserved.
+towards   the   segmented   ones.   By   interpolating   linearly   between   the   subjects   of  the   database,   each  structure   can   be  estimated   at   any   age  and   in  any
+IRBM  34  (2013)  349–356
+[7]  Moeglin  D,  Talmant  C,   Duyme  M,  Lopez  AC.  Fetal  lung  volumetry
+1.6 
+3D  articulated  growth  model  of  the   fetus  skeleton,  envelope  and  soft  tissues
+reﬂects  exactly   the   data   and  thus   the  fact   that   our  model  does
+d Paris-Sud  University,  91405  Orsay  cedex,  France
+embryo   [1]  and  fetus  [2].  To  our   knowledge,   no   in   silico   model
+0.144 
+Modality 
+32 
+[4]  Zhu  Y,  Gortler  SJ.  3D  Deformation  Using  Moving  Least  Squares.  Harvard
+In   order   to   assess   the  impact   of   radiofrequency   waves  on
+Fetal   dosimetry   studies   require   the   development   of  accurate   3D   models   of  the   fetus.   This   paper   proposes   a  3D   articulated   fetal   growth   model
+a Institut  Mines-Telecom,  Telecom  ParisTech/CNRS  LTCI/Whist  Lab,  46,  rue  Barrault,  75013  Paris,  France
+1959-0318/$  –  see  front  matter  ©  2013  Elsevier  Masson  SAS.  All  rights  reserved.
+0.048
+all   the   freedom   degrees   that   exist   in   real   ones,  some  positions
+Disponible   en  ligne   sur
+27 
+Eng  2010;57(10):2346–58.
+2.  Material  and   methods
+during  medical   examinations   except   two  sets   of   micro-Computer
+∗ Corresponding  author.
+7.6 
+ble  structures.   All  the  images   were   recorded   on   pregnant   women
+356 
+used  for  the   skeleton   and  envelope  segmentation   on   CT-scan   and
+we  can  see,  the  values   representing   the  modeled   fetus   are  of   the
+number  of   subjects   not   allowing   us   to   take  into   account   the   vari-
+body  throughout   pregnancy.   The   whole   method   is  detailed   in  the
+µCT
+[5]  Trochu  F.  A  contouring  program  based  on  Dual  Kriging  interpolation.  Eng
+http://dx.doi.org/10.1016/j.irbm.2013.06.002
+using  two-  and  three-dimensional  ultrasound.  Ultrasound  Obstet  Gynecol
+different   ages   have  been  generated,   as  illustrated   in   Fig.  8.  Since
+A.  Serrurier a,  S.   Dahdouh a,∗,   G.  Captier c,   V.  Calmels b,  C.   Adamsbaum a,b,d,  I.  Bloch a
+1.2  
+the  modest   size   of  the   initial   database,   these   two  validations
+896–9.
+0.64 
+I.  Whole  body  pregnant  woman  modeling  by  digital  geometry  processing
+is  preserved,   the  soft   tissues   are  well   positioned,   and  the  fetal
+2.2.   Algorithm
+J,   Bibin  L,  Angelini  E,  Bloch 
+E-mail  address:  dahdouh@telecom-paristech.fr  (S.  Dahdouh).
+Table  1
+the  soft-tissues   or   for  the  skeleton.   At   these  key   ages,   the  model
+the  literature   [6]   and  to   the   charts   from   the   French   college   of
+fetus  at   any   age   between   14  and  32   WA  and  placed   in   any   position
+20 
+The  same   comparison   is  made  for  the  bi-parietal   diameter,
+CT 
+In  vivo 
+[2]  Bibin  L,  Anquez  J,   de  la  Plata  Alcalde  JP,  Boubekeur  T,   Angelini  E,  Bloch
+b General  and  Pediatric  Radiology  Departments,  Bicêtre  Hospital,  AP–HP,  Paris,  France
+being  more   curled   up.   Despite   this   limitation,   the   global   position
+Fig.  1.  Global  algorithm.
+Available  online  23  September  2013
+Different  image   processing   strategies   have   been   used  in
+following  sections.
+350 
+interest   were   semi-manually   segmented   from   the   images   and   surface   meshes   were   generated.   A   generic   mesh   of  each   structure   has  been   deformed
+In   order   to  assess   the  validity   of   the  modeled  skeletons,   some
+Slice  thickness(mm) 
+c Anatomy  laboratory,  Montpellier-1  University,  Montpellier,  France
+including   skeleton,   body   envelope,   brain   and   lungs  based   on  medical   images   of  ten   different   fetuses   acquired   in  clinical   routine.   The   structures   of
+Brain  +  lungs
+[1]  Smith  BR.  Visualizing  human  embryos.  Sci  Am  1999;280:76–81.
+from  14   to   32   weeks  of   amenorrhea   (WA).   Beyond  the  scope
+Subject 
+commonly  used  in   pregnancy   follow-up   as   shown   in   Fig.   10.   As
+has   been  presented.   This   process   ensures   a  realistic   model   but
+limb  bones.  BJOG
+3D  US 
+In   this   paper,   a   growth   model   allowing  the  construction  of   a
+2.2.1.   Image-based   3D  meshes  construction
+0.036 
+www.sciencedirect.com
+µCT 
+1.36 
+should  be   used  in   a   near   future   for  dosimetry   studies   on   the
+stretched  apart   from  inter-ages   variability.   The   behavior   of  the
+no  mobility   degree   has  been  allowed   for  the  spine,   it  reﬂects  the
+proportions   are  respected.
+0.74 
+In   order   to   construct   a  3D  articulated   growth  model   from   these
+MRI  
+resenting   different   fetuses   were   used   for 
+4 
+model  of  the  fetus  including   fetal   skeleton,   body   envelope,   brain
+In  a   second   experiment,   fetuses  with   the  same   position   but   at
+30 
+4.   Discussion   and   conclusion
+modalities  allows   us   to   cover  a  large   range   of   ages   and  visi-
+Comput  1993;9:160–77.
+the  extremities   of   the   interval   than   to   the   mean  curve.   These   cases
+Abstract
+[3]  Anquez 
+Anquez  et  al.   [3],  while   in   3D  Ultrasound   (US)   segmentation
+Data  characteristics.
+Brain
+for  several   decades.
+Structures  of  interest
+Received  13  May  2013;  received  in   revised  form  3  June  2013;  accepted  28  June  2013
+MRI 
+University  Technical  Report;  2007.
+Tomography  (µCT)   recorded   on   fetuses  conserved   in   formalin
+models  have  been   developed,   only  few   studies   have   focused   on
+Pregnancy  stage(WA) 
+Skeleton  +  lungs  +  brain
+dence  interval,   which   seems   to   validate   the  proposed   approach
+raises   also   a  few   limitations   due  to   the   heavy   processing   involved
+with   medical   images.   The   model   relies   indeed   on  a   limited
+16 
+in  this   paper   is  thus   to   develop   a   three-dimensional   (3D)   growth
+0.76 
+Formalin 
+developmental  studies,   medical   research,   teaching   or  surgery
+summarized   in   Table   1.  Using   complementary   3D   imaging
+Several   sets   of   medical   images  of   various   modalities   rep-
+A.  Serrurier  et   al.  /   IRBM  34  (2013)  349–356
+type.   For   Magnetic   Resonance   Imaging   (MRI)   data,   brain  and
+of  dosimetry,   such   a   model   will   also   be   useful   in  ﬁelds   like
+fetal  envelope  on  ante-natal  MRI.  Int  Symp  Biomed  Imaging  2010:
+for  skeletal   evolution   regarding  to   limbs.
+order  to   retrieve   the  structures   of   interest   according   to   data
+0.96
+1 
+dence   interval.   However,   in   some  cases,   the   values   are  closer   to
+and  lungs.   It  aims   at  estimating  fetuses  at  any   age  and   position
+14 
+are   then  used   to   construct   a   growth  evolution   model  of   the   fetal
+2005;25:119–27.
+lungs   have   been   segmented   using   the   method   presented   in
+correspond  to  the   ages  where   information   was  given  either   for
+In  vivo
+at  14   and  32   WA  are   slightly   different,   the   one  at  32   weeks
+isons  have   been   performed   with   classical   charts   values.  Despite
+results  are   presented   in   this   paper.
+fetal  biometry   markers   have   been   computed   and  compared   to
+fetus.
+Skeleton
+not  take   into   account   intra-ages   variability.
+have  shown   that   the  modeled   fetuses   ﬁt   in   terms   of   biometry
+13 
+0.94 
+has   been  performed  manually   due  to   the  very   low   signal   to
+Skeleton  +  envelope
+2.1.  Data
+with  detailed  utero-fetal  unit  based  on  medical  images.  IEEE  Trans  Biomed

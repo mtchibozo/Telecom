@@ -1,0 +1,2671 @@
+[
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01653192/document",
+"title": "Évolution des Architectures des Systèmes Avioniques Embarqués",
+"year": "2016",
+"authors": {
+"Marc Gatti": [
+"THALES Avionics Electrical Systems"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"THALES Avionics Electrical Systems"
+]
+}
+},
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01695496/document",
+"title": "Amplificateur de puissance autonome pour applications OFDM et beamforming de la 5G aux fréquences millimétriques en technologie CMOS avancée",
+"year": "2017",
+"authors": {
+"Boris Moret": [
+"Institut Polytechnique de Bordeaux",
+"Université Sciences et Technologies - Bordeaux 1",
+"Laboratoire de l'intégration, du matériau au système",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux"
+],
+"Laboratoire de l'intégration, du matériau au système": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux"
+]
+}
+},
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01679732/document",
+"title": "Combinatoire de l’ASEP, arbres non-ambigus et polyominos parallélogrammes périodiques",
+"year": "2017",
+"authors": {
+"Patxi Laborde-Zubieta": [
+"Université Sciences et Technologies - Bordeaux 1",
+"Centre National de la Recherche Scientifique",
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)",
+"Université Bordeaux Segalen - Bordeaux 2",
+"Laboratoire Bordelais de Recherche en Informatique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)",
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Université Bordeaux Segalen - Bordeaux 2"
+],
+"Laboratoire Bordelais de Recherche en Informatique": [
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)",
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Université Bordeaux Segalen - Bordeaux 2"
+]
+}
+},
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01674218/document",
+"title": "Aqueous dispersions of conducting polymers for opto-electronic applications",
+"year": "2016",
+"authors": {
+"Anna Hofmann": [
+"Institut Polytechnique de Bordeaux",
+"Ecole Nationale Supérieure de Chimie, de Biologie et de Physique (ENSCBP)",
+"Centre National de la Recherche Scientifique",
+"Université de Bordeaux",
+"Laboratoire de Chimie des Polymères Organiques"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université de Bordeaux",
+"Centre National de la Recherche Scientifique",
+"Institut Polytechnique de Bordeaux",
+"Ecole Nationale Supérieure de Chimie, de Biologie et de Physique (ENSCBP)"
+],
+"Laboratoire de Chimie des Polymères Organiques": [
+"Université de Bordeaux",
+"Centre National de la Recherche Scientifique",
+"Institut Polytechnique de Bordeaux",
+"Ecole Nationale Supérieure de Chimie, de Biologie et de Physique (ENSCBP)"
+]
+}
+},
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01675982/document",
+"title": "Synthèse et formulation d’encres conductrices imprimables par jet d’encre pour l’électronique organique",
+"year": "2015",
+"authors": {
+"Maxime Le Bail": [
+"Institut Polytechnique de Bordeaux",
+"Université Sciences et Technologies - Bordeaux 1",
+"Laboratoire de l'intégration, du matériau au système",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux"
+],
+"Laboratoire de l'intégration, du matériau au système": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux"
+]
+}
+},
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01691707/document",
+"title": "Apprentissage et correction des imperfections des robots humanoïdes de petite taille : application à l'odométrie et à la synthèse de mouvements",
+"year": "2017",
+"authors": {
+"Quentin Rouxel": [
+"Université Sciences et Technologies - Bordeaux 1",
+"Centre National de la Recherche Scientifique",
+"Laboratoire bordelais de recherche en informatique",
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)",
+"Université Bordeaux Segalen - Bordeaux 2",
+"Laboratoire Bordelais de Recherche en Informatique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)",
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Université Bordeaux Segalen - Bordeaux 2"
+],
+"Laboratoire Bordelais de Recherche en Informatique": [
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)",
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Université Bordeaux Segalen - Bordeaux 2"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01679489/document",
+"title": "Cluster distribution in core-collapse supernova",
+"year": "2017",
+"authors": {
+"A.F. Fantina": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/tel-01697598/document",
+"title": "Étude théorique et numérique d'un cyclotron à secteurs sépares en régime de charge d'espace",
+"year": "1988",
+"authors": {
+"Viviana Cazoll": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-00021954/document",
+"title": "Boltzmann-Langevin approaches",
+"year": "1997",
+"authors": {
+"P. Chomaz": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01671542/document",
+"title": "Stochastic approaches to out-of-equilibrium dynamics",
+"year": "1997",
+"authors": {
+"P. Chomaz": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01679703/document",
+"title": "Influence of neutron enrichment on de-excitation properties of palladium isotopes",
+"year": "2017",
+"authors": {
+"P. St Onge": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01653605/document",
+"title": "Symmetries in Nuclear Models",
+"year": "1997",
+"authors": {
+"P. Van Isacker": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01669705/document",
+"title": "Use of the facility EXOTIC for fusion–evaporation studies",
+"year": "2018",
+"authors": {
+"D. Ackermann": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01669742/document",
+"title": "Nuclear Structure at High Isospin and Spin: The Next Step",
+"year": "2016",
+"authors": {
+"A. Navin": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01679718/document",
+"title": "The LISE spectrometer at GANIL: present and near future",
+"year": "2017",
+"authors": {
+"J.C. Thomas": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/tel-01697617/document",
+"title": "Étude de l'injection axiale d'un faisceau d'ions lourds dans un cyclotron compact",
+"year": "1988",
+"authors": {
+"Stéphane Chel": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01679705/document",
+"title": "NFS Neutron beam characterization and monitoring",
+"year": "2017",
+"authors": {
+"M.O. Frégeau": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01671513/document",
+"title": "Separate determination of diffraction dissociation and absorption contribution to the breakup cross-section of halo nucleus $^{11} $Be",
+"year": "1997",
+"authors": {
+"F. Negoita": [
+"IFIN-HH",
+"Horia Hulubei National Institute of Physics and Nuclear Engineering"
+],
+"M. Lewitowicz": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"M.G. Saint-Laurent": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"R. Anne": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"S. Grévy": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+],
+"D. Guillemaud-Mueller": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+],
+"A.C. Mueller": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+],
+"F. Pougheon": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+],
+"Yu. Penionzhkevich": [
+"FLNR-JINR"
+],
+"O. Sorlin": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Centre National de la Recherche Scientifique",
+"IFIN-HH",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"FLNR-JINR",
+"Université Paris-Sud - Paris 11"
+],
+"Horia Hulubei National Institute of Physics and Nuclear Engineering": [
+"IFIN-HH"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Institut de Physique Nucléaire d'Orsay": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01679707/document",
+"title": "Xperimenting Xploring Xperiencing down to the Femtoscale at GANIL",
+"year": "2017",
+"authors": {
+"N. Alahari": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01679727/document",
+"title": "Simple views on repetitive patterns near Tin",
+"year": "2017",
+"authors": {
+"M. Rejmund": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01649601/document",
+"title": "Dispositif de mesure d'hydrogène pour le système d'entreposage des gaz de SPIRAL2",
+"year": "2017",
+"authors": {
+"M. Faye": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01679733/document",
+"title": "2017 AGATA campaign at GANIL and future plans",
+"year": "2017",
+"authors": {
+"E. Clément": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01669761/document",
+"title": "Production of $N = 126$ Nuclei and Beyond Using Multinucleon Transfer Reactions",
+"year": "2016",
+"authors": {
+"Y.H. Kim": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"E. Clément": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"G. De France": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"A. Navin": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"M. Rejmund": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"C. Schmitt": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"M. Niikura": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+],
+"D. Suzuki": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Institut de Physique Nucléaire d'Orsay": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-00014287/document",
+"title": "Production of nuclei in $^{32,34,36}$S-induced reactions in the energy range 6-75 MeV/A",
+"year": "1997",
+"authors": {
+"R. Anne": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"D. Guillemaud-Mueller": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+],
+"M. Lewitowicz": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"A-C. Mueller": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+],
+"M.G. Saint-Laurent": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"O. Sorlin": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Institut de Physique Nucléaire d'Orsay",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Institut de Physique Nucléaire d'Orsay": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01692313/document",
+"title": "« Image et savoir chez Darwin : quand la science se raconte et se donne à voir »",
+"year": "2016",
+"authors": {
+"Noro Rakotobe d'Alberto": [
+"Université de la Réunion",
+"Déplacements, Identités, Regards, Écritures"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université de la Réunion"
+],
+"Déplacements, Identités, Regards, Écritures": [
+"Université de la Réunion"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01695045/document",
+"title": "Plan vert des universités : plan stratégique ou outil de communication ?",
+"year": "2016",
+"authors": {
+"Jean-Francis Ory": [
+"Centre National de la Recherche Scientifique",
+"Université de Reims Champagne-Ardenne",
+"Université de Picardie Jules Verne",
+"Recherches en Économie Gestion AgroRessources Durabilité Santé- EA ",
+"SFR Condorcet"
+],
+"Jean-Luc Petitjean": [
+"Centre National de la Recherche Scientifique",
+"Université de Reims Champagne-Ardenne",
+"Université de Picardie Jules Verne",
+"Recherches en Économie Gestion AgroRessources Durabilité Santé- EA ",
+"SFR Condorcet"
+],
+"Thierry Côme": [
+"Centre de Recherche Droit et Territoire(s) - EA ",
+"Université de Reims Champagne-Ardenne"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"SFR Condorcet",
+"Université de Reims Champagne-Ardenne"
+],
+"Recherches en Économie Gestion AgroRessources Durabilité Santé- EA ": [
+"SFR Condorcet",
+"Université de Reims Champagne-Ardenne"
+],
+"regrouplaboratory": [
+"Centre National de la Recherche Scientifique",
+"Université de Reims Champagne-Ardenne",
+"Université de Picardie Jules Verne"
+],
+"SFR Condorcet": [
+"Centre National de la Recherche Scientifique",
+"Université de Reims Champagne-Ardenne",
+"Université de Picardie Jules Verne"
+],
+"Centre de Recherche Droit et Territoire(s) - EA ": [
+"Université de Reims Champagne-Ardenne"
+]
+}
+},
+{
+"file_url": "http://hal.univ-lille3.fr/hal-01689010/document",
+"title": "L’enseignement de l’informatique à l’école primaire vu par les acteurs de l’accompagnement des pratiques pédagogiques.",
+"year": "2017",
+"authors": {
+"François Villemonteix": [
+"Université de Lille, Sciences Humaines et Sociales"
+]
+},
+"affiliation_addresses": {
+"Université de Lille, Sciences Humaines et Sociales": "Domaine universitaire du \"Pont de Bois\"Rue du Barreau BP 60149 59653 Villeneuve d'Ascq Cedex"
+}
+},
+{
+"file_url": "http://hal.univ-lille3.fr/hal-01689011/document",
+"title": "Tablettes et enseignants à l’école primaire : entre discours et pratiques.",
+"year": "2016",
+"authors": {
+"François Villemonteix": [
+"Université de Lille, Sciences Humaines et Sociales"
+]
+},
+"affiliation_addresses": {
+"Université de Lille, Sciences Humaines et Sociales": "Domaine universitaire du \"Pont de Bois\"Rue du Barreau BP 60149 59653 Villeneuve d'Ascq Cedex"
+}
+},
+{
+"file_url": "http://hal.univ-lille3.fr/hal-01688905/document",
+"title": "Introduction des tablettes et enseignement des mathématiques à l’école primaire : schèmes d’usage professionnels et discours des enseignants",
+"year": "2015",
+"authors": {
+"François Villemonteix": [
+"Université de Lille, Sciences Humaines et Sociales"
+]
+},
+"affiliation_addresses": {
+"Université de Lille, Sciences Humaines et Sociales": "Domaine universitaire du \"Pont de Bois\"Rue du Barreau BP 60149 59653 Villeneuve d'Ascq Cedex"
+}
+},
+{
+"file_url": "http://hal.univ-lille3.fr/hal-01689015/document",
+"title": "Penser autrement la mutation des pratiques scolaires avec les technologies informatisées",
+"year": "2014",
+"authors": {
+"François Villemonteix": [
+"Université de Lille, Sciences Humaines et Sociales"
+]
+},
+"affiliation_addresses": {
+"Université de Lille, Sciences Humaines et Sociales": "Domaine universitaire du \"Pont de Bois\"Rue du Barreau BP 60149 59653 Villeneuve d'Ascq Cedex"
+}
+},
+{
+"file_url": "http://hal.univ-lille3.fr/hal-01689014/document",
+"title": "Accompagnement et supervision des maîtres du primaire. Réflexions issues du projet de recherche SUPERE-RCF",
+"year": "2016",
+"authors": {
+"François Villemonteix": [
+"Université de Lille, Sciences Humaines et Sociales"
+]
+},
+"affiliation_addresses": {
+"Université de Lille, Sciences Humaines et Sociales": "Domaine universitaire du \"Pont de Bois\"Rue du Barreau BP 60149 59653 Villeneuve d'Ascq Cedex"
+}
+},
+{
+"file_url": "http://hal.univ-lille3.fr/hal-01689012/document",
+"title": "informatique scolaire à l'école primaire : Spécificités et devenir du groupe professionnel des animateurs TICE",
+"year": "2011",
+"authors": {
+"François Villemonteix": [
+"Université de Lille, Sciences Humaines et Sociales"
+]
+},
+"affiliation_addresses": {
+"Université de Lille, Sciences Humaines et Sociales": "Domaine universitaire du \"Pont de Bois\"Rue du Barreau BP 60149 59653 Villeneuve d'Ascq Cedex"
+}
+},
+{
+"file_url": "http://hal.univ-lille3.fr/hal-01689009/document",
+"title": "Le courrier électronique dans les pratiques professionnelles en éducation, santé et action sociale : usages et effet",
+"year": "2013",
+"authors": {
+"François Villemonteix": [
+"Université de Lille, Sciences Humaines et Sociales"
+]
+},
+"affiliation_addresses": {
+"Université de Lille, Sciences Humaines et Sociales": "Domaine universitaire du \"Pont de Bois\"Rue du Barreau BP 60149 59653 Villeneuve d'Ascq Cedex"
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01679711/document",
+"title": "New beams from the SPIRAL 1 upgrade: status and perspectives",
+"year": "2017",
+"authors": {
+"P. Delahaye": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01671808/document",
+"title": "Diffusion multiple résonante des ondes ultrasonores dans des milieux désordonnés",
+"year": "2017",
+"authors": {
+"Benoit Tallon": [
+"Institut Polytechnique de Bordeaux",
+"Centre National de la Recherche Scientifique",
+"Institut National de la Recherche Agronomique",
+"Institut de Mécanique et d'Ingénierie de Bordeaux",
+"Université de Bordeaux"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université de Bordeaux",
+"Centre National de la Recherche Scientifique",
+"Institut National de la Recherche Agronomique",
+"Institut Polytechnique de Bordeaux"
+],
+"Institut de Mécanique et d'Ingénierie de Bordeaux": [
+"Université de Bordeaux",
+"Centre National de la Recherche Scientifique",
+"Institut National de la Recherche Agronomique",
+"Institut Polytechnique de Bordeaux"
+]
+}
+},
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01695491/document",
+"title": "Faraday instability in binary fluids",
+"year": "2017",
+"authors": {
+"Vibhor Jajoo": [
+"Institut Polytechnique de Bordeaux",
+"Centre National de la Recherche Scientifique",
+"Institut National de la Recherche Agronomique",
+"Institut de Mécanique et d'Ingénierie de Bordeaux",
+"Université de Bordeaux"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université de Bordeaux",
+"Centre National de la Recherche Scientifique",
+"Institut National de la Recherche Agronomique",
+"Institut Polytechnique de Bordeaux"
+],
+"Institut de Mécanique et d'Ingénierie de Bordeaux": [
+"Université de Bordeaux",
+"Centre National de la Recherche Scientifique",
+"Institut National de la Recherche Agronomique",
+"Institut Polytechnique de Bordeaux"
+]
+}
+},
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01695676/document",
+"title": "Diffraction d'ondes de cisaillement en acoustique picoseconde et mesure de leur coécient de réflexion à une interface : modélisation et expériences",
+"year": "2017",
+"authors": {
+"Alexis Viel": [
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux",
+"Centre National de la Recherche Scientifique",
+"Institut de Mécanique et d'Ingénierie de Bordeaux",
+"Arts et Métiers ParisTech"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux",
+"Arts et Métiers ParisTech"
+],
+"Institut de Mécanique et d'Ingénierie de Bordeaux": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux",
+"Arts et Métiers ParisTech"
+]
+}
+},
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01662495/document",
+"title": "Modélisation du comportement des assemblages collés : analyse métrologique et prise en compte des dissipations plastique et visqueuse",
+"year": "2017",
+"authors": {
+"Racine Ly": [
+"Institut Polytechnique de Bordeaux",
+"Centre National de la Recherche Scientifique",
+"Institut National de la Recherche Agronomique",
+"Institut de Mécanique et d'Ingénierie de Bordeaux",
+"Université de Bordeaux"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université de Bordeaux",
+"Centre National de la Recherche Scientifique",
+"Institut National de la Recherche Agronomique",
+"Institut Polytechnique de Bordeaux"
+],
+"Institut de Mécanique et d'Ingénierie de Bordeaux": [
+"Université de Bordeaux",
+"Centre National de la Recherche Scientifique",
+"Institut National de la Recherche Agronomique",
+"Institut Polytechnique de Bordeaux"
+]
+}
+},
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01696593/document",
+"title": "Approche aux différentes échelles pour la mise au point d’outils intégrés d’aide au développement de projets de méthanisation",
+"year": "2014",
+"authors": {
+"Julien Tolo": [
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux",
+"Centre National de la Recherche Scientifique",
+"Institut de Mécanique et d'Ingénierie de Bordeaux",
+"Arts et Métiers ParisTech"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux",
+"Arts et Métiers ParisTech"
+],
+"Institut de Mécanique et d'Ingénierie de Bordeaux": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux",
+"Arts et Métiers ParisTech"
+]
+}
+},
+{
+"file_url": "https://hal-amu.archives-ouvertes.fr/hal-01682743/document",
+"title": "METHYLENE BLUE SENSITIVITY 1 (MBS1) is required for acclimation of Arabidopsis to singlet oxygen and acts downstream of β-cyclocitral",
+"year": "2017",
+"authors": {
+"Leonard Shumbe": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Biologie végétale et microbiologie environnementale - UMR7265"
+],
+"Stefano D 'Alessandro": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Biologie végétale et microbiologie environnementale - UMR7265"
+],
+"Ning Shao": [
+"Max-Planck-Institut für Molekulare Pflanzenphysiologie - MPI-MP (GERMANY)"
+],
+"Anne Chevalier": [
+"Biologie végétale et microbiologie environnementale - UMR7265",
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Service de Biochimie et Génétique Moléculaire, CEA/Saclay",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Brigitte Ksas": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Biologie végétale et microbiologie environnementale - UMR7265"
+],
+"Ralph Bock": [
+"Max-Planck-Institut für Molekulare Pflanzenphysiologie - MPI-MP (GERMANY)"
+],
+"Michel Havaux": [
+"Biologie végétale et microbiologie environnementale - UMR7265",
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Institut de Biosciences et Biotechnologies d'Aix-Marseille (ex-IBEB)",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Biologie végétale et microbiologie environnementale - UMR7265": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Service de Biochimie et Génétique Moléculaire, CEA/Saclay": [
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+],
+"Institut de Biosciences et Biotechnologies d'Aix-Marseille (ex-IBEB)": [
+"Commissariat à l'énergie atomique et aux énergies alternatives"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01692291/document",
+"title": "Analysis of quantum phase transition in some different Curie-Weiss models: a unified approach",
+"year": "2018",
+"authors": {
+"Carla Maria Carneiro": [
+" Centro Federal de Educação Tecnológica de Minas Gerais"
+],
+"Giancarlo Queiroz Pellegrino": [
+" Centro Federal de Educação Tecnológica de Minas Gerais"
+]
+},
+"affiliation_addresses": {
+"Centro Federal de Educação Tecnológica de Minas Gerais": "Belo Horizonte"
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01684147/document",
+"title": "Tailoring Elderly Patients’ Identities through Healthcare Service Relationships: Toward a Guardian Conception of Vulnerable Publics’ Identities",
+"year": "2017",
+"authors": {
+"Abdelmajid Amine": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Audrey Bonnemaizon": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Margaret Josion Portail": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Institut de Recherche en Gestion": [
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01684180/document",
+"title": "Tensions entre normes professionnelles et personnelles des personnels soignants : Histoire d'une résistance ordinaire dans la relation de service aux patients âgés",
+"year": "2017",
+"authors": {
+"Abdelmajid Amine": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Audrey Bonnemaizon": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Margaret Josion Portail": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Institut de Recherche en Gestion": [
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01684280/document",
+"title": "Managerial competencies and artistic competencies: sketch of a rapprochement",
+"year": "2017",
+"authors": {
+"Jean-Paul Dumond": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Institut de Recherche en Gestion": [
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01684213/document",
+"title": "Des représentations des patients âgés aux pratiques de gestion des soins : Vers une opportunité de co-production soignant-soigné",
+"year": "2017",
+"authors": {
+"Abdelmajid Amine": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Audrey Bonnemaizon": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Margaret Josion Portail": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Institut de Recherche en Gestion": [
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/tel-01649049/document",
+"title": "Le façonnement des marchés par les pratiques marketing routinières : une application au Social Media Management",
+"year": "2017",
+"authors": {
+"Laurent Busca": [
+"Centre National de la Recherche Scientifique",
+"Toulouse School of Management",
+"Toulouse School of Management Research",
+"Université Toulouse 1 Capitole"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Toulouse School of Management",
+"Université Toulouse 1 Capitole"
+],
+"Toulouse School of Management Research": [
+"Centre National de la Recherche Scientifique",
+"Toulouse School of Management",
+"Université Toulouse 1 Capitole"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01697362/document",
+"title": "Chapter One : Daybooks in Archaeological Context",
+"year": "2017",
+"authors": {
+"Alain Thote": [
+"Centre National de la Recherche Scientifique",
+"École pratique des hautes études",
+"Université Paris Diderot - Paris 7",
+"CENTRE DE RECHERCHE SUR LES CIVILISATIONS CHINOISE, JAPONAISE ET TIBETAINE",
+"Collège de France"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"École pratique des hautes études",
+"Université Paris Diderot - Paris 7",
+"Collège de France"
+],
+"CENTRE DE RECHERCHE SUR LES CIVILISATIONS CHINOISE, JAPONAISE ET TIBETAINE": [
+"Centre National de la Recherche Scientifique",
+"École pratique des hautes études",
+"Université Paris Diderot - Paris 7",
+"Collège de France"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01653015/document",
+"title": "ModRef Project: Data Migration into CIDOC-CRM Triplestores and Factorisation",
+"year": "2017",
+"authors": {
+"Pascaline Laure Tchienehom": [
+"Labex les Passés dans le Présent ",
+"Université Paris Nanterre"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université Paris Nanterre"
+],
+"Labex les Passés dans le Présent ": [
+"Université Paris Nanterre"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01666938/document",
+"title": "Changer le regard sur les personnes vulnérables, dans la Session « Vulnérabilité et consommation »,",
+"year": "2017",
+"authors": {
+"Amina Béji-Bécheur": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Institut de Recherche en Gestion": [
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01696927/document",
+"title": "Wind tunnel investigation of dynamic trimming on upwind sail aerodynamics",
+"year": "2017",
+"authors": {
+"Nicolas Aubin": [
+"Institut de Recherche de l'Ecole Navale (EA 3634)",
+"Ecole Navale"
+],
+"Benoit Augier": [
+"Institut de Recherche de l'Ecole Navale (EA 3634)",
+"Ecole Navale"
+],
+"Matthieu Sacher": [
+"Institut de Recherche de l'Ecole Navale (EA 3634)",
+"Ecole Navale"
+],
+"Patrick Bot": [
+"Institut de Recherche de l'Ecole Navale (EA 3634)",
+"Ecole Navale"
+],
+"Frédéric Hauville": [
+"Institut de Recherche de l'Ecole Navale (EA 3634)",
+"Ecole Navale"
+],
+"Richard G.J. Flay": [
+"University of Auckland [Auckland]"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Ecole Navale"
+],
+"Institut de Recherche de l'Ecole Navale (EA 3634)": [
+"Ecole Navale"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01666942/document",
+"title": "Axes futurs de la recherche en marketing, Table ronde,",
+"year": "2014",
+"authors": {
+"Amina Béji-Bécheur": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Audrey Bonnemaizon": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Madeleine Besson": [
+"Télécom Ecole de Management",
+"Département Management et Marketing et Stratégie",
+"Institut Mines-Télécom [Paris]"
+],
+"Sandrine Cadenat": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Christel De Lassus": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Rola Hussant-Zebian": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Laure Lavorata": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Télécom Ecole de Management",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée",
+"Institut Mines-Télécom [Paris]"
+],
+"Institut de Recherche en Gestion": [
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Département Management et Marketing et Stratégie": [
+"Télécom Ecole de Management",
+"Institut Mines-Télécom [Paris]"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01684378/document",
+"title": "From psychoanalytic epistemology of G. Devereux to its methodological translation in management sciences",
+"year": "2014",
+"authors": {
+"Jean-Paul Dumond": [
+"Institut de Recherche en Gestion",
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+],
+"Institut de Recherche en Gestion": [
+"Université Paris-Est Créteil Val-de-Marne - Paris 12",
+"Université Paris-Est Marne-la-Vallée"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01679695/document",
+"title": "System for the Identification of Recoiling Ions using S3",
+"year": "2017",
+"authors": {
+"J. Piot": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01679737/document",
+"title": "Neutrons correlations in the continuum of two (core + 4n) systems and p-n interaction at the neutron drip line",
+"year": "2017",
+"authors": {
+"A. Revel": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "http://hal.in2p3.fr/in2p3-01679724/document",
+"title": "The Neutrons for Science Facility At Spiral-2",
+"year": "2017",
+"authors": {
+"X. Ledoux": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Grand Accélérateur National d'Ions Lourds",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+],
+"Grand Accélérateur National d'Ions Lourds": [
+"Institut National de Physique Nucléaire et de Physique des Particules du CNRS",
+"Commissariat à l'énergie atomique et aux énergies alternatives",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "https://halshs.archives-ouvertes.fr/halshs-01698069/document",
+"title": "Vaisselier de santé dans le monde arabe (VIIIe-XVe siècles) : une restitution possible des usages grâce au croissement des sources",
+"year": "2017",
+"authors": {
+"Ibrahim Shaddoud": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée",
+"Aix Marseille Université"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+],
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://halshs.archives-ouvertes.fr/halshs-01698086/document",
+"title": "Ceyreste, Chemin du Cantounet – Quartier Camegiers",
+"year": "2017",
+"authors": {
+"Bernard Sillano": [
+"Institut National de Recherches Archéologiques Préventives",
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Institut national de recherches archéologiques préventives",
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Aix Marseille Université",
+"Centre National de la Recherche Scientifique",
+"Institut national de recherches archéologiques préventives"
+],
+"Institut National de Recherches Archéologiques Préventives": [
+"Institut national de recherches archéologiques préventives"
+],
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://halshs.archives-ouvertes.fr/halshs-01698085/document",
+"title": "Fos-sur-Mer, Route des Plages",
+"year": "2017",
+"authors": {
+"Bernard Sillano": [
+"Institut National de Recherches Archéologiques Préventives",
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Institut national de recherches archéologiques préventives",
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Aix Marseille Université",
+"Centre National de la Recherche Scientifique",
+"Institut national de recherches archéologiques préventives"
+],
+"Institut National de Recherches Archéologiques Préventives": [
+"Institut national de recherches archéologiques préventives"
+],
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01697513/document",
+"title": "La mémoire : entre adhérence et désahérence",
+"year": "2017",
+"authors": {
+"Théo Simon": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Laboratoire d'économie et de sociologie du travail"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+],
+"Laboratoire d'économie et de sociologie du travail": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01697526/document",
+"title": "Economie et éducation",
+"year": "2017",
+"authors": {
+"Eric Verdier": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Laboratoire d'économie et de sociologie du travail"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+],
+"Laboratoire d'économie et de sociologie du travail": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://halshs.archives-ouvertes.fr/halshs-01698092/document",
+"title": "The Sicilian sugar trade in the Western Mediterranean in the later Middle Ages",
+"year": "2015",
+"authors": {
+"Mohamed Ouerfelli": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée",
+"Aix Marseille Université"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+],
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://halshs.archives-ouvertes.fr/halshs-01698111/document",
+"title": "Le cycle sanctoral de la Panagia Phorbiotissa à Asinou en 1105-1106",
+"year": "2017",
+"authors": {
+"Andréas Nicolaïdès": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée",
+"Aix Marseille Université"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+],
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01697691/document",
+"title": "Qualité de vie au travail dans l’ESS, des spécificités ?",
+"year": "2017",
+"authors": {
+"Nadine Richez-Battesti": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Laboratoire d'économie et de sociologie du travail"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+],
+"Laboratoire d'économie et de sociologie du travail": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01697524/document",
+"title": "Insertion professionnelle",
+"year": "2017",
+"authors": {
+"José Rose": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Laboratoire d'économie et de sociologie du travail"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+],
+"Laboratoire d'économie et de sociologie du travail": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://halshs.archives-ouvertes.fr/halshs-01678833/document",
+"title": "« Bernd Stegemann, éloge du réalisme : pour la disparition des écritures postdramatiques autoréférentielles et un retour à un réalisme dialectique au théâtre. A propos de l’essai de Bernd, Stegemann, Lob des Realismus, Theater der Zeit, Berlin, 2015 »",
+"year": "2016",
+"authors": {
+"Marie Urban": [
+"Laboratoire d'Etudes en Sciences des Arts",
+"Aix Marseille Université"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Aix Marseille Université"
+],
+"Laboratoire d'Etudes en Sciences des Arts": [
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://dumas.ccsd.cnrs.fr/dumas-01690528/document",
+"title": "Géographie électorale de l’Égypte révolutionnaire (2011-2013) : un travail de recherche mené au Centre d'études et de documentation économiques, juridiques et sociales du Caire",
+"year": "2017",
+"authors": {
+"David Maury": [
+"Université de Reims Champagne-Ardenne",
+"URCA - UFR Lettres et Sciences humaines"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"department": [
+"Université de Reims Champagne-Ardenne"
+],
+"URCA - UFR Lettres et Sciences humaines": [
+"Université de Reims Champagne-Ardenne"
+]
+}
+},
+{
+"file_url": "https://halshs.archives-ouvertes.fr/halshs-01698003/document",
+"title": "L'assurance maritime en Méditerranée médiévale (XIVe-XVe siècle)",
+"year": "2017",
+"authors": {
+"Mohamed Ouerfelli": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée",
+"Aix Marseille Université"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+],
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01697510/document",
+"title": "Quelle prévention des « RPS » par les CHSCT ? Des pratiques syndicales à la recherche de transformation",
+"year": "2017",
+"authors": {
+"Paul Bouffartigue": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Laboratoire d'économie et de sociologie du travail"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+],
+"Laboratoire d'économie et de sociologie du travail": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://halshs.archives-ouvertes.fr/halshs-01698076/document",
+"title": "Marseille, Parvis de la Maison de la solidarité",
+"year": "2017",
+"authors": {
+"Bernard Sillano": [
+"Institut National de Recherches Archéologiques Préventives",
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Institut national de recherches archéologiques préventives",
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Aix Marseille Université",
+"Centre National de la Recherche Scientifique",
+"Institut national de recherches archéologiques préventives"
+],
+"Institut National de Recherches Archéologiques Préventives": [
+"Institut national de recherches archéologiques préventives"
+],
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://halshs.archives-ouvertes.fr/halshs-01698048/document",
+"title": "Saint-Mitre-les-Remparts, Saint-Blaise",
+"year": "2017",
+"authors": {
+"Marie Valenciano": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée",
+"Aix Marseille Université"
+],
+"Gaëlle Granier": [
+"Anthropologie bio-culturelle, Droit, Ethique et Santé",
+"Aix Marseille Université",
+"EFS ALPES MEDITERRANEE",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"EFS ALPES MEDITERRANEE"
+],
+"Laboratoire d'Archéologie Médiévale et Moderne en Méditerranée": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+],
+"Anthropologie bio-culturelle, Droit, Ethique et Santé": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"EFS ALPES MEDITERRANEE"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01697512/document",
+"title": "France : une dégradation accentuée de l’emploi et du marché du travail",
+"year": "2017",
+"authors": {
+"Paul Bouffartigue": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Laboratoire d'économie et de sociologie du travail"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+],
+"Laboratoire d'économie et de sociologie du travail": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01697514/document",
+"title": "Les effets multiniveaux d’une méthode de transfert de savoirs d’experts",
+"year": "2017",
+"authors": {
+"Martine Gadille": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université",
+"Laboratoire d'économie et de sociologie du travail"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+],
+"Laboratoire d'économie et de sociologie du travail": [
+"Centre National de la Recherche Scientifique",
+"Aix Marseille Université"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01666242/document",
+"title": "EXPLORER LA COMBINAISON RADIOTHÉRAPIE /THÉRAPIE PHOTODYNAMIQUEDANS L’OBJECTIF DE L’UTILISATION DE NANOSCINTILLATEURS POUR INDUIRE L’EFFET PDT EN TISSUS PROFONDS",
+"year": "2017",
+"authors": {
+"Anne-Laure Bulin": [
+"CHU Grenoble",
+"Institut National de la Santé et de la Recherche Médicale",
+"INSERM U836, équipe 6, Rayonnement synchrotron et recherche médicale",
+"Grenoble Institut des Neurosciences",
+"Université Joseph Fourier - Grenoble 1"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"researchteam": [
+"Grenoble Institut des Neurosciences"
+],
+"INSERM U836, équipe 6, Rayonnement synchrotron et recherche médicale": [
+"Grenoble Institut des Neurosciences"
+],
+"laboratory": [
+"Université Joseph Fourier - Grenoble 1",
+"Institut National de la Santé et de la Recherche Médicale",
+"CHU Grenoble"
+],
+"Grenoble Institut des Neurosciences": [
+"Université Joseph Fourier - Grenoble 1",
+"Institut National de la Santé et de la Recherche Médicale",
+"CHU Grenoble"
+]
+}
+},
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01697610/document",
+"title": "Conception de systèmes cobotiques industriels : approche cognitique : application à la production pyrotechnique au sein d'Ariane Group",
+"year": "2017",
+"authors": {
+"Theo Moulieres-Seban": [
+"Institut Polytechnique de Bordeaux",
+"Université Sciences et Technologies - Bordeaux 1",
+"Laboratoire de l'intégration, du matériau au système",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux"
+],
+"Laboratoire de l'intégration, du matériau au système": [
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Institut Polytechnique de Bordeaux"
+]
+}
+},
+{
+"file_url": "https://hal-anses.archives-ouvertes.fr/anses-01692101/document",
+"title": "Les bactéries multi‐résistantes aux antibiotiques dans les réseaux d'eaux usées",
+"year": "2013",
+"authors": {
+"Xavier Bertrand": [
+"Hôpital Jean Minjoz",
+"Centre Hospitalier Régional Universitaire [Besançon]"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre Hospitalier Régional Universitaire [Besançon]"
+],
+"Hôpital Jean Minjoz": [
+"Centre Hospitalier Régional Universitaire [Besançon]"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01696487/document",
+"title": "Determinantal Sampling Designs",
+"year": "2018",
+"authors": {
+"Xavier Mary": [
+"Modélisation aléatoire de Paris X",
+"Université Paris Nanterre"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université Paris Nanterre"
+],
+"Modélisation aléatoire de Paris X": [
+"Université Paris Nanterre"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01696177/document",
+"title": "Distributed nonlinear control for a microgrid embedding renewables, train's energy recovery system and storages",
+"year": "2017",
+"authors": {
+"Alessio Iovine": [
+"Efficacity"
+],
+"Lilia Galai Dol": [
+"Efficacity"
+],
+"Gilney Damm": [
+"Informatique, Biologie Intégrative et Systèmes Complexes",
+"Université d'Évry-Val-d'Essonne"
+],
+"Elena De Santis": [
+"University of L'Aquila [Italy]"
+],
+"Maria Domenica Di Benedetto": [
+"University of L'Aquila [Italy]"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université d'Évry-Val-d'Essonne"
+],
+"Informatique, Biologie Intégrative et Systèmes Complexes": [
+"Université d'Évry-Val-d'Essonne"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01696345/document",
+"title": "Model reduction for the prediction of damage in concrete structures.",
+"year": "2016",
+"authors": {
+"David Néron": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de Mécanique et Technologie",
+"École normale supérieure - Cachan"
+],
+"Matthieu Vitse": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de Mécanique et Technologie",
+"École normale supérieure - Cachan"
+],
+"Pierre-Alain Boucard": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de Mécanique et Technologie",
+"École normale supérieure - Cachan"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"École normale supérieure - Cachan"
+],
+"Laboratoire de Mécanique et Technologie": [
+"Centre National de la Recherche Scientifique",
+"École normale supérieure - Cachan"
+]
+}
+},
+{
+"file_url": "https://hal.inria.fr/tel-01695660/document",
+"title": "Inférence de réseaux de régulation orientés pour les facteurs de transcription d'Arabidopsis thaliana et création de groupes de co-régulation",
+"year": "2017",
+"authors": {
+"Yann Vasseur": [
+"Model selection in statistical learning",
+"Centre National de la Recherche Scientifique",
+"Institut National de Recherche en Informatique et en Automatique",
+"Université Paris-Saclay",
+"Inria Saclay - Ile de France",
+"Université Paris-Sud - Paris 11",
+"Laboratoire de Mathématiques d'Orsay"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"researchteam": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de Mathématiques d'Orsay",
+"Inria Saclay - Ile de France"
+],
+"Model selection in statistical learning": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de Mathématiques d'Orsay",
+"Inria Saclay - Ile de France"
+],
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Université Paris-Saclay",
+"Institut National de Recherche en Informatique et en Automatique"
+],
+"Inria Saclay - Ile de France": [
+"Institut National de Recherche en Informatique et en Automatique"
+],
+"Laboratoire de Mathématiques d'Orsay": [
+"Centre National de la Recherche Scientifique",
+"Université Paris-Saclay"
+]
+}
+},
+{
+"file_url": "https://halshs.archives-ouvertes.fr/halshs-01689289/document",
+"title": "Twitter as a source for the history of the present : the 2015 Greek referendum as a case study",
+"year": "2017",
+"authors": {
+"Sofia Papastamkou": [
+"Université Panthéon-Sorbonne",
+"Identites, relations internationales et civilisations de l'Europe",
+"Université Paris-Sorbonne",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université Panthéon-Sorbonne",
+"Université Paris-Sorbonne",
+"Centre National de la Recherche Scientifique"
+],
+"Identites, relations internationales et civilisations de l'Europe": [
+"Université Panthéon-Sorbonne",
+"Université Paris-Sorbonne",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "https://pastel.archives-ouvertes.fr/tel-01696496/document",
+"title": "Imagerie polarimétrique active à large spectre pour l’amélioration du contraste et la microscopie.",
+"year": "2017",
+"authors": {
+"Lijo Thomas": [
+"Centre National de la Recherche Scientifique",
+"Institut d'Optique Graduate School",
+"Laboratoire Charles Fabry",
+"Laboratoire Charles Fabry / Spim",
+"Université Paris-Sud - Paris 11"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"researchteam": [
+"Laboratoire Charles Fabry"
+],
+"Laboratoire Charles Fabry / Spim": [
+"Laboratoire Charles Fabry"
+],
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut d'Optique Graduate School",
+"Université Paris-Sud - Paris 11"
+],
+"Laboratoire Charles Fabry": [
+"Centre National de la Recherche Scientifique",
+"Institut d'Optique Graduate School",
+"Université Paris-Sud - Paris 11"
+]
+}
+},
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01697915/document",
+"title": "Modélisation et caractérisation expérimentale d’une boucle solaire cylindro-parabolique intégrant un stockage de type thermocline",
+"year": "2017",
+"authors": {
+"Thomas Fasquelle": [
+"Université de Perpignan Via Domitia",
+"Centre National de la Recherche Scientifique",
+"Procédés, Matériaux et Energie Solaire"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université de Perpignan Via Domitia",
+"Centre National de la Recherche Scientifique"
+],
+"Procédés, Matériaux et Energie Solaire": [
+"Université de Perpignan Via Domitia",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01694889/document",
+"title": "Rate-optimal estimation of p-dimensional linear functionals in a sparse Gaussian model",
+"year": "2018",
+"authors": {
+"Olivier Collier": [
+"Modélisation aléatoire de Paris X",
+"Université Paris Nanterre"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université Paris Nanterre"
+],
+"Modélisation aléatoire de Paris X": [
+"Université Paris Nanterre"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01696609/document",
+"title": "Partial orders based on inverses along elements",
+"year": "2018",
+"authors": {
+"Xavier Mary": [
+"Modélisation aléatoire de Paris X",
+"Université Paris Nanterre"
+],
+"Alexander Guterman": [
+"Lomonosov Moscow State University"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université Paris Nanterre"
+],
+"Modélisation aléatoire de Paris X": [
+"Université Paris Nanterre"
+]
+}
+},
+{
+"file_url": "https://hal-clermont-univ.archives-ouvertes.fr/hal-01696835/document",
+"title": "Follow-up study of patients treated with olanzapine pamoate in France in real-life treatment situation",
+"year": "2017",
+"authors": {
+"B. Falissard": [
+"Troubles du comportement alimentaire de l'adolescent",
+"Université Paris-Sud - Paris 11",
+"Institut National de la Santé et de la Recherche Médicale",
+"Université Paris Descartes - Paris 5"
+],
+"P.M. Llorca": [
+"Université Clermont Auvergne",
+"CHU Clermont-Ferrand",
+"Neuro-Psycho Pharmacologie des Systèmes Dopimanégiques sous-corticaux - Clermont Auvergne"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université Clermont Auvergne",
+"Institut National de la Santé et de la Recherche Médicale",
+"Université Paris Descartes - Paris 5",
+"CHU Clermont-Ferrand",
+"Université Paris-Sud - Paris 11"
+],
+"Troubles du comportement alimentaire de l'adolescent": [
+"Université Paris-Sud - Paris 11",
+"Institut National de la Santé et de la Recherche Médicale",
+"Université Paris Descartes - Paris 5"
+],
+"Neuro-Psycho Pharmacologie des Systèmes Dopimanégiques sous-corticaux - Clermont Auvergne": [
+"CHU Clermont-Ferrand",
+"Université Clermont Auvergne"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01696404/document",
+"title": "PGD-Reduced Models for several parametrized nonlinear problems",
+"year": "2015",
+"authors": {
+"David Néron": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de Mécanique et Technologie",
+"École normale supérieure - Cachan"
+],
+"Pierre-Alain Boucard": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de Mécanique et Technologie",
+"École normale supérieure - Cachan"
+],
+"Pierre Ladevèze": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de Mécanique et Technologie",
+"École normale supérieure - Cachan"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"École normale supérieure - Cachan"
+],
+"Laboratoire de Mécanique et Technologie": [
+"Centre National de la Recherche Scientifique",
+"École normale supérieure - Cachan"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01696387/document",
+"title": "Multi-fidelity optimization for assemblies design",
+"year": "2015",
+"authors": {
+"Nicolas Courrier": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de Mécanique et Technologie",
+"École normale supérieure - Cachan"
+],
+"Pierre-Alain Boucard": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de Mécanique et Technologie",
+"École normale supérieure - Cachan"
+],
+"Bruno Soulier": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de Mécanique et Technologie",
+"École normale supérieure - Cachan"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"École normale supérieure - Cachan"
+],
+"Laboratoire de Mécanique et Technologie": [
+"Centre National de la Recherche Scientifique",
+"École normale supérieure - Cachan"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01696371/document",
+"title": "Fiber Reinforced Ceramic Matrix Composites: A Probabilistic Micromechanics-Based Approach",
+"year": "2018",
+"authors": {
+"Jacques Lamon": [
+"Centre National de la Recherche Scientifique",
+"Laboratoire de Mécanique et Technologie",
+"École normale supérieure - Cachan"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"École normale supérieure - Cachan"
+],
+"Laboratoire de Mécanique et Technologie": [
+"Centre National de la Recherche Scientifique",
+"École normale supérieure - Cachan"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01653515/document",
+"title": "Notes sur l'asphalte, une Amérique mobile et précaire, 1950-1990",
+"year": "2017",
+"authors": {
+"Chiara Salari": [
+"Laboratoire de Recherche sur les Cultures Anglophones",
+"Centre National de la Recherche Scientifique",
+"Université Paris Diderot - Paris 7"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Université Paris Diderot - Paris 7"
+],
+"Laboratoire de Recherche sur les Cultures Anglophones": [
+"Centre National de la Recherche Scientifique",
+"Université Paris Diderot - Paris 7"
+]
+}
+},
+{
+"file_url": "https://halshs.archives-ouvertes.fr/halshs-01694645/document",
+"title": "Dictionnaire thématique français-tibétain du tibétain parlé : langue standard",
+"year": "2002",
+"authors": {
+"Fernand Meyer": [
+"Milieux, sociétés et cultures en Himalaya",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique"
+],
+"Milieux, sociétés et cultures en Himalaya": [
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01697088/document",
+"title": "On the nonarchimedean quadratic Lagrange spectra",
+"year": "2018",
+"authors": {
+"Frédéric Paulin": [
+"Université Paris-Sud - Paris 11",
+"Topologie, géométrie, dynamique",
+"Centre National de la Recherche Scientifique",
+"Laboratoire de Mathématiques d'Orsay"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"researchteam": [
+"Laboratoire de Mathématiques d'Orsay"
+],
+"Topologie, géométrie, dynamique": [
+"Laboratoire de Mathématiques d'Orsay"
+],
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+],
+"Laboratoire de Mathématiques d'Orsay": [
+"Centre National de la Recherche Scientifique",
+"Université Paris-Sud - Paris 11"
+]
+}
+},
+{
+"file_url": "https://cel.archives-ouvertes.fr/cel-00611692/document",
+"title": "Statique des poutres, résistance des matériaux",
+"year": "2013",
+"authors": {
+"Jean-Michel Génevaux": [
+"Le Mans Université",
+"Laboratoire d'acoustique de l'université du Mans",
+"Centre National de la Recherche Scientifique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Le Mans Université",
+"Centre National de la Recherche Scientifique"
+],
+"Laboratoire d'acoustique de l'université du Mans": [
+"Le Mans Université",
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "https://halshs.archives-ouvertes.fr/halshs-01695004/document",
+"title": "Sur le fil de nos expériences. Saison 1. (2003-2004)",
+"year": "2018",
+"authors": {
+"François Conne": [
+"Université de Genève",
+"DDMES",
+"Retraité"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"researchteam": [
+"Retraité"
+],
+"DDMES": [
+"Retraité"
+],
+"laboratory": [
+"Université de Genève"
+],
+"Retraité": [
+"Université de Genève"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01695136/document",
+"title": "Non viscous sensitivity analysis of noise generation mechanism in a low Mach number jet",
+"year": "2015",
+"authors": {
+"Christophe Airiau": [
+"Centre National de la Recherche Scientifique",
+"Institut de mécanique des fluides de Toulouse",
+"Université Paul Sabatier - Toulouse 3",
+"Institut National Polytechnique [Toulouse]"
+],
+"Tobias Ansaldi": [
+"Centre National de la Recherche Scientifique",
+"Institut de mécanique des fluides de Toulouse",
+"Université Paul Sabatier - Toulouse 3",
+"Institut National Polytechnique [Toulouse]"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Université Paul Sabatier - Toulouse 3",
+"Institut National Polytechnique [Toulouse]"
+],
+"Institut de mécanique des fluides de Toulouse": [
+"Centre National de la Recherche Scientifique",
+"Université Paul Sabatier - Toulouse 3",
+"Institut National Polytechnique [Toulouse]"
+]
+}
+},
+{
+"file_url": "https://tel.archives-ouvertes.fr/tel-01681096/document",
+"title": "Collaboration interactive 3D en réalité virtuelle pour supporter des scénarios aérospatiaux",
+"year": "2017",
+"authors": {
+"Damien Clergeaud": [
+"Université Sciences et Technologies - Bordeaux 1",
+"Popular interaction with 3d content",
+"Centre National de la Recherche Scientifique",
+"Inria Bordeaux - Sud-Ouest",
+"Institut National de Recherche en Informatique et en Automatique",
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)",
+"Université Bordeaux Segalen - Bordeaux 2",
+"Laboratoire Bordelais de Recherche en Informatique"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Université Sciences et Technologies - Bordeaux 1",
+"Centre National de la Recherche Scientifique",
+"Institut National de Recherche en Informatique et en Automatique",
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)",
+"Université Bordeaux Segalen - Bordeaux 2"
+],
+"Laboratoire Bordelais de Recherche en Informatique": [
+"École Nationale Supérieure d'Électronique, Informatique et Radiocommunications de Bordeaux (ENSEIRB)",
+"Centre National de la Recherche Scientifique",
+"Université Sciences et Technologies - Bordeaux 1",
+"Université Bordeaux Segalen - Bordeaux 2"
+],
+"researchteam": [
+"Inria Bordeaux - Sud-Ouest",
+"Laboratoire Bordelais de Recherche en Informatique"
+],
+"Popular interaction with 3d content": [
+"Inria Bordeaux - Sud-Ouest",
+"Laboratoire Bordelais de Recherche en Informatique"
+],
+"Inria Bordeaux - Sud-Ouest": [
+"Institut National de Recherche en Informatique et en Automatique"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01694079/document",
+"title": "La beata Margherita di Savoia-Acaja (1390-1364), marchesa del Monferrato, nella sua più antica biografia », Hagiographica, 23, 2016, p. 149-94",
+"year": "2016",
+"authors": {
+"Elisabetta Lurgo": [
+"Université Savoie Mont Blanc"
+]
+},
+"affiliation_addresses": {
+"Université Savoie Mont Blanc": "27, rue Marcoz - 73000 Chambéry"
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01694567/document",
+"title": "L’eredità di Caterina da Siena nel Ducato Sabaudo fra XVI e XVIII secolo », in Virgo digna coelo. Caterina da Siena e la sua eredità, éd. A. Bartolomei Romagnoli, Città del Vaticano 2013, p. 531-44 (ISBN 978 – 88 – 209 – 9279 - 8)",
+"year": "2013",
+"authors": {
+"Elisabetta Lurgo": [
+"Université Savoie Mont Blanc"
+]
+},
+"affiliation_addresses": {
+"Université Savoie Mont Blanc": "27, rue Marcoz - 73000 Chambéry"
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01694526/document",
+"title": "« Maria Ludovica da Cossombrato: misticismo e profezia alla corte di Vittorio Amedeo II »",
+"year": "2012",
+"authors": {
+"Elisabetta Lurgo": [
+"Université Savoie Mont Blanc"
+]
+},
+"affiliation_addresses": {
+"Université Savoie Mont Blanc": "27, rue Marcoz - 73000 Chambéry"
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01697080/document",
+"title": "Inside dynamics of positive solutions in some non local equations",
+"year": "2016",
+"authors": {
+"Jérôme Coville": [
+"Institut National de la Recherche Agronomique",
+"Biostatistique et Processus Spatiaux"
+],
+"Olivier Bonnefon": [
+"Institut National de la Recherche Agronomique",
+"Biostatistique et Processus Spatiaux"
+],
+"Jimmy Garnier": [
+"Centre National de la Recherche Scientifique",
+"LAMA",
+"Université Savoie Mont Blanc"
+],
+"Lionel Roques": [
+"Institut National de la Recherche Agronomique",
+"Biostatistique et Processus Spatiaux"
+]
+},
+"global_Structure_to_Parent_MAP": {
+"laboratory": [
+"Centre National de la Recherche Scientifique",
+"Institut National de la Recherche Agronomique"
+],
+"Biostatistique et Processus Spatiaux": [
+"Institut National de la Recherche Agronomique"
+],
+"LAMA": [
+"Centre National de la Recherche Scientifique"
+]
+}
+},
+{
+"file_url": "https://hal.archives-ouvertes.fr/hal-01694103/document",
+"title": "Lutherani, zwingliani, calvinisti, politici: i Monstri di Guglielmo Baldessano",
+"year": "2009",
+"authors": {
+"Elisabetta Lurgo": [
+"Université Savoie Mont Blanc"
+]
+},
+"affiliation_addresses": {
+"Université Savoie Mont Blanc": "27, rue Marcoz - 73000 Chambéry"
+}
+}
+]
