@@ -2,7 +2,7 @@
 
 Computer Science courses I took at Telecom ParisTech (2017-2020).
 
-This list is not comprehensive: Several project have been omitted either as they were not project/lab based or in compliance with academic policy.
+This list is not comprehensive: Several courses have been omitted either as they were not project/lab based or in compliance with academic policy.
 
 
 * Data Structures and Algorithms: INF101
