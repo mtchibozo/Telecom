@@ -1,6 +1,15 @@
-# Telecom
+# Computer Science
 
-Things I studied at Telecom ParisTech (2017-2020).
+Computer Science courses taken at Telecom ParisTech:
 
+* Data Structures and Algorithms: INF101
+* Java Programming Language: INF103
+* C Programming Language: INF104
+* Formal Languages: INF105
+* C++ Programming: INF224
+* Web Development (JavaScript, HTML, CSS): INF203
+* Information Theory: COM105
+* Networks: RES202
+* Signal Processing: SI101
 
-This list is not comprehensive: Several projects in C and Java have been omitted in compliance with academic policy.
+Some projects omitted in compliance with academic policy.
