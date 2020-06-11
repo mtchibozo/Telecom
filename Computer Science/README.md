@@ -1,6 +1,6 @@
 # Computer Science
 
-Mathematics courses I took at Telecom ParisTech (2017-2020).
+Computer Science courses I took at Telecom ParisTech (2017-2020).
 
 This list is not comprehensive: Several project have been omitted either as they were not project/lab based or in compliance with academic policy.
 
