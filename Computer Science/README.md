@@ -11,5 +11,6 @@ Computer Science courses taken at Telecom ParisTech:
 * Information Theory: COM105
 * Networks: RES202
 * Signal Processing: SI101
+* SQL Databases: SD202
 
 Some projects omitted in compliance with academic policy.
