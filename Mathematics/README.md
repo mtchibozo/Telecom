@@ -2,7 +2,7 @@
 
 Mathematics courses I took at Telecom ParisTech (2017-2020).
 
-This list is not comprehensive: Several project have been omitted either as they were not project/lab based or in compliance with academic policy.
+This list is not comprehensive: Several projects have been omitted either as they were not lab based or in compliance with academic policy.
 
 * Probability & Statistics: MDI104
 * Functional Analysis: MDI103
