@@ -20,6 +20,35 @@ Things I studied at Telecom ParisTech (2017-2020).
          <tr>
               <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Statistics-Linear-Models/TP2">Lasso, PCA, Cross-Validation</a></td>
          </tr>
+         <!-- Natural Language Processing -->
+         <tr>
+              <td rowspan=3><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Natural-Language-Processing">Natural Language Processing</a></td>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Natural-Language-Processing/TP1-Hidden-Markov-Models">Hidden Markov Models</a></td>
+         </tr>
+         <tr>
+              <td><a href="https://github.com/mtchibozo/Telecom/blob/master/Data%20Science/Natural-Language-Processing/TP2-Sentiment-Analysis/TPBayes_vEnglish.pdf">Naïve Bayes Sentiment Analysis</a></td>
+         </tr>
+            <tr>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Natural-Language-Processing/TP3-Recurrent-Neural-Networks">Reccurent Neural Networks for Score Predictions</a></td>
+         </tr>
+         <!-- Optimization for Machine Learning -->
+         <tr>
+              <td rowspan=2><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Optimization-For-Machine-Learning">Optimisation For Machine Learning </a></td>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Optimization-For-Machine-Learning/TP1">Non-Negative Matrix Factorisation</a></td>
+         </tr>
+         <tr>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Optimization-For-Machine-Learning/TP2">Support Vector Machines</a></td>
+         </tr>
+               <!-- Latent Semantic Analysis - Grand Débat National Project -->
+         <tr>
+              <td rowspan=1><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Latent-Semantic-Analysis-Grand-Debat-National">Machine Learning - Latent Semantic Analysis </a></td>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Latent-Semantic-Analysis-Grand-Debat-National">Project</a></td>
+         </tr>
+               <!-- Scholar Affiliation Recognition Project -->
+         <tr>
+              <td rowspan=1><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Scholar-Affiliation-Recognition-Project">PAF: Scholar Affiliation Recognition </a></td>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Scholar-Affiliation-Recognition-Project">Project</a></td>
+         </tr>
          <!-- Advanced Statistics -->
          <tr>
               <td rowspan=2><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Advanced-Statistics">Advanced Statistics</a></td>
@@ -71,35 +100,6 @@ Things I studied at Telecom ParisTech (2017-2020).
          <tr>
               <td><a href="https://github.com/mtchibozo/Telecom/blob/master/Data%20Science/Graph-Mining-with-Networkx/7-embedding.ipynb">Graph Embedding</a></td>
          </tr>
-         <!-- Natural Language Processing -->
-         <tr>
-              <td rowspan=3><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Natural-Language-Processing">Natural Language Processing</a></td>
-              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Natural-Language-Processing/TP1-Hidden-Markov-Models">Hidden Markov Models</a></td>
-         </tr>
-         <tr>
-              <td><a href="https://github.com/mtchibozo/Telecom/blob/master/Data%20Science/Natural-Language-Processing/TP2-Sentiment-Analysis/TPBayes_vEnglish.pdf">Naïve Bayes Sentiment Analysis</a></td>
-         </tr>
-            <tr>
-              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Natural-Language-Processing/TP3-Recurrent-Neural-Networks">Reccurent Neural Networks for Score Predictions</a></td>
-         </tr>
-         <!-- Optimization for Machine Learning -->
-         <tr>
-              <td rowspan=2><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Optimization-For-Machine-Learning">Optimisation For Machine Learning </a></td>
-              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Optimization-For-Machine-Learning/TP1">Non-Negative Matrix Factorisation</a></td>
-         </tr>
-         <tr>
-              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Optimization-For-Machine-Learning/TP2">Support Vector Machines</a></td>
-         </tr>
-               <!-- Latent Semantic Analysis - Grand Débat National Project -->
-         <tr>
-              <td rowspan=1><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Latent-Semantic-Analysis-Grand-Debat-National">Machine Learning - Latent Semantic Analysis </a></td>
-              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Latent-Semantic-Analysis-Grand-Debat-National">Project</a></td>
-         </tr>
-               <!-- Scholar Affiliation Recognition Project -->
-         <tr>
-              <td rowspan=1><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Scholar-Affiliation-Recognition-Project">PAF: Scholar Affiliation Recognition </a></td>
-              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Scholar-Affiliation-Recognition-Project">Project</a></td>
-         </tr>
     </tbody>
 </table>
 
@@ -113,53 +113,27 @@ Things I studied at Telecom ParisTech (2017-2020).
         </tr>
     </thead>
     <tbody>
-         <!-- Biostatistics -->
+         <!-- Statistics -->
          <tr>
-              <td rowspan=1><a href="https://github.com/moulinantoine/MVA/tree/master/biostatistics">Biostatistics</a></td>
-              <td><a href="https://github.com/moulinantoine/MVA/tree/master/biostatistics">Treatment effect estimation, COVID-19</a></td>
+              <td rowspan=1><a href="https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Exponential-Distribution-Models">Statistics</a></td>
+              <td><a href=https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Exponential-Distribution-Models>Project</a></td>
          </tr>
-         <!-- Deep Learning in Practice -->
+         <!-- Continuous Time Markov Chains -->
          <tr>
-              <td rowspan=6><a href="https://github.com/moulinantoine/MVA/tree/master/deep_practice">Deep Learning in Practice</a></td>
-              <td>Hyperparameters tuning</td>
+              <td rowspan=1><a href="https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Markov-Models">Continuous-Time Markov Chains</a></td>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Markov-Models">Simulations & Research Poster</a></td>
          </tr>
+         <!-- Scientific & Probabilistic Computing -->
          <tr>
-              <td>Grad-CAM</td>
-         </tr>
-         <tr>
-              <td>Graph Neural Networks</td>
-         </tr>
-         <tr>
-              <td>Active Learning</td>
-         </tr>
-         <tr>
-              <td>Rossler Attractor</td>
-         </tr>
-         <tr>
-              <td>Generative Models</td>
-         </tr>
-         <!-- Kernel Methods -->
-         <tr>
-              <td rowspan=1><a href="https://github.com/moulinantoine/MVA/tree/master/">Kernel Methods</a></td>
-              <td><a href="https://github.com/moulinantoine/MVA/tree/master/kernel_methods">Kernels, Optimization</a></td>
-         </tr>
-         <!-- Multiscale models and CNNs -->
-         <tr>
-              <td rowspan=1><a href="https://github.com/moulinantoine/MVA/tree/master/multi_scale">Multiscale models and CNNs</a></td>
-              <td><a href="https://github.com/moulinantoine/MVA/tree/master/multi_scale">Paris Fire Brigade Challenge</a></td>
-         </tr>
-         <!-- Neurosciences -->
-         <tr>
-              <td rowspan=1><a href="https://github.com/moulinantoine/MVA/tree/master/neurosciences">Neurosciences</a></td>
-              <td>Predictive Coding</td>
-         </tr>
-         <!-- Sequential Learning -->
-         <tr>
-              <td rowspan=1><a href="https://github.com/moulinantoine/MVA/tree/master/sequential_learning">Sequential Learning</a></td>
-              <td>Game Theory, Sleeping Experts</td>
+              <td rowspan=2><a href="https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Numeric-and-Monte-Carlo-Integration">Probabilistic & Scientific Computing</a></td>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Numeric-and-Monte-Carlo-Integration/Gaussian-Mixture-Monte-Carlo">Monte-Carlo Gaussian Mixture EM </a></td>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Numeric-and-Monte-Carlo-Integration/Numerical-Analysis">Numerical Integration Methods</a></td>             
          </tr>
     </tbody>
 </table>
+
+## Computer Science
+
 
 
 This list is not comprehensive: 
