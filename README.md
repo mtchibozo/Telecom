@@ -182,12 +182,14 @@ Things I studied at Telecom ParisTech (2017-2020).
          <!-- JAVA Programming Language -->
          <tr>
               <td rowspan=1><a>JAVA Programming Language</a></td>
-              <td><a>Spanning Tree, Kruskal's Algorithm</a></td>
+              <td><a>Dijkstra algorithm project in Java</a></td>
          </tr>
          <!-- C Programming Language -->
          <tr>
               <td rowspan=1><a>C Programming Language</a></td>
-              <td><a>Spanning Tree, Kruskal's Algorithm</a></td>
+              <td><a>Operating Systems Memory</a></td>
+        </tr>
+             <td><a>Operating Systems Semaphores</a></td>
          </tr>
          <!-- Formal Languages -->
          <tr>
