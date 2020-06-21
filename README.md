@@ -103,7 +103,7 @@ Things I studied at Telecom ParisTech (2017-2020).
     </tbody>
 </table>
 
-## Mathematics
+## Mathematics (MACS)
 
 <table>
     <thead>
