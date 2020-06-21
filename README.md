@@ -38,7 +38,6 @@ This list is not comprehensive:
          <tr>
               <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Statistics-Linear-Models/TP2">Lasso, PCA, Cross-Validation</a></td>
          </tr>
-
          <!-- Advanced Statistics -->
          <tr>
               <td rowspan=2><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Advanced-Statistics">Advanced Statistics</a></td>
@@ -81,15 +80,12 @@ This list is not comprehensive:
          </tr>
          <tr>
               <td><a href="https://github.com/mtchibozo/Telecom/blob/master/Data%20Science/Graph-Mining-with-Networkx/3-Structure.ipynb">Graph Structures, Watts-Strogatz</a></td>
-              
          <tr>
               <td><a href="https://github.com/mtchibozo/Telecom/blob/master/Data%20Science/Graph-Mining-with-Networkx/4-pagerank.ipynb">PageRank</a></td>
          <tr>
-              <td><a href="https://github.com/mtchibozo/Telecom/blob/master/Data%20Science/Graph-Mining-with-Networkx/5-clustering.ipynb">Graph Clusters</a></td>
-            
+              <td><a href="https://github.com/mtchibozo/Telecom/blob/master/Data%20Science/Graph-Mining-with-Networkx/5-clustering.ipynb">Graph Clusters</a></td>  
          <tr>
               <td><a href="https://github.com/mtchibozo/Telecom/blob/master/Data%20Science/Graph-Mining-with-Networkx/6-hierarchical.ipynb">Hierarchical Clustering</a></td>
-              
          <tr>
               <td><a href="https://github.com/mtchibozo/Telecom/blob/master/Data%20Science/Graph-Mining-with-Networkx/7-embedding.ipynb">Graph Embedding</a></td>
          </tr>
@@ -104,7 +100,6 @@ This list is not comprehensive:
             <tr>
               <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Natural-Language-Processing/TP3-Recurrent-Neural-Networks">Reccurent Neural Networks for Score Predictions</a></td>
          </tr>
-         
     </tbody>
 </table>
 
