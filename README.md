@@ -2,24 +2,6 @@
 
 Things I studied at Telecom ParisTech (2017-2020).
 
-
-This list is not comprehensive: 
-
-* Several Computer Science and Mathematics courses have been omitted either in compliance with academic policy or because they were not project/lab based.
-
-* All Physics and Telecommunications courses have been omitted:
-
-  - Optics & Photonics (COM101), Propagation & Antennae (COM103), Quantum Physics (PHY101).
-
-* All Humanities courses have been omitted:
-
-  - Philosophy, Introduction to Economics (SES103), Introduction to Management (SES107), Ethics (SES105), Labor Law, Corporate Finance (SES202), Cinema and Management (SES206), Political Science.
-
-* All Language courses have been omitted:
-
-  - Spanish B2, English C1 (Debating, Jazz), French Sign Language A1.
-
-
 ## Data Science (SD)
 
 <table>
@@ -91,7 +73,7 @@ This list is not comprehensive:
          </tr>
          <!-- Natural Language Processing -->
          <tr>
-              <td rowspan=3><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Natural-Language-Processing">Natural </a></td>
+              <td rowspan=3><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Natural-Language-Processing">Natural Language Processing</a></td>
               <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Natural-Language-Processing/TP1-Hidden-Markov-Models">Hidden Markov Models</a></td>
          </tr>
          <tr>
@@ -100,16 +82,34 @@ This list is not comprehensive:
             <tr>
               <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Natural-Language-Processing/TP3-Recurrent-Neural-Networks">Reccurent Neural Networks for Score Predictions</a></td>
          </tr>
+         <!-- Optimization for Machine Learning -->
+         <tr>
+              <td rowspan=2><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Optimization-For-Machine-Learning">Optimisation For Machine Learning </a></td>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Optimization-For-Machine-Learning/TP1">Non-Negative Matrix Factorisation</a></td>
+         </tr>
+         <tr>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Optimization-For-Machine-Learning/TP2">Support Vector Machines</a></td>
+         </tr>
+               <!-- Latent Semantic Analysis - Grand Débat National Project -->
+         <tr>
+              <td rowspan=1><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Latent-Semantic-Analysis-Grand-Debat-National">Machine Learning - Latent Semantic Analysis </a></td>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Latent-Semantic-Analysis-Grand-Debat-National">Project</a></td>
+         </tr>
+               <!-- Scholar Affiliation Recognition Project -->
+         <tr>
+              <td rowspan=1><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Scholar-Affiliation-Recognition-Project">PAF: Scholar Affiliation Recognition </a></td>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Data%20Science/Scholar-Affiliation-Recognition-Project">Project</a></td>
+         </tr>
     </tbody>
 </table>
 
-## Computer Science
+## Mathematics
 
 <table>
     <thead>
         <tr>
             <th>Course</th>
-            <th>Homework</th>
+            <th>Labs/Projects</th>
         </tr>
     </thead>
     <tbody>
@@ -160,3 +160,20 @@ This list is not comprehensive:
          </tr>
     </tbody>
 </table>
+
+
+This list is not comprehensive: 
+
+* Several Computer Science and Mathematics courses have been omitted either in compliance with academic policy or because they were not project/lab based.
+
+* All Physics and Telecommunications courses have been omitted:
+
+  - Optics & Photonics (COM101), Propagation & Antennae (COM103), Quantum Physics (PHY101).
+
+* All Humanities courses have been omitted:
+
+  - Philosophy, Introduction to Economics (SES103), Introduction to Management (SES107), Ethics (SES105), Labor Law, Corporate Finance (SES202), Cinema and Management (SES206), Political Science.
+
+* All Language courses have been omitted:
+
+  - Spanish B2, English C1 (Debating, Jazz), French Sign Language A1.
