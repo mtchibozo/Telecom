@@ -127,6 +127,8 @@ Things I studied at Telecom ParisTech (2017-2020).
          <tr>
               <td rowspan=2><a href="https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Numeric-and-Monte-Carlo-Integration">Probabilistic & Scientific Computing</a></td>
               <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Numeric-and-Monte-Carlo-Integration/Gaussian-Mixture-Monte-Carlo">Monte-Carlo Gaussian Mixture EM </a></td>
+        </tr>
+        <tr>
               <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Numeric-and-Monte-Carlo-Integration/Numerical-Analysis">Numerical Integration Methods</a></td>             
          </tr>
     </tbody>
@@ -134,7 +136,36 @@ Things I studied at Telecom ParisTech (2017-2020).
 
 ## Computer Science
 
-
+<table>
+    <thead>
+        <tr>
+            <th>Course</th>
+            <th>Labs/Projects</th>
+        </tr>
+    </thead>
+    <tbody>
+         <!-- SQL -->
+         <tr>
+              <td rowspan=3><a href="https://github.com/mtchibozo/Telecom/blob/master/Computer%20Science/SQL">SQL</a></td>
+              <td><a href="https://github.com/mtchibozo/Telecom/blob/master/Computer%20Science/SQL/Lab1-TCHIBOZO.ipynb">Functional Dependencies</a></td>
+         </tr>
+             <td><a href="https://github.com/mtchibozo/Telecom/blob/master/Computer%20Science/SQL/Lab2-TCHIBOZO.ipynb">Normalisation & Querying</a></td>
+        </tr>
+         </tr>
+             <td><a href="https://github.com/mtchibozo/Telecom/blob/master/Computer%20Science/SQL/Lab3-TCHIBOZO.ipynb">Views, Updates & Design</a></td>
+        </tr>
+         <!-- Android App -->
+         <tr>
+              <td rowspan=1><a href="https://github.com/mtchibozo/Telecom/tree/master/Computer%20Science/TEECH-Educational-Maths-Assistant-Application">PACT: Educational Maths App</a></td>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Computer%20Science/TEECH-Educational-Maths-Assistant-Application">Android App</a></td>
+        </tr>
+                 <!-- C++ -->
+         <tr>
+              <td rowspan=1><a href="https://github.com/mtchibozo/Telecom/tree/master/Computer%20Science/C-plus-plus-Project">C++</a></td>
+              <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Computer%20Science/C-plus-plus-Project">Project</a></td>
+        </tr>        
+    </tbody>
+</table>
 
 This list is not comprehensive: 
 
