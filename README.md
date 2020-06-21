@@ -186,7 +186,7 @@ Things I studied at Telecom ParisTech (2017-2020).
          </tr>
          <!-- C Programming Language -->
          <tr>
-              <td rowspan=1><a>C Programming Language</a></td>
+              <td rowspan=2><a>C Programming Language</a></td>
               <td><a>Operating Systems Memory</a></td>
         </tr>
              <td><a>Operating Systems Semaphores</a></td>
