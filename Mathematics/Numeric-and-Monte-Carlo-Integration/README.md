@@ -2,3 +2,4 @@
 
 
 Integrating Functions with Deterministic and Stochastic Numerical Methods.
+
