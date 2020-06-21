@@ -163,7 +163,45 @@ Things I studied at Telecom ParisTech (2017-2020).
          <tr>
               <td rowspan=1><a href="https://github.com/mtchibozo/Telecom/tree/master/Computer%20Science/C-plus-plus-Project">C++</a></td>
               <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Computer%20Science/C-plus-plus-Project">Project</a></td>
-        </tr>        
+        </tr>
+         <!-- Data Structures & Algorithms -->
+         <tr>
+              <td rowspan=6><a>Data Structures & Algorithms</a></td>
+              <td><a>Spanning Tree, Kruskal's Algorithm</a></td>
+         </tr>
+             <td><a>Bellman's Algorithm</a></td>
+        </tr>
+             <td><a>Dijkstra's Algorithm</a></td>
+        </tr>
+             <td><a>Max-Flow Algorithm</a></td>
+        </tr>
+             <td><a>Huffman's Algorithm</a></td>
+        </tr>
+             <td><a>Tree Search Algorithm</a></td>
+        </tr>
+         <!-- JAVA Programming Language -->
+         <tr>
+              <td rowspan=1><a>JAVA Programming Language</a></td>
+              <td><a>Spanning Tree, Kruskal's Algorithm</a></td>
+         </tr>
+         <!-- C Programming Language -->
+         <tr>
+              <td rowspan=1><a>C Programming Language</a></td>
+              <td><a>Spanning Tree, Kruskal's Algorithm</a></td>
+         </tr>
+         <!-- Formal Languages -->
+         <tr>
+              <td rowspan=5><a>Formal Languages</a></td>
+              <td><a>JavaCC Lab</a></td>             
+        </tr>
+             <td><a>Egrep Lab</a></td>
+        </tr>
+             <td><a>Rational Languages, Automata, Calculability</a></td>
+        </tr>
+             <td><a>Algebraic Languages</a></td>
+        </tr>
+             <td><a>Rational Languages</a></td>
+        </tr>
     </tbody>
 </table>
 
