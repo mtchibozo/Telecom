@@ -133,6 +133,18 @@ Things I studied at Telecom ParisTech (2017-2020).
               <td rowspan=1><a href="https://sitepedago.telecom-paristech.fr//front/frontoffice.php?SP_ID=2368&#R1750">Optimisation</a></td>
               <td><a>From Simplex Algorithm to Descent Methods</a></td>
          </tr>
+         <!-- Hilbert Spaces -->
+         <tr>
+              <td rowspan=1><a href="https://sitepedago.telecom-paristech.fr/front/frontoffice.php?SP_ID=3226&#R3202">Hilbert Spaces</a></td>
+              <td><a>MACS 201</a></td>
+        </tr>
+         <!-- Asymptotic Statistics -->
+         <tr>
+              <td rowspan=2><a href="https://sitepedago.telecom-paristech.fr/front/frontoffice.php?SP_ID=3226&#R3202">Martingales & Asymptotic Statistics</a></td>
+              <td><a href="https://sitepedago.telecom-paristech.fr/front/frontoffice.php?SP_ID=3240&#R3220">Martingales</a></td>
+         </tr>
+              <td><a href="https://sitepedago.telecom-paristech.fr/front/frontoffice.php?SP_ID=3243&#R3244">Asymptotic Statistics</a></td>
+         </tr>
          <!-- Continuous Time Markov Chains -->
          <tr>
               <td rowspan=1><a href="https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Markov-Models">Continuous-Time Markov Chains</a></td>
@@ -146,6 +158,11 @@ Things I studied at Telecom ParisTech (2017-2020).
         <tr>
               <td><a href="https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Numeric-and-Monte-Carlo-Integration/Numerical-Analysis">Numerical Integration Methods</a></td>             
          </tr>
+<!-- Stochastic Calculus -->
+         <tr>
+              <td rowspan=1><a href="https://synapses.telecom-paris.fr/catalogue/2020-2021/ue/2088/MACS207A-stochastic-calculus-part-i">Stochastic Calculus</a></td>
+              <td><a>MACS 207a</a></td>
+        </tr>
     </tbody>
 </table>
 
