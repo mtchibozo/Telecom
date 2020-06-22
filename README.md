@@ -166,7 +166,7 @@ Things I studied at Telecom ParisTech (2017-2020).
         </tr>
          <!-- Data Structures & Algorithms -->
          <tr>
-              <td rowspan=6><a>Data Structures & Algorithms</a></td>
+              <td rowspan=6><a href="https://sitepedago.telecom-paristech.fr/front/frontoffice.php?SP_ID=2351#R1712">Data Structures & Algorithms</a></td>
               <td><a>Spanning Tree, Kruskal's Algorithm</a></td>
          </tr>
              <td><a>Bellman's Algorithm</a></td>
@@ -181,19 +181,19 @@ Things I studied at Telecom ParisTech (2017-2020).
         </tr>
          <!-- JAVA Programming Language -->
          <tr>
-              <td rowspan=1><a>JAVA Programming Language</a></td>
+              <td rowspan=1><a href="https://perso.telecom-paristech.fr/bellot/CoursJava/">JAVA Programming Language</a></td>
               <td><a>Dijkstra algorithm project in Java</a></td>
          </tr>
          <!-- C Programming Language -->
          <tr>
-              <td rowspan=2><a>C Programming Language</a></td>
+              <td rowspan=2><a href="https://inf104.wp.imt.fr/">C Programming Language</a></td>
               <td><a>Operating Systems Memory</a></td>
         </tr>
              <td><a>Operating Systems Semaphores</a></td>
          </tr>
          <!-- Formal Languages -->
          <tr>
-              <td rowspan=5><a>Formal Languages</a></td>
+              <td rowspan=5><a href="https://sitepedago.telecom-paristech.fr/front/frontoffice.php?SP_ID=2369#R1751">Formal Languages</a></td>
               <td><a>JavaCC Lab</a></td>             
         </tr>
              <td><a>Egrep Lab</a></td>
