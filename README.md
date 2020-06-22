@@ -113,10 +113,25 @@ Things I studied at Telecom ParisTech (2017-2020).
         </tr>
     </thead>
     <tbody>
+         <!-- Probability -->
+         <tr>
+              <td rowspan=1><a href="https://synapses.telecom-paris.fr/catalogue/2020-2021/ue/302/MDI104-probabilites-et-statistiques">Probability</a></td>
+              <td><a>From Kolmogorov's Axioms to Monte-Carlo Converge</a></td>             
+        </tr>
+         <!-- Analysis -->
+         <tr>
+              <td rowspan=1><a href="https://synapses.telecom-paris.fr/catalogue/2020-2021/ue/1640/MDI103-analyse">Analysis</a></td>
+              <td><a>Hilbert and Fourier analysis</a></td>             
+        </tr>
          <!-- Statistics -->
          <tr>
               <td rowspan=1><a href="https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Exponential-Distribution-Models">Statistics</a></td>
               <td><a href=https://github.com/mtchibozo/Telecom/tree/master/Mathematics/Exponential-Distribution-Models>Project</a></td>
+         </tr>
+         <!-- Optimisation -->
+         <tr>
+              <td rowspan=1><a href="https://sitepedago.telecom-paristech.fr//front/frontoffice.php?SP_ID=2368&#R1750">Optimisation</a></td>
+              <td><a>From Simplex Algorithm to Descent Methods</a></td>
          </tr>
          <!-- Continuous Time Markov Chains -->
          <tr>
